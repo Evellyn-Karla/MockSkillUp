@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name>container-banner</container_class_name>
+        <name>MSU HomePage - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="msu_homepage">d24e4b5783671210a6b1ffd6feaad37f</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 16:14:28</sys_created_on>
+        <sys_id>2ff0555e833f1610a6b1ffd6feaad3f2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MSU HomePage - Container 1</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_container_2ff0555e833f1610a6b1ffd6feaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 16:51:27</sys_updated_on>
+        <title/>
+        <width>container-fluid</width>
+    </sp_container>
+</record_update>

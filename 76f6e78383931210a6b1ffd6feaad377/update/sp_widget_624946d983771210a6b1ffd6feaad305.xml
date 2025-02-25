@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($location) {
+	var c = this;
+
+	c.clickHandler = function(sys_id) {
+    if (sys_id) {
+      // Redireciona para a página do registro do produtor
+      $location.url('/msu?id=sc_cat_item&sys_id=' + sys_id);
+    }
+  };
+	
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.card {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #cbc7f2;
+  margin-top: 1rem;
+}
+.tile-top h2{
+  color:var(--color-notice-primary);
+}
+
+.card a {
+  text-decoration: none
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image {
+  width: 100%;
+  height: 190px; /* Altura fixa para o contêiner da imagem */
+  background-size: cover; /* Cobrir o espaço sem distorcer */
+  background-position: center; /* Centralizar a imagem */
+  background-repeat: no-repeat; /* Evitar repetição */
+  background-color: #cbc7f2; /* Cor de fundo caso a imagem não carregue */
+}
+
+.title {
+  color: #111827;
+  font-size: 2rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #6B7280;
+  font-size: 1.50rem;
+  line-height: 1.50rem;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #2563EB;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: .3s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>link_records</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>link_records</name>
+        <option_schema>[{"displayValue":"Catalog Item","name":"producers","display_value_list":[],"section":"Data","label":"Producers","type":"glide_list","value":"sc_cat_item","ed":{"reference":"sc_cat_item"}},{"name":"title","section":"Presentation","default_value":"Links","label":"Title","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+
+	data.title = options.title;
+
+	var sys_ids = options.producers ? options.producers.split(',') : []; // Divide em uma lista
+	data.producers = [];
+
+	sys_ids.forEach(function(sys_id) {
+		var item = $sp.getCatalogItem(sys_id.trim());
+		if (item) {
+			if (item.icon) {
+				item.icon = item.icon.replace('.iix', '');
+				item.icon = '/sys_attachment.do?sys_id=' + item.icon;
+			} data.producers.push(item);
+		}
+	});
+
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-17 17:46:31</sys_created_on>
+        <sys_id>624946d983771210a6b1ffd6feaad305</sys_id>
+        <sys_mod_count>130</sys_mod_count>
+        <sys_name>link_records</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_624946d983771210a6b1ffd6feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 16:38:43</sys_updated_on>
+        <template><![CDATA[<ul class="list">
+  <div class="tile-top">
+    <h2>{{data.title}}</h2>
+  </div>
+  <div class="card"
+       ng-if="data.producers"
+       ng-repeat="item in data.producers"
+       ng-click="c.clickHandler(item.sys_id)">
+    <div class="image"
+         style="background-image: url('{{item.icon}}');"
+         ng-style="{'background-image': 'url(\'' + item.icon + '\')'}">
+    </div>
+    <div class="content">
+      <span class="title">{{item.name}}</span>
+      <p class="desc">{{item.short_description}}</p>
+    </div>
+  </div>
+</ul>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>624946d983771210a6b1ffd6feaad305</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 17:34:48</sys_created_on>
+        <sys_id>3c305f69837f5210a6b1ffd6feaad396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 17:34:48</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

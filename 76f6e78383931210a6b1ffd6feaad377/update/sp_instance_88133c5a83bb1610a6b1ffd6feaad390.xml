@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ae4e4f5783671210a6b1ffd6feaad3cd</sp_column>
+        <sp_widget display_value="notices list">24c3a8d6837b1610a6b1ffd6feaad3c0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 14:03:42</sys_created_on>
+        <sys_id>88133c5a83bb1610a6b1ffd6feaad390</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_instance_88133c5a83bb1610a6b1ffd6feaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 17:02:39</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"new_notice_text": {
+		"value": "New notice",
+		"displayValue": "New notice"
+	},
+	"new_notice_radius": {
+		"value": "1rem",
+		"displayValue": "1rem"
+	},
+	"new_notice_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"urgent_limit": {
+		"value": 3,
+		"displayValue": "3"
+	},
+	"notices_limit": {
+		"value": 5,
+		"displayValue": "5"
+	},
+	"new_btn": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=88133c5a83bb1610a6b1ffd6feaad390"/>
+</record_update>

@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2450000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send notice on teams</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>urgent_notice__microsoft_teams</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.title","label":"Trigger - Record Created or Updated➛Notice Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_notice","column_name":"title","usedInstances":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Notice Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_notice","column_name":"number","usedInstances":{}},{"name":"Created or Updated_1.current.project.name","label":"Trigger - Record Created or Updated➛Notice Record➛Project➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_project","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Notice Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_notice","column_name":"description","usedInstances":{}},{"name":"Created or Updated_1.current.assignment.name","label":"Trigger - Record Created or Updated➛Notice Record➛Assignment➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_assignment","column_name":"name","usedInstances":{}}]</label_cache>
+        <master_snapshot>7337669783a31210a6b1ffd6feaad32a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Urgent notice - Microsoft Teams</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>8047669783a31210a6b1ffd6feaad374</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:08:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19ed5ed783631210a6b1ffd6feaad33d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Urgent notice - Microsoft Teams</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_hub_flow_19ed5ed783631210a6b1ffd6feaad33d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:35</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1588110_mock_s_0_notice">urgent=true<item endquery="false" field="urgent" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8047669783a31210a6b1ffd6feaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:35</sys_updated_on>
+        <table>x_1588110_mock_s_0_notice</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>19ed5ed783631210a6b1ffd6feaad33d</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:35</sys_created_on>
+        <sys_id>cc47669783a31210a6b1ffd6feaad374</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:35</sys_updated_on>
+        <trigger display_value="">8047669783a31210a6b1ffd6feaad374</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT INcc47669783a31210a6b1ffd6feaad374"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT IN9ded5ed783631210a6b1ffd6feaad33f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>19ed5ed783631210a6b1ffd6feaad33d</id>
+        <name>Urgent notice - Microsoft Teams</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:08:43</sys_created_on>
+        <sys_id>9ded5ed783631210a6b1ffd6feaad33f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:08:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9ded5ed783631210a6b1ffd6feaad33f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT INe041ee9f83631210a6b1ffd6feaad3d2,e041ee9f83631210a6b1ffd6feaad3d5,e841ee9f83631210a6b1ffd6feaad3cd"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">5b965bacdcd212104f34465061b06a9b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Urgent notice - Microsoft Teams">19ed5ed783631210a6b1ffd6feaad33d</model>
+        <model_id>19ed5ed783631210a6b1ffd6feaad33d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>e041ee9f83631210a6b1ffd6feaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:23:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e041ee9f83631210a6b1ffd6feaad3d2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Urgent notice - Microsoft Teams">19ed5ed783631210a6b1ffd6feaad33d</model>
+        <model_id>19ed5ed783631210a6b1ffd6feaad33d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>e041ee9f83631210a6b1ffd6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:23:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e041ee9f83631210a6b1ffd6feaad3d5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Urgent notice - Microsoft Teams">19ed5ed783631210a6b1ffd6feaad33d</model>
+        <model_id>19ed5ed783631210a6b1ffd6feaad33d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>e841ee9f83631210a6b1ffd6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:23:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e841ee9f83631210a6b1ffd6feaad3cd"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT IN2441ee9f83631210a6b1ffd6feaad3df"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Urgent notice - Microsoft Teams">19ed5ed783631210a6b1ffd6feaad33d</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>2441ee9f83631210a6b1ffd6feaad3df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:34:55</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT IN11e3a29383a31210a6b1ffd6feaad301"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Urgent notice - Microsoft Teams">19ed5ed783631210a6b1ffd6feaad33d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:34:55</sys_created_on>
+        <sys_id>11e3a29383a31210a6b1ffd6feaad301</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 18:24:44</sys_updated_on>
+        <ui_id>553182e0-397b-4c7c-9479-3f4fee5f3eb3</ui_id>
+        <values>H4sIAAAAAAAA/+2XXW/iOBSG/0o2ezMjQciHIaF7sxXtdKrph9RhOp1tqsiO7ZDdxMkmToFF/Pc9JgFK26EgzVVFpV74+MR+z5vHx+R+psdUP9J7Xt+zbeRYjo1MxzSdPoZ/RvsOQsT0PL2lC5wyyMSjYMzIKMv+CaoigfgjTio1MZIyL486HTaRBUsZjaNY4sRoko2M8zhkRpilnSZE7A4hqNszHd7umZS0EevyNkFer009xk3GOcLE/ZO6XZcQ0m0zjqw26tm0jU3ebfchlSLbJQ7xOucCVo5F9L1eu+Nalk0tGvYtD0pwmOdx7OCuh8w+MZljdkxEeojyftvrw4KIEtjagf1d5jrERSG1uN25tQcXaOycXKfOl+ovfMcmX1JbnMZnERXV3d1ZNBgPL7rR5x/t6WVpgRk0LvMET28Pnqw9CUdxQgsm9KP7h5ae4wJAkqzQj2bPpnYlMcGEJZDa1KV9u7nYwqec5ipeygKsaMYXzQpfl8GsoEqR2dLhVTFBGUjhOClZS0+xoFhmxXQVKRim1yJZB0axkLCarpInZfwf7OeZpqkyOYPyQlbProZBw0kd5idYYpBShbIqmtRwlAEaZW0MZRxXiRw8jdUJ17mMM1E/IjFJlk9nSZWKq9oRfbXAEkuIVCWIYLkqVWlvCuFfR9n4ZqnyUywWrjSTSRbiZDXCErwjlVR6ZjpLAG8hgxTnOTga5EX2GC8eBi2pESUwMHiSjWHTMo6EgUMl3ABnsfEJ4ieL8C0uYlXFJSwDD89bejktBwkuy3UtYGLwb6WU1JU1NQS1DeqRsIhzeQwbPLJG7rzV9DmOttFFyAZHMpZg6LrDXbGxJjIJtmshMCABkhcn/tWc/U7ADhqXJ2DYKHypeR/qrQP175t6Ym4jKnQ3CEpZWeLoKfcvKd+b6R0ULJm+XO3/mqZ9uLYPXL83rsFWtowppU/YgNG2XN0Xj7jQmmzNrwBCqkWlETHZIPfBFxr8+fq3m7PTq6F2dT08H5z+5vviWBPrvj7GpZZnJbR2jUy1mTk3IEMbng8vTo+0mTVXIzBgsS+4AjFbxW5Yoq4DDcz8m4USwo4KH5fKKmU3RNDc11vafa2D02BhKLyZKGKFEVYFvEhpgIlBc7cEZNranry4D97IoWuxb2Q22g1RpYQVbyTjVWW+ePDFxz984YuCwakQy9cAIX0+X/UpZ+vNR/lGT6iZe/YR8gta1Q4ilq3qeCHhxe/PDWX7NCzn0LDeW8PavIi97ja2uPsaRovALyV8BxXPCL+qNfxM2z6MowPj75txZPW93k/pMp3Nz5URFBWAl1kRjNgkeAL67z3X6hP+kvf1xH7Y7yBs9V2lZGkDJUv78JlNPr4lep8T0D2cgPd5Ah7+B7luQu1OFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT IN2841ee9f83631210a6b1ffd6feaad3d1,2841ee9f83631210a6b1ffd6feaad3d4,e041ee9f83631210a6b1ffd6feaad3d7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>2841ee9f83631210a6b1ffd6feaad3d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:23:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>2841ee9f83631210a6b1ffd6feaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:23:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:23:24</sys_created_on>
+        <sys_id>e041ee9f83631210a6b1ffd6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:23:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_19ed5ed783631210a6b1ffd6feaad33d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Send notice on teams</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>urgent_notice__microsoft_teams</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.title","label":"Trigger - Record Created or Updated➛Notice Record➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_notice","column_name":"title","usedInstances":{}},{"name":"Created or Updated_1.current.number","label":"Trigger - Record Created or Updated➛Notice Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_notice","column_name":"number","usedInstances":{}},{"name":"Created or Updated_1.current.project.name","label":"Trigger - Record Created or Updated➛Notice Record➛Project➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_project","column_name":"name","usedInstances":{}},{"name":"Created or Updated_1.current.description","label":"Trigger - Record Created or Updated➛Notice Record➛Description","reference":"","reference_display":"Description","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_notice","column_name":"description","usedInstances":{}},{"name":"Created or Updated_1.current.assignment.name","label":"Trigger - Record Created or Updated➛Notice Record➛Assignment➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1588110_mock_s_0_assignment","column_name":"name","usedInstances":{}}]</label_cache>
+        <master>true</master>
+        <name>Urgent notice - Microsoft Teams</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Urgent notice - Microsoft Teams">19ed5ed783631210a6b1ffd6feaad33d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7337669783a31210a6b1ffd6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7337669783a31210a6b1ffd6feaad32a^sys_idNOT IN7b37669783a31210a6b1ffd6feaad32a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7337669783a31210a6b1ffd6feaad32a</id>
+        <name>Urgent notice - Microsoft Teams</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>7b37669783a31210a6b1ffd6feaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7b37669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7337669783a31210a6b1ffd6feaad32a^sys_idNOT IN3337669783a31210a6b1ffd6feaad33e,b337669783a31210a6b1ffd6feaad337,fb37669783a31210a6b1ffd6feaad32b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Urgent notice - Microsoft Teams">7337669783a31210a6b1ffd6feaad32a</model>
+        <model_id>7337669783a31210a6b1ffd6feaad32a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>3337669783a31210a6b1ffd6feaad33e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3337669783a31210a6b1ffd6feaad33e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Urgent notice - Microsoft Teams">7337669783a31210a6b1ffd6feaad32a</model>
+        <model_id>7337669783a31210a6b1ffd6feaad32a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>b337669783a31210a6b1ffd6feaad337</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b337669783a31210a6b1ffd6feaad337"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Urgent notice - Microsoft Teams">7337669783a31210a6b1ffd6feaad32a</model>
+        <model_id>7337669783a31210a6b1ffd6feaad32a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>fb37669783a31210a6b1ffd6feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fb37669783a31210a6b1ffd6feaad32b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7337669783a31210a6b1ffd6feaad32a^sys_idNOT INcc47669783a31210a6b1ffd6feaad349"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Urgent notice - Microsoft Teams">7337669783a31210a6b1ffd6feaad32a</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:35</sys_created_on>
+        <sys_id>cc47669783a31210a6b1ffd6feaad349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:35</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7337669783a31210a6b1ffd6feaad32a^sys_idNOT IN0847669783a31210a6b1ffd6feaad349"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <action_type_parent display_value="Post a Message">23be39c713e0030039a039ed9344b058</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Urgent notice - Microsoft Teams">7337669783a31210a6b1ffd6feaad32a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>0847669783a31210a6b1ffd6feaad349</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <ui_id>553182e0-397b-4c7c-9479-3f4fee5f3eb3</ui_id>
+        <values>H4sIAAAAAAAA/+2XXW/iOBSG/0o2ezMjQciHIaF7sxXtdKrph9RhOp1tqsiO7ZDdxMkmToFF/Pc9JgFK26EgzVVFpV74+MR+z5vHx+R+psdUP9J7Xt+zbeRYjo1MxzSdPoZ/RvsOQsT0PL2lC5wyyMSjYMzIKMv+CaoigfgjTio1MZIyL486HTaRBUsZjaNY4sRoko2M8zhkRpilnSZE7A4hqNszHd7umZS0EevyNkFer009xk3GOcLE/ZO6XZcQ0m0zjqw26tm0jU3ebfchlSLbJQ7xOucCVo5F9L1eu+Nalk0tGvYtD0pwmOdx7OCuh8w+MZljdkxEeojyftvrw4KIEtjagf1d5jrERSG1uN25tQcXaOycXKfOl+ovfMcmX1JbnMZnERXV3d1ZNBgPL7rR5x/t6WVpgRk0LvMET28Pnqw9CUdxQgsm9KP7h5ae4wJAkqzQj2bPpnYlMcGEJZDa1KV9u7nYwqec5ipeygKsaMYXzQpfl8GsoEqR2dLhVTFBGUjhOClZS0+xoFhmxXQVKRim1yJZB0axkLCarpInZfwf7OeZpqkyOYPyQlbProZBw0kd5idYYpBShbIqmtRwlAEaZW0MZRxXiRw8jdUJ17mMM1E/IjFJlk9nSZWKq9oRfbXAEkuIVCWIYLkqVWlvCuFfR9n4ZqnyUywWrjSTSRbiZDXCErwjlVR6ZjpLAG8hgxTnOTga5EX2GC8eBi2pESUwMHiSjWHTMo6EgUMl3ABnsfEJ4ieL8C0uYlXFJSwDD89bejktBwkuy3UtYGLwb6WU1JU1NQS1DeqRsIhzeQwbPLJG7rzV9DmOttFFyAZHMpZg6LrDXbGxJjIJtmshMCABkhcn/tWc/U7ADhqXJ2DYKHypeR/qrQP175t6Ym4jKnQ3CEpZWeLoKfcvKd+b6R0ULJm+XO3/mqZ9uLYPXL83rsFWtowppU/YgNG2XN0Xj7jQmmzNrwBCqkWlETHZIPfBFxr8+fq3m7PTq6F2dT08H5z+5vviWBPrvj7GpZZnJbR2jUy1mTk3IEMbng8vTo+0mTVXIzBgsS+4AjFbxW5Yoq4DDcz8m4USwo4KH5fKKmU3RNDc11vafa2D02BhKLyZKGKFEVYFvEhpgIlBc7cEZNranry4D97IoWuxb2Q22g1RpYQVbyTjVWW+ePDFxz984YuCwakQy9cAIX0+X/UpZ+vNR/lGT6iZe/YR8gta1Q4ilq3qeCHhxe/PDWX7NCzn0LDeW8PavIi97ja2uPsaRovALyV8BxXPCL+qNfxM2z6MowPj75txZPW93k/pMp3Nz5URFBWAl1kRjNgkeAL67z3X6hP+kvf1xH7Y7yBs9V2lZGkDJUv78JlNPr4lep8T0D2cgPd5Ah7+B7luQu1OFQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a^sys_idNOT IN0447669783a31210a6b1ffd6feaad342,7b37669783a31210a6b1ffd6feaad33b,fb37669783a31210a6b1ffd6feaad334"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>0447669783a31210a6b1ffd6feaad342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>7b37669783a31210a6b1ffd6feaad33b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:34</sys_created_on>
+        <sys_id>fb37669783a31210a6b1ffd6feaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7337669783a31210a6b1ffd6feaad32a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>19ed5ed783631210a6b1ffd6feaad33d</sys_id>
+        <latest_snapshot>7337669783a31210a6b1ffd6feaad32a</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=19ed5ed783631210a6b1ffd6feaad33d^sys_idNOT INc047669783a31210a6b1ffd6feaad376"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerUniqueChange</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"c047669783a31210a6b1ffd6feaad376","name":"plan","plan_signature":null}}</plan>
+        <plan_id>19ed5ed783631210a6b1ffd6feaad33d</plan_id>
+        <snapshot>bd35a04e83b7d210a6b1ffd6feaad343</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 14:49:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c047669783a31210a6b1ffd6feaad376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 14:49:35</sys_updated_on>
+        <trigger display_value="">8047669783a31210a6b1ffd6feaad374</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=19ed5ed783631210a6b1ffd6feaad33d"/>
+</record_update>

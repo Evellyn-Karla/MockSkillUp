@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bf11197883631210a6b1ffd6feaad3a6" label="Course type" max_length="40" name="x_1588110_mock_s_0_course_type" type="collection">
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

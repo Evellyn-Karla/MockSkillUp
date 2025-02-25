@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.banner{
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 250px;
+  align-items: center;
+  
+}
+
+.title{
+  color: white;
+  font-size: 36px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>msu_banner</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>msu_banner</name>
+        <option_schema>[{"hint":"Presentation title","name":"title","section":"other","default_value":"Welcome!","label":"Title","type":"string"},{"displayValue":"Attachment","name":"image","display_value_list":[],"section":"other","label":"Image","type":"glide_list","value":"sys_attachment","ed":{"reference":"sys_attachment"}}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+		//	data.title = customOptions.title;
+data.image = '/sys_attachment.do?sys_id=' + options.image;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 14:43:47</sys_created_on>
+        <sys_id>ae19b80883b3d210a6b1ffd6feaad3a2</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>msu_banner</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_ae19b80883b3d210a6b1ffd6feaad3a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 22:46:09</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- your widget template -->
+  <div class="banner" 
+       style="background-image: url('{{data.image}}');"
+         ng-style="{'background-image': 'url(\'' + data.image + '\')'}">
+    <h1 class="title">
+      {{options.title}}
+    </h1>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>$banner-768-svg : "d9bc1319533130101865ddeeff7b12ba.iix";
+
+.banner-column{
+  padding: 0rem;
+}
+main.body {
+  padding-top: 0rem !important;
+}
+
+/* Padding for container after banner image */
+.padding-top {
+  padding-top: 2.4rem;
+}
+
+/* Padding bottom after each widget */
+.child-b-margin &gt; span &gt; div &gt; *{
+  margin-bottom: 2.4rem;
+}
+
+.mobile-banner {
+  background-position: right bottom !important;
+}
+
+/* Max width for Containers to stay in view port*/
+.container {
+  max-width: 100%;
+  padding: 0px;
+}
+
+@media (max-width: 48em) {
+  .ng-scope.mobile-banner {
+    background-image:url($banner-768-svg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .child-b-margin &gt; span &gt; div &gt; *{
+    margin-bottom: 1.6rem;
+  }
+  .padding-right {
+    padding-right: 0rem;
+  }
+   .padding-top {
+    padding-top: 1.6rem;
+  }
+}
+
+@media (max-width : 62em) {
+  .container {
+    width : 100%;
+  }
+  .col-md-4 {
+    width : 100%
+  }
+  .col-md-8 {
+    width : 100%
+  }
+}
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>msu_homepage</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 17:40:08</sys_created_on>
+        <sys_id>d24e4b5783671210a6b1ffd6feaad37f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>msu_homepage</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_page_d24e4b5783671210a6b1ffd6feaad37f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 16:52:51</sys_updated_on>
+        <title>MSU HomePage</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=d24e4b5783671210a6b1ffd6feaad37f"/>
+</record_update>

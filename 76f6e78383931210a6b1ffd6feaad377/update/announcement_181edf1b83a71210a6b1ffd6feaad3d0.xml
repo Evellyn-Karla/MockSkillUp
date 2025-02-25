@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2025-02-11 18:49:48</from>
+        <glyph>leaf</glyph>
+        <glyph_alt_text/>
+        <name>Welcoming to portal</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Welcome to the Mock SkillUP Portal!</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 18:50:46</sys_created_on>
+        <sys_id>181edf1b83a71210a6b1ffd6feaad3d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Welcoming to portal</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>announcement_181edf1b83a71210a6b1ffd6feaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-11 18:51:19</sys_updated_on>
+        <title>Welcome to Mock</title>
+        <to/>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=181edf1b83a71210a6b1ffd6feaad3d0"/>
+</record_update>

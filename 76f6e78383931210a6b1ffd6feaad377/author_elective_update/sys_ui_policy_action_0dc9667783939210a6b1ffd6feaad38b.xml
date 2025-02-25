@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>user_name</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:01:50</sys_created_on>
+        <sys_id>0dc9667783939210a6b1ffd6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_name</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0dc9667783939210a6b1ffd6feaad38b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:01:50</sys_updated_on>
+        <table>x_1588110_mock_s_0_employee</table>
+        <ui_policy display_value="Set employee user id">81c9667783939210a6b1ffd6feaad388</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=0dc9667783939210a6b1ffd6feaad38b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ui_policy_action_0dc9667783939210a6b1ffd6feaad38b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>user_name</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-31 18:01:50</sys_created_on><sys_id>0dc9667783939210a6b1ffd6feaad38b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>user_name</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sys_ui_policy_action_0dc9667783939210a6b1ffd6feaad38b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-31 18:01:50</sys_updated_on><table>x_1588110_mock_s_0_employee</table><ui_policy display_value="Set employee user id">81c9667783939210a6b1ffd6feaad388</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=0dc9667783939210a6b1ffd6feaad38b"/></record_update>]]></payload>
+        <payload_hash>401478764</payload_hash>
+        <record_name>user_name</record_name>
+        <reverted_from/>
+        <source>be4c146d832bd210a6b1ffd6feaad3ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:01:50</sys_created_on>
+        <sys_id>49c9667783939210a6b1ffd6feaad38e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>194bd86b8bf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 18:13:10</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>4dc9667780939210fa44dde105cafb8d</update_guid>
+        <update_guid_history>4dc9667780939210fa44dde105cafb8d:401478764</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-31 18:10:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>4c237b2d32a7423da15b5df717ab54d1</sys_id>
+        <sys_metadata>0dc9667783939210a6b1ffd6feaad38b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_name</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_0dc9667783939210a6b1ffd6feaad38b</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_0dc9667783939210a6b1ffd6feaad38b">49c9667783939210a6b1ffd6feaad38e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-31 18:10:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

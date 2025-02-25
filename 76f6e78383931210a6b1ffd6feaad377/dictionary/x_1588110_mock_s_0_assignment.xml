@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b1ae5c5b83971210a6b1ffd6feaad3c4" extends="task" label="Assignment" max_length="40" name="x_1588110_mock_s_0_assignment" type="collection">
+        <element label="Dependence" max_length="40" name="dependence" type="string"/>
+        <element label="Worked time" max_length="255" name="worked_time" type="glide_time"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Estimated time" max_length="255" name="estimated_time" type="glide_time"/>
+    </element>
+</database>
