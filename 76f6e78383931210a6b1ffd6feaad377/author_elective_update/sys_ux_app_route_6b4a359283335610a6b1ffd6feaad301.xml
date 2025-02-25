@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Enablement reports</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>enablement_reports721508504</route_type>
+        <screen_type display_value="Enablement reports">534af19283335610a6b1ffd6feaad3df</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 19:14:58</sys_created_on>
+        <sys_id>6b4a359283335610a6b1ffd6feaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enablement reports</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ux_app_route_6b4a359283335610a6b1ffd6feaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 19:14:58</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=6b4a359283335610a6b1ffd6feaad301"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ux_app_route_6b4a359283335610a6b1ffd6feaad301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config><description/><extension_point/><fields/><icon/><name>Enablement reports</name><optional_parameters/><order>0</order><parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>enablement_reports721508504</route_type><screen_type display_value="Enablement reports">534af19283335610a6b1ffd6feaad3df</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 19:14:58</sys_created_on><sys_id>6b4a359283335610a6b1ffd6feaad301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enablement reports</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sys_ux_app_route_6b4a359283335610a6b1ffd6feaad301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 19:14:58</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=6b4a359283335610a6b1ffd6feaad301"/></record_update>]]></payload>
+        <payload_hash>927847428</payload_hash>
+        <record_name>Enablement reports</record_name>
+        <reverted_from/>
+        <source>32f6e78383931210a6b1ffd6feaad395</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 19:14:58</sys_created_on>
+        <sys_id>2b4a359283335610a6b1ffd6feaad304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19524c8de7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 19:14:58</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>eb4a359220335610bbe8271ea0981f03</update_guid>
+        <update_guid_history>eb4a359220335610bbe8271ea0981f03:927847428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 19:16:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0c14fc8e24fe4c2895983f2387f47490</sys_id>
+        <sys_metadata>6b4a359283335610a6b1ffd6feaad301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enablement reports</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_6b4a359283335610a6b1ffd6feaad301</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_6b4a359283335610a6b1ffd6feaad301">2b4a359283335610a6b1ffd6feaad304</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 19:16:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

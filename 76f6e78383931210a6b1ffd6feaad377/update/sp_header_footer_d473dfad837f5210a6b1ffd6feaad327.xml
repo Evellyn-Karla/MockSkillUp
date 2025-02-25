@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css>.footerStyle {
+  width: 100%;
+  background-color: $sp-navbar-divider-color;
+  color: $sp-tagline-color;
+  text-align: center;
+  font-size: 125%;
+  
+  padding-top: 25px;
+}
+.row{
+  margin-bottom: 4rem;
+	width: 100%;
+}
+
+.about {
+  width: 29%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+
+.copyright {
+  width: 400px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.social {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  font-size: 200%;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>mock_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+    $(element).on("keydown", ".masonry-root", scope.handleFooterKeyboardEvent);
+}]]></link>
+        <name>Mock footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script/>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 17:48:58</sys_created_on>
+        <sys_id>d473dfad837f5210a6b1ffd6feaad327</sys_id>
+        <sys_mod_count>52</sys_mod_count>
+        <sys_name>Mock footer</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_header_footer_d473dfad837f5210a6b1ffd6feaad327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 22:47:26</sys_updated_on>
+        <template><![CDATA[<!-- ************* -->
+<!-- HTML Template -->
+<!-- ************* -->
+
+<div class="footerStyle">
+  <div class="row">
+    <div class="about">
+      <h1>
+        Extreme Digital Experience
+      </h1>
+      <p>Somos uma empresa brasileira de inovação e tecnologia, focada em tornar negócios mais simples e eficientes, oferecendo soluções criativas e dinâmicas para otimizar processos e gerar resultados.</p>  </div>
+
+
+
+    <div class="social" id="footer">
+      <h3>
+        Fale conosco
+      </h3>
+      <a class="fa fa-linkedin" href="https://www.linkedin.com/company/edx-digital-experience" target="_blank"></a> &nbsp
+      <a class="fa fa-instagram" href="https://www.instagram.com/go_edx/" target="_blank"></a> &nbsp
+      <a class="fa fa-envelope" href="https://www2.extremedigital.com.br/" target="_blank"></a>
+    </div>
+
+  </div>
+
+
+
+  <div class="copyright">
+    <p>&copy 2025 EDX Inc. All Rights Reserved</p>
+  </div>
+</div>
+]]></template>
+    </sp_header_footer>
+</record_update>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+	/* widget controller */
+	var c = this;
+	
+	c.clickHandler = function(item_id){
+		
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>ul {
+  list-style-type: none;
+}
+
+/* Estilos gerais para cabeçalhos */
+
+.list-header{
+  display: flex;
+  justify-content: space-between;
+}
+.header-urgent {
+  color: var(--color-urgent-primary);
+}
+
+.header-notice {
+  color: var(--color-notice-tertiary);
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos de listas */
+.list-urgent,
+.list-notices {
+  border-radius: var(--border-radius);
+  padding: 0;
+  background-color: var(--background-color);
+  max-height: 60vh;
+  overflow: auto;
+}
+
+/* Estilos específicos para .list-urgent */
+.list-urgent {
+  border: 1px solid var(--color-urgent-secondary);
+}
+
+.list-urgent-item {
+  padding: var(--padding);
+  transition: background-color var(--transition-duration) ease, transform var(--transition-duration) ease;
+}
+
+.list-urgent-item:not(:last-child) {
+  border-bottom: 1px solid var(--color-urgent-secondary);
+}
+
+/* Estilos para o corpo do item */
+.item-body {
+  display: block;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity var(--transition-duration) ease, max-height 80ms ease;
+  margin-top: 1rem;
+  color: var(--color-urgent-tertiary);
+}
+
+/* Efeito hover em .list-urgent */
+.list-urgent-item:hover .item-body {
+  opacity: 1;
+  max-height: var(--max-height-visible);
+}
+
+.list-urgent-item .item-info {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-urgent-primary);
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-urgent-quaternary);
+}
+
+/* Estilos específicos para .list-notices */
+.list-notices {
+  border: 1px solid var(--color-notice-secondary);
+}
+
+.list-notices-item {
+  padding: var(--padding);
+  transition: background-color var(--transition-duration) ease, transform var(--transition-duration) ease;
+}
+
+.list-notices-item:not(:last-child) {
+  border-bottom: 1px solid var(--color-notice-secondary);
+}
+
+.list-notices-item .item-info {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-notice-primary);
+}
+
+/* Efeito hover em .list-notices */
+.list-notices-item:hover .item-body {
+  opacity: 1;
+  max-height: var(--max-height-visible);
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>notices_list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>notices list</name>
+        <option_schema>[{"name":"new_notice_text","section":"other","default_value":"New","label":"Text on new button","type":"string"},{"name":"new_notice_radius","section":"other","default_value":"0.5rem","label":"Border radius of button","type":"string"},{"name":"new_notice_color","section":"other","label":"New button color background","type":"string"},{"name":"urgent_limit","section":"other","default_value":"10","label":"Urgent list limit","type":"integer"},{"name":"notices_limit","section":"other","default_value":"10","label":"Not urgent limit list","type":"integer"},{"name":"new_btn","section":"other","default_value":"true","label":"Show new button","type":"boolean"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	var btnNew = {
+		"href": "msu?id=msu_notices",
+		"button_text": options.new_notice_text,
+		"border_radius": options.new_notice_radius,
+		"color": options.new_notice_color,
+		"btn_show": options.new_btn
+	}
+	data.newNoticeWidget = $sp.getWidget('new_notice', btnNew);
+
+	data.urgent_items = [];
+	var grNoticesU = new GlideRecord('x_1588110_mock_s_0_notice');
+	grNoticesU.addQuery('active', true);
+	grNoticesU.addQuery('urgent', true);
+	grNoticesU.orderByDesc('sys_created_on');
+	grNoticesU.setLimit(options.urgent_limit);
+	grNoticesU.query();
+
+	while(grNoticesU.next()){
+
+		data.urgent_items.push({
+
+			sys_id: grNoticesU.getValue('sys_id'),
+			title: grNoticesU.getValue('title'),
+			desc: grNoticesU.getValue('description'),
+			type: grNoticesU.getValue('type'),
+			number: grNoticesU.getValue('number'),
+			created: grNoticesU.getValue('sys_created_on'),
+			link: '/nav_to.do?uri=x_1588110_mock_s_0_notice.do?sys_id=' + grNoticesU.getValue('sys_id')
+		});
+	}
+
+	data.notices = [];
+	var grNotices = new GlideRecord('x_1588110_mock_s_0_notice');
+	grNotices.addQuery('active', true);
+	grNotices.addQuery('urgent', false);
+	grNotices.setLimit(options.notices_limit);
+	grNotices.orderByDesc('sys_created_on');
+	grNotices.query();
+
+	while(grNotices.next()){
+
+		data.notices.push({
+
+			sys_id: grNotices.getValue('sys_id'),
+			title: grNotices.getValue('title'),
+			desc: grNotices.getValue('description'),
+			type: grNotices.getValue('type'),
+			number: grNotices.getValue('number'),
+			created: grNotices.getValue('sys_created_on'),
+			link: '/nav_to.do?uri=x_1588110_mock_s_0_notice.do?sys_id=' + grNotices.getValue('sys_id')
+		});
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 12:56:51</sys_created_on>
+        <sys_id>24c3a8d6837b1610a6b1ffd6feaad3c0</sys_id>
+        <sys_mod_count>158</sys_mod_count>
+        <sys_name>notices list</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_24c3a8d6837b1610a6b1ffd6feaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 16:56:15</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- your widget template --> 
+  <h3 ng-if="!data.urgent_items && !data.notices">
+    There is no urgent notice
+  </h3>
+  <div class="urgent-list-container">
+    <div class="list-header">
+      <h1 class='header-urgent'>
+      Urgent notices!
+    </h1>
+      
+		<sp-widget widget="data.newNoticeWidget"></sp-widget>
+    </div>
+    
+    <ul class="list-urgent">
+  <li ng-if="data.urgent_items" class="list-urgent-item"
+      ng-repeat="item in data.urgent_items">
+    <a ng-href="{{item.link}}" id="{{item.sys_id}}" target="_blank">
+      <div class="item-info">
+        <p>{{item.number}}</p>
+        <p>{{item.created}}</p>
+      </div>
+      <div class="item-header">
+        <h2>{{item.title}}</h2>
+        <p>{{item.type}}</p>
+      </div>
+      <div class="item-body">
+        <p>{{item.desc}}</p>
+      </div>
+    </a>
+  </li>
+</ul>
+    
+  </div>
+  
+  
+  <div class="notices-list-div">
+    <h1 class='header-notice'>
+      Other notices
+    </h1>
+    <ul class="list-notices">
+  <li ng-if="data.notices" class="list-notices-item"
+      ng-repeat="item in data.notices">
+    <a ng-href="{{item.link}}" id="{{item.sys_id}}" target="_blank">
+      <div class="item-info">
+        <p>{{item.number}}</p>
+        <p>{{item.created}}</p>
+      </div>
+      <div class="item-header">
+        <h2>{{item.title}}</h2>
+        <p>{{item.type}}</p>
+      </div>
+      <div class="item-body">
+        <p>{{item.desc}}</p>
+      </div>
+    </a>
+  </li>
+</ul>
+  </div>
+
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>24c3a8d6837b1610a6b1ffd6feaad3c0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 12:57:39</sys_created_on>
+        <sys_id>90f324d6837b1610a6b1ffd6feaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 12:57:39</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

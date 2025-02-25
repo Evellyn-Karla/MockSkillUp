@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">41bafd9283335610a6b1ffd6feaad34a</canvas>
+        <component display_value="Horizontal bar">85855283b7e03010097cb81cde11a91d</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","yAxisHidden":false,"yAxisPosition":"bottom","yAxisShowGrid":true,"xAxisWrapLabels":false,"xAxisMaxLabelSize":100,"xAxisTruncationType":"end","yAxisStyle":"clean","showLegend":true,"showLegendValue":false,"legendPosition":"bottom","legendHorizontalAlignment":"center","legendExpandToFit":false,"showDataLabels":false,"dataLabelPosition":"middle","showStackedValues":"none","showOverlappingLabels":false,"newReporting":false,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"sourceType":"table","tableOrViewName":"x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE1ODgxMTBfbW9ja19zXzBfbTJtX3hfMTU4ODExMF9tb194XzE1ODgxMTBfbW8xNzQwMTQyMjg0OTI2Nzg4NjMzMDkuNzc2NDg2MjU=","dataCategories":["trend","group","simple"],"label":"Allocation"}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"headerTitle":"Interns by project","showBorder":true,"bareBorder":false,"telemetry":"null","showDataPassthrough":false,"metrics":[{"dataSource":"dGFibGV4XzE1ODgxMTBfbW9ja19zXzBfbTJtX3hfMTU4ODExMF9tb194XzE1ODgxMTBfbW8xNzQwMTQyMjg0OTI2Nzg4NjMzMDkuNzc2NDg2MjU=","id":"ZEdGaWJHVjRYekUxT0RneE1UQmZiVzlqYTE5elh6QmZiVEp0WDNoZk1UVTRPREV4TUY5dGIxOTRYekUxT0RneE1UQmZiVzh4TnpRd01UUXlNamcwT1RJMk56ZzROak16TURrdU56YzJORGcyTWpVPTE3NDAxNDIyODQ5Mjc3NjE4MjU1My4yNzg1NTMy","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGV4XzE1ODgxMTBfbW9ja19zXzBfbTJtX3hfMTU4ODExMF9tb194XzE1ODgxMTBfbW8xNzQwMTQyMjg0OTI2Nzg4NjMzMDkuNzc2NDg2MjU=","groupByField":"x_1588110_mock_s_0_project","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":12,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":true,"disableRanges":false}],"sortBy":"value","sortByOrder":"desc","showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableCustomEmptyState":false,"emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","showMaximumRange":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"showChangeFrom":"previous","period":"M","dateFormat":"default","chartVariation":"grouped","colorConfig":{"type":"default"},"componentId":"9wrnkche","id":"metrics","value":[{"dataSource":"dGFibGV4XzE1ODgxMTBfbW9ja19zXzBfbTJtX3hfMTU4ODExMF9tb194XzE1ODgxMTBfbW8xNzQwMTQyMjg0OTI2Nzg4NjMzMDkuNzc2NDg2MjU=","id":"ZEdGaWJHVjRYekUxT0RneE1UQmZiVzlqYTE5elh6QmZiVEp0WDNoZk1UVTRPREV4TUY5dGIxOTRYekUxT0RneE1UQmZiVzh4TnpRd01UUXlNamcwT1RJMk56ZzROak16TURrdU56YzJORGcyTWpVPTE3NDAxNDIyODQ5Mjc3NjE4MjU1My4yNzg1NTMy","aggregateFunction":"COUNT","axisId":"primary","numberFormat":{"customFormat":false},"dateFormat":{"customFormat":false},"stringFormat":{"customFormat":false}}],"noDebounce":true,"propLabel":"Metric label","showDateRangeByDefault":false,"allowChangeDateRange":false,"scoreType":null}</component_props>
+        <h>17</h>
+        <name>Interns by project</name>
+        <stored_component display_value="Interns by project">3eeeddba4f5c8f1c6040c8bbfcc54747</stored_component>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 12:59:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1add2dee83739610a6b1ffd6feaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interns by project</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>par_dashboard_widget_1add2dee83739610a6b1ffd6feaad30b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 12:59:02</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>ref_qual_elements=ctype</attributes>
         <cat_item display_value="Certificate delivery">fb83a57083e31210a6b1ffd6feaad398</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -30,12 +30,12 @@
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
-        <list_table/>
-        <lookup_label/>
+        <list_table>x_1588110_mock_s_0_course</list_table>
+        <lookup_label>name</lookup_label>
         <lookup_price/>
-        <lookup_table/>
-        <lookup_unique>false</lookup_unique>
-        <lookup_value/>
+        <lookup_table>x_1588110_mock_s_0_course</lookup_table>
+        <lookup_unique>true</lookup_unique>
+        <lookup_value>sys_id</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
@@ -58,7 +58,12 @@
         <record/>
         <record_producer_table>x_1588110_mock_s_0_certificate</record_producer_table>
         <reference>x_1588110_mock_s_0_course</reference>
-        <reference_qual>javascript&amp;colon;'parent=' + current.variables.course_type;</reference_qual>
+        <reference_qual>javascript:&#13;
+if(current.variables.ctype){&#13;
+'type='+current.variables.ctype;&#13;
+}else{&#13;
+'type!=null';&#13;
+}</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -79,14 +84,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-03 15:55:03</sys_created_on>
         <sys_id>75b6257483e31210a6b1ffd6feaad3cd</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>71</sys_mod_count>
         <sys_name>What is the course?</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>item_option_new_75b6257483e31210a6b1ffd6feaad3cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-03 17:10:44</sys_updated_on>
+        <sys_updated_on>2025-02-10 14:48:06</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

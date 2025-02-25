@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ab69286b83571210a6b1ffd6feaad3c4" label="Progress" max_length="40" name="x_1588110_mock_s_0_m2m_progress" type="collection">
+        <element attributes="encode_utf8=false" label="Course" max_length="32" name="x_1588110_mock_s_0_course" reference="x_1588110_mock_s_0_course" type="reference"/>
+        <element attributes="encode_utf8=false" label="Intern" max_length="32" name="x_1588110_mock_s_0_intern" reference="x_1588110_mock_s_0_intern" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+                <element inactive_on_update="false" label="Not started" sequence="0" value="Not started"/>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="In progress"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="x_1588110_mock_s_0_course"/>
+        </index>
+        <index name="index2">
+            <element name="x_1588110_mock_s_0_intern"/>
+        </index>
+    </element>
+</database>

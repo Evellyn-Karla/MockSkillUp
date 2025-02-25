@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1588110_mock_s_0.Filter courses</name>
+        <script><![CDATA[// Supondo que o campo course_type seja referenciado corretamente
+var courseType = g_form.getValue('course_type');
+
+// Filtra as opções de courses com base no tipo selecionado
+var courseFilter = 'type=' + courseType;
+g_form.setFilter('course', courseFilter);
+]]></script>
+        <script_name>Filter courses</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 17:20:34</sys_created_on>
+        <sys_id>52ecf17083671210a6b1ffd6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0.Filter courses</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_script_52ecf17083671210a6b1ffd6feaad3e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 17:20:34</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ui_script_52ecf17083671210a6b1ffd6feaad3e7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;ignore_in_now_experience&gt;false&lt;/ignore_in_now_experience&gt;&lt;name&gt;x_1588110_mock_s_0.Filter courses&lt;/name&gt;&lt;script&gt;&lt;![CDATA[// Supondo que o campo course_type seja referenciado corretamente
+var courseType = g_form.getValue('course_type');
+
+// Filtra as opções de courses com base no tipo selecionado
+var courseFilter = 'type=' + courseType;
+g_form.setFilter('course', courseFilter);
+]]&gt;&lt;/script&gt;&lt;script_name&gt;Filter courses&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-03 17:20:34&lt;/sys_created_on&gt;&lt;sys_id&gt;52ecf17083671210a6b1ffd6feaad3e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1588110_mock_s_0.Filter courses&lt;/sys_name&gt;&lt;sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mock SkillUp"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_52ecf17083671210a6b1ffd6feaad3e7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-03 17:20:34&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;false&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>312825867</payload_hash>
+        <record_name>x_1588110_mock_s_0.Filter courses</record_name>
+        <reverted_from/>
+        <source>be4c146d832bd210a6b1ffd6feaad3ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 17:20:34</sys_created_on>
+        <sys_id>f51df57083671210a6b1ffd6feaad39e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>194ccd403ba0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 18:13:09</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>f91df57036671210778e1905a960e19d</update_guid>
+        <update_guid_history>f91df57036671210778e1905a960e19d:312825867</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 17:22:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>0c25a7bf291b4f448150e9583a608ae1</sys_id>
+        <sys_metadata>52ecf17083671210a6b1ffd6feaad3e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0.Filter courses</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ui_script_52ecf17083671210a6b1ffd6feaad3e7</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_52ecf17083671210a6b1ffd6feaad3e7">f51df57083671210a6b1ffd6feaad39e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 17:22:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

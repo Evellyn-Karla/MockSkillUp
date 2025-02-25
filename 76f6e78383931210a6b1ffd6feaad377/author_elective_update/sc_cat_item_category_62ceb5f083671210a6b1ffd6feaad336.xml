@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Certificate delivery">fb83a57083e31210a6b1ffd6feaad398</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 17:27:59</sys_created_on>
+        <sys_id>62ceb5f083671210a6b1ffd6feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Certificate delivery</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sc_cat_item_category_62ceb5f083671210a6b1ffd6feaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 17:27:59</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sc_cat_item_category_62ceb5f083671210a6b1ffd6feaad336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Certificate delivery">fb83a57083e31210a6b1ffd6feaad398</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-03 17:27:59</sys_created_on><sys_id>62ceb5f083671210a6b1ffd6feaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Certificate delivery</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sc_cat_item_category_62ceb5f083671210a6b1ffd6feaad336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-03 17:27:59</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-184596551</payload_hash>
+        <record_name>Services.Certificate delivery</record_name>
+        <reverted_from/>
+        <source>be4c146d832bd210a6b1ffd6feaad3ff</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 17:27:59</sys_created_on>
+        <sys_id>aacef9f083671210a6b1ffd6feaad3d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>194ccdacf780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 18:13:09</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>aecef9f08967121035cf3e6e442c78cf</update_guid>
+        <update_guid_history>aecef9f08967121035cf3e6e442c78cf:-184596551</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Certificate delivery">7efc677983b3d210a6b1ffd6feaad36a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 14:19:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>00a2344c2aff4cad808c2f42818a3101</sys_id>
+        <sys_metadata>62ceb5f083671210a6b1ffd6feaad336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Certificate delivery</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_62ceb5f083671210a6b1ffd6feaad336</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_62ceb5f083671210a6b1ffd6feaad336">aacef9f083671210a6b1ffd6feaad3d0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 14:19:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

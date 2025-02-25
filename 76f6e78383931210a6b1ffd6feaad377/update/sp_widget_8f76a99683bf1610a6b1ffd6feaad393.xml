@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($location) {
+	var c = this;
+	
+
+	c.clickHandler = function() {
+    if (c.data.href) {
+      // Redireciona para a página do registro do produtor
+      $location.url(c.data.href);
+    }
+  };
+	
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.card {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid #cbc7f2;
+  margin-top: 1rem;
+  margin-left: 40px;
+  align-self: center;
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+
+.title {
+  color: #111827;
+  font-size: 2rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+
+
+.card:hover {
+  transform: scale(1.01);
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id>new_notice</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>new notice</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","default_value":"New","label":"Contents of button","type":"string"},{"name":"border_radius","section":"other","default_value":"0.5rem","label":"Border radius","type":"string"},{"name":"btn_show","section":"other","default_value":"true","label":"Show new button","type":"boolean"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+	var user = gs.getUser();
+	data.hasAccess = user.hasRole('x_1588110_mock_s_0.manager_mock') || 
+		user.hasRole('x_1588110_mock_s_0.monitor');
+
+
+
+	data.showNewBtn = options.btn_show === "true";
+
+	
+	data.href = options.href;
+	data.color = options.color;
+	data.text = options.button_text;
+	data.radius = options.border_radius;
+
+
+
+
+
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 17:48:23</sys_created_on>
+        <sys_id>8f76a99683bf1610a6b1ffd6feaad393</sys_id>
+        <sys_mod_count>61</sys_mod_count>
+        <sys_name>new notice</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_8f76a99683bf1610a6b1ffd6feaad393</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 13:59:17</sys_updated_on>
+        <template><![CDATA[<div class="card"
+     ng-show="data.hasAccess && data.showNewBtn"
+     ng-style="{'border-radius': data.radius, 'background-color': data.color}"
+     ng-click="c.clickHandler()">
+  <div class="content">
+    <span class="title">{{::data.text}}</span>
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8f76a99683bf1610a6b1ffd6feaad393</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 13:30:58</sys_created_on>
+        <sys_id>5be1d5ab83bb9a10a6b1ffd6feaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 13:30:58</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <experience display_value="Advanced Dashboards">8adc36706f01011089060168e25b3693</experience>
+        <grid>48</grid>
+        <name>Enablement reports</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 19:14:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b4abd5283335610a6b1ffd6feaad354</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enablement reports</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>par_dashboard_5b4abd5283335610a6b1ffd6feaad354</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 19:14:58</sys_updated_on>
+        <sys_ux_app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</sys_ux_app_config>
+        <sys_ux_app_route display_value="Enablement reports">6b4a359283335610a6b1ffd6feaad301</sys_ux_app_route>
+        <sys_ux_macroponent display_value="Enablement reports">174af19283335610a6b1ffd6feaad3e2</sys_ux_macroponent>
+        <sys_ux_screen display_value="Enablement reports default">e34af19283335610a6b1ffd6feaad3f3</sys_ux_screen>
+        <sys_ux_screen_type display_value="Enablement reports">534af19283335610a6b1ffd6feaad3df</sys_ux_screen_type>
+    </par_dashboard>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>par_dashboard_5b4abd5283335610a6b1ffd6feaad354</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard"><par_dashboard action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><experience display_value="Advanced Dashboards">8adc36706f01011089060168e25b3693</experience><grid>48</grid><name>Enablement reports</name><sys_class_name>par_dashboard</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 19:14:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b4abd5283335610a6b1ffd6feaad354</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Enablement reports</sys_name><sys_overrides/><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>par_dashboard_5b4abd5283335610a6b1ffd6feaad354</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 19:14:58</sys_updated_on><sys_ux_app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</sys_ux_app_config><sys_ux_app_route display_value="Enablement reports">6b4a359283335610a6b1ffd6feaad301</sys_ux_app_route><sys_ux_macroponent display_value="Enablement reports">174af19283335610a6b1ffd6feaad3e2</sys_ux_macroponent><sys_ux_screen display_value="Enablement reports default">e34af19283335610a6b1ffd6feaad3f3</sys_ux_screen><sys_ux_screen_type display_value="Enablement reports">534af19283335610a6b1ffd6feaad3df</sys_ux_screen_type></par_dashboard></record_update>]]></payload>
+        <payload_hash>-363881544</payload_hash>
+        <record_name>Enablement reports</record_name>
+        <reverted_from/>
+        <source>32f6e78383931210a6b1ffd6feaad395</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 19:14:58</sys_created_on>
+        <sys_id>2f4a359283335610a6b1ffd6feaad30a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19524c8dedc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 19:14:58</sys_updated_on>
+        <type>PAR Dashboard</type>
+        <update_guid>e34a35924f335610ac7ab8992950590a</update_guid>
+        <update_guid_history>e34a35924f335610ac7ab8992950590a:-363881544,df4abd529f3356100b26bfc9fcc0ac55:-404583288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Enablement reports">69aa359283335610a6b1ffd6feaad37a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 19:16:29</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard">par_dashboard</sys_db_object>
+        <sys_id>7036d35b49b04c4d9032f2c2854a4e59</sys_id>
+        <sys_metadata>5b4abd5283335610a6b1ffd6feaad354</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enablement reports</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>par_dashboard_5b4abd5283335610a6b1ffd6feaad354</sys_update_name>
+        <sys_update_version display_value="par_dashboard_5b4abd5283335610a6b1ffd6feaad354">2f4a359283335610a6b1ffd6feaad30a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 19:16:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>:root {&#13;
+  --border-color: #cbc7f2;&#13;
+  --form-background-color: white;&#13;
+  --color-urgent-primary: #ee4131;&#13;
+  --color-urgent-secondary: #cbc7f2;&#13;
+  --color-urgent-tertiary: #5850a2;&#13;
+  --color-urgent-quaternary: #4e488b;&#13;
+&#13;
+  /* Cores para list-notices */&#13;
+  --color-notice-primary: #4e488b;&#13;
+  --color-notice-secondary: #cbc7f2;&#13;
+  --color-notice-tertiary: #4e488b;&#13;
+&#13;
+  /* Estilos gerais */&#13;
+  --border-radius: 0.5rem;&#13;
+  --padding: 1rem;&#13;
+  --max-height-visible: 1000px;&#13;
+  --background-color: white;&#13;
+  --transition-duration: 0.3s;&#13;
+}&#13;
+</css_variables>
+        <footer display_value="Mock footer">d473dfad837f5210a6b1ffd6feaad327</footer>
+        <footer_fixed>false</footer_fixed>
+        <header display_value="Mock header">aa3dad1283ff1610a6b1ffd6feaad310</header>
+        <name>Mock Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 13:17:58</sys_created_on>
+        <sys_id>c3fe2d1c83331210a6b1ffd6feaad31b</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Mock Theme</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_theme_c3fe2d1c83331210a6b1ffd6feaad31b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 18:52:17</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_theme>
+</record_update>

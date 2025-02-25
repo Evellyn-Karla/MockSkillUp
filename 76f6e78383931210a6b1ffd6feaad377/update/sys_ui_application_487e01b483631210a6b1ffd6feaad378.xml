@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Mock SkillUp</name>
+        <order/>
+        <roles>x_1588110_mock_s_0.manager_mock,x_1588110_mock_s_0.intern_mock,x_1588110_mock_s_0.user,x_1588110_mock_s_0.admin</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 13:56:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>487e01b483631210a6b1ffd6feaad378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mock SkillUp</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_application_487e01b483631210a6b1ffd6feaad378</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 13:56:44</sys_updated_on>
+    </sys_ui_application>
+</record_update>

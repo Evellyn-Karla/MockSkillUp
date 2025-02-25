@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, $location) {
+	/* widget controller */
+	var c = this;
+
+	c.options = [
+		{ name: 'Event', value: 'Event' },
+		{ name: 'Information', value: 'Information' }
+	];
+
+	c.data = {
+		title: '',
+		description: '',
+		type: c.options[0].value, // Default to the first option
+		urgent: false
+	};
+
+	c.clickHandler = function () {
+		if (c.data.title && c.data.description && c.data.type) {
+			// Envia os dados para o servidor
+			c.server.update().then(function (response) {
+				if (response.status === 'success') {	
+					$location.url('/msu?id=msu_homepage');
+					alert('Form submitted successfully!');
+				
+				} else {
+					alert('Error: ' + response.message);
+				}
+			});
+		} else {
+			alert('Please fill out all required fields.');
+		}
+	};
+
+	
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+}
+
+.form {
+  height: 80vh;
+  max-width: 90vw;
+  background-color: var(--form-background-color);
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  //box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  align-self: center;
+}
+
+.form-body{
+  padding: 4rem;
+}
+
+.form-header {
+  padding: 4rem;
+  border-bottom: 0.8px solid var(--border-color);
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 500;
+  line-weight: 1.1;
+  color: #333;
+  margin-bottom: 1rem;
+
+}
+
+.desc {
+  font-size: 2rem;
+  color: #666;
+}
+
+.input-group {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.input-group label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  color: #000;
+}
+
+
+.input-group textarea{
+  width: 70%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  color: #000;
+  resize: none; /* Impede o redimensionamento */
+  overflow: hidden; /* Remove a barra de rolagem caso não necessária */
+  line-height: 1.5;
+}
+
+.input-group#urgent{
+  display: flex;
+  align-items: center;
+}
+
+.input-group#urgent label{
+  margin-bottom: 0rem;
+}
+
+.checkbox{
+  transform: scale(1.5); /* Aumenta o tamanho */
+  margin: 10px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: pink;  /* Cor de fundo quando ativo */
+  border-color: #4CAF50;  /* Cor da borda quando ativo */
+}
+
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #f2f6fa;
+  outline: none;
+}
+
+.required-icon {
+  display: none;
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.required-icon.show {
+  display: inline;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding-inline: 2.5rem;
+  padding-block: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>notices_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>notices form</name>
+        <option_schema/>
+        <public>false</public>
+        <roles>x_1588110_mock_s_0.monitor,x_1588110_mock_s_0.manager_mock,x_1588110_mock_s_0.admin</roles>
+        <script><![CDATA[(function () {
+  /* populate the 'data' object */
+  if (input) {
+    // Recebe os dados do client script
+    data.notice = {
+      title: input.title,
+      description: input.description,
+      type: input.type,
+      urgent: input.urgent
+    };
+
+    // Chama a função para inserir o registro
+    insertNotice(); // <--- Chama a função diretamente
+  }
+
+  // Função para inserir o registro na tabela
+  function insertNotice() {
+    if (!data.notice.title || !data.notice.description || !data.notice.type) {
+      data.status = 'error';
+      data.message = 'Missing required fields.';
+      return;
+    }
+
+    var gr = new GlideRecord('x_1588110_mock_s_0_notice'); // Substitua pelo nome correto da tabela
+    gr.initialize();
+    gr.title = data.notice.title;
+    gr.description = data.notice.description;
+    gr.type = data.notice.type;
+    gr.urgent = data.notice.urgent;
+    var noticeId = gr.insert();
+
+    if (noticeId) {
+      data.status = 'success';
+      data.message = 'Notice created successfully!';
+    } else {
+      data.status = 'error';
+      data.message = 'Failed to create notice.';
+    }
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 18:58:59</sys_created_on>
+        <sys_id>fd732f6183ff5210a6b1ffd6feaad331</sys_id>
+        <sys_mod_count>178</sys_mod_count>
+        <sys_name>notices form</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_fd732f6183ff5210a6b1ffd6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 17:32:59</sys_updated_on>
+        <template><![CDATA[<div class="form" ng-app="myApp" ng-controller="FormController as c">
+  <div class='form-content'>
+    <div class="form-header">
+      <h1 class="title">Create a notice</h1>
+      <h3 class="desc">Send a new notice to the enablement team</h3>
+    </div>
+
+    <form class="form-body" name="myForm" novalidate>
+      <div class="input-group">
+        <label for="title">Whats the notice title? <span class="required-icon" ng-class="{'show': myForm.title.$error.required}">*</span></label>
+        <input type="text" id="title" name="title" placeholder="Enter the title" 
+               ng-model="c.data.title" required>
+      </div>
+
+      <div class="input-group">
+        <label for="description">What is the notice?<span class="required-icon" ng-class="{'show': myForm.description.$error.required}">*</span></label>
+        <textarea type="text" id="description" name="description" 
+                  placeholder="Enter the description" 
+                  rows="2"
+               ng-model="c.data.description" required>
+      </textarea>
+      </div>
+      <div class="input-group">
+        <label for="type">What is the type of the notice? <span class="required-icon" ng-class="{'show': myForm.type.$error.required}">*</span></label>
+        <select id="type" name="type"
+                ng-options="option.value as option.name for option in c.options" 
+                ng-model="c.data.type"
+                required>
+        </select>
+      </div>
+
+      <div class="input-group" id="urgent">
+        <label for="urgent">Is it a urgent notice? <span class="required-icon" ng-class="{'show': myForm.urgent.$error.required}">*</span></label>
+        <input class="checkbox" type="checkbox" name="urgent" ng-model="c.data.urgent" id="urgent">
+               
+               
+       <!-- <select id="urgency" name="urgency" 
+                ng-options="option.value as option.name for option in c.options" 
+                ng-init="c.data.urgency = c.data.urgency || c.options[0].value"
+                required>
+        </select> -->
+      </div>
+
+      <button id="submit" class="submit-button" 
+              ng-click="c.clickHandler()" 
+              ng-disabled="myForm.$invalid">Submit</button>
+    </form>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>fd732f6183ff5210a6b1ffd6feaad331</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 19:14:31</sys_created_on>
+        <sys_id>ed07276583ff5210a6b1ffd6feaad37a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 19:14:31</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

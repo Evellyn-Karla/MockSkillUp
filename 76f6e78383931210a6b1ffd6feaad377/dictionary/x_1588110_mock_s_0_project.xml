@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd33989b83571210a6b1ffd6feaad34f" extends="task" label="Project" max_length="40" name="x_1588110_mock_s_0_project" type="collection">
+        <element function_definition="glidefunction:divide(multiply(budget_difference,100),real_budget)" function_field="true" label="Percent difference" max_length="15" name="rpt_percent_difference" read_only="true" type="percent_complete"/>
+        <element default="USD;0,00" label="Real budget" max_length="20" name="real_budget" type="currency"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var currency = current.estimated_budget.getCurrencyCode();&#13;&#10;&#9;current.setCurrencyCode(currency);&#13;&#10;&#13;&#10;})(current);" label="Budget difference" max_length="20" name="budget_difference" type="currency"/>
+        <element label="Estimated budget" max_length="20" name="estimated_budget" type="currency"/>
+    </element>
+</database>

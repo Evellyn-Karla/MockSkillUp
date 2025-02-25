@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f06a5c6783171210a6b1ffd6feaad3fa" extends="sys_user" label="Employee" max_length="40" name="x_1588110_mock_s_0_employee" type="collection">
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Admission date" max_length="255" name="admission_date" type="glide_date" use_dynamic_default="true"/>
+        <element label="Salary" max_length="32" name="fx_salary" type="currency2"/>
+        <element label="Document" mandatory="true" max_length="40" name="document" type="string"/>
+        <element label="Termination date" max_length="255" name="termination_date" type="glide_date"/>
+        <element label="Salary" max_length="20" name="salary" type="currency"/>
+        <index name="index">
+            <element name="fx_salary"/>
+        </index>
+    </element>
+</database>

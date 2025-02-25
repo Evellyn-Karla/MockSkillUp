@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <css_variables>$brand-primary:#4f52bd;&#13;
+$body-bg:#f6f6f8;&#13;
+$state-success-text:#181A1F;&#13;
+$sp-homepage-bg:#fff;&#13;
+$sp-navbar-divider-color:#0b0e89;&#13;
+$sp-navbar-divider-size: 0px;&#13;
+$text-color:#000000;&#13;
+$sp-logo-margin-y:.6rem;&#13;
+$navbar-inverse-link-hover-color:#fff;&#13;
+$navbar-link-hover: #fff;&#13;
+$panel-bg:#ffffff;&#13;
+$brand-success:#51ae00;&#13;
+$navbar-inverse-bg:#6b16e7;&#13;
+$brand-warning:#F0E000;&#13;
+$brand-danger:#E42338;&#13;
+$sp-tagline-color:#fff;&#13;
+$navbar-inverse-link-color:#ffffff;&#13;
+$brand-info:#38aaf4;&#13;
+$link-color:#3c59e7;&#13;
+$sp-logo-margin-x:.6rem;&#13;
+$btn-default-bg:#ffffff;&#13;
+$text-muted:#656E81;&#13;
+</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="msu_homepage">d24e4b5783671210a6b1ffd6feaad37f</homepage>
+        <icon/>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo>bbe2395083731210a6b1ffd6feaad374</logo>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-11 16:38:08</sys_created_on>
+        <sys_id>778ffad383271210a6b1ffd6feaad3dc</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>Mock SkillUP</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_portal_778ffad383271210a6b1ffd6feaad3dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 14:42:53</sys_updated_on>
+        <theme display_value="Mock Theme">c3fe2d1c83331210a6b1ffd6feaad31b</theme>
+        <title>Mock SkillUP</title>
+        <ts_index_group/>
+        <url_suffix>msu</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=778ffad383271210a6b1ffd6feaad3dc"/>
+</record_update>

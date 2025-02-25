@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2011999e833f1610a6b1ffd6feaad369</sp_column>
+        <sp_widget display_value="msu_banner">ae19b80883b3d210a6b1ffd6feaad3a2</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 16:14:51</sys_created_on>
+        <sys_id>c911d55e833f1610a6b1ffd6feaad38e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Welcome to Mock SkillUp Portal!</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_instance_c911d55e833f1610a6b1ffd6feaad38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 17:38:38</sys_updated_on>
+        <title>Welcome to Mock SkillUp Portal!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Welcome to Mock SkillUp Portal!",
+		"displayValue": "Welcome to Mock SkillUp Portal!"
+	},
+	"image": {
+		"value": "ea73edd283bf1610a6b1ffd6feaad3cc",
+		"displayValue": "background-image3"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c911d55e833f1610a6b1ffd6feaad38e"/>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5952282383571210a6b1ffd6feaad3fe" extends="x_1588110_mock_s_0_employee" label="Manager" max_length="40" name="x_1588110_mock_s_0_manager" type="collection"/>
+</database>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ae4e4f5783671210a6b1ffd6feaad3cd</sp_column>
+        <sp_widget display_value="u_quick-links">971cdcbb836f5210a6b1ffd6feaad39c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 12:57:58</sys_created_on>
+        <sys_id>e0e0e0c88333d210a6b1ffd6feaad331</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Shortcuts</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_instance_e0e0e0c88333d210a6b1ffd6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 18:37:48</sys_updated_on>
+        <title>Shortcuts</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Shortcuts",
+		"displayValue": "Shortcuts"
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Big",
+		"displayValue": "Big"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": "-- None --"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "3cf393fc83eb1210a6b1ffd6feaad397,e1a31ffc83eb1210a6b1ffd6feaad330",
+		"displayValue": "Report bug found, Certificate delivery"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=e0e0e0c88333d210a6b1ffd6feaad331"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sp_instance_e0e0e0c88333d210a6b1ffd6feaad331</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;ae4e4f5783671210a6b1ffd6feaad3cd&lt;/sp_column&gt;&lt;sp_widget display_value="u_quick-links"&gt;971cdcbb836f5210a6b1ffd6feaad39c&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-13 12:57:58&lt;/sys_created_on&gt;&lt;sys_id&gt;e0e0e0c88333d210a6b1ffd6feaad331&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;Shortcuts&lt;/sys_name&gt;&lt;sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mock SkillUp"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_e0e0e0c88333d210a6b1ffd6feaad331&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-14 18:37:48&lt;/sys_updated_on&gt;&lt;title&gt;Shortcuts&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Shortcuts",
+		"displayValue": "Shortcuts"
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Big",
+		"displayValue": "Big"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": "-- None --"
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "3cf393fc83eb1210a6b1ffd6feaad397,e1a31ffc83eb1210a6b1ffd6feaad330",
+		"displayValue": "Report bug found, Certificate delivery"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e0e0e0c88333d210a6b1ffd6feaad331"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1901709576</payload_hash>
+        <record_name>Shortcuts</record_name>
+        <reverted_from/>
+        <source>32f6e78383931210a6b1ffd6feaad395</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-14 18:37:48</sys_created_on>
+        <sys_id>604872d083b71210a6b1ffd6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19505c0ad800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-14 18:37:48</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>284872d0d4b7121047d3bbfc46c96a52</update_guid>
+        <update_guid_history>284872d0d4b7121047d3bbfc46c96a52:-1901709576,ee38f2d00cb71210fb63e8030abbb24c:1106245482,7838b2d073b712104d0033f024077c1d:1961568682,e0652a1c2437121005c7451ca13f0fbd:-1901709576,f955e25c70371210ec31726cc0a26e03:581143544,5e452ed8e63712107d519276185383fe:1961568682,a394661c80371210f4a87c517f903604:-1901709576,1625c6d095b31210b750ce733384ebe0:1468072108,5025cad4fcb3121013cd8d158285a91c:-1901709576,2a914ed8097312104907d6a2adcb7ba4:-607759394,838186d022b312100a75fb480e2df28c:1961568682,8820865cda731210c9c05791cc9dd3a1:-332505444,8510865025b31210ca974c41e8cea60e:1401807484,a215351440731210f3235cc75b2ca48c:1770604056,13bdad98c533121037aa799e7e97e494:-906137288,47ad6598513312106330c409edd4b7fd:1686345378,bdd27400aeb3d2109eaeb22b0fa718b1:-906137288,90b27400e5b3d210f8d81d34d7fa37fa:457180486,2f82740003b3d21080aa441d563cb096:871487140,6390f80c7e73d210fd7bef748d63cec1:695179618,4140784c1e73d210cb700ccdca039cf8:-2064439934,309fe0888573d2101259ef724394a6ab:1770821148,1c9a2c84db73d210d11cb021e28d67c8:858239472,013a64848e73d210bc5ee5db0a2d36ef:42646032,e51960401a73d21095583f1a38b5ec93:858239472,a309e4000773d210b29d74b2a65444bf:786397456,26c3e88c0d33d210d8846d52b47a578c:858239472,d1b3ec889033d2108353a017cd958870:1678697275,3aa3208cba33d210fc6b1b9daac2e6f2:1407725857,7c8324c89833d2108f2325455bb1fe0d:1678697275,6fe0e0c89233d210bf1168e23fce3565:1733379611,68e0e0c85d33d210f0399411a2d7a034:1238183602</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Shortcuts">529e3265833f5210a6b1ffd6feaad3fd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-18 16:17:54</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>124473b4a23e47d3a532e5308b79a299</sys_id>
+        <sys_metadata>e0e0e0c88333d210a6b1ffd6feaad331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Shortcuts</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sp_instance_e0e0e0c88333d210a6b1ffd6feaad331</sys_update_name>
+        <sys_update_version display_value="sp_instance_e0e0e0c88333d210a6b1ffd6feaad331">604872d083b71210a6b1ffd6feaad353</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-18 16:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

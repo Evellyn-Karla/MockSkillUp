@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy">
+    <m2m_sp_portal_taxonomy action="DELETE">
+        <active>true</active>
+        <order>100</order>
+        <sp_portal display_value="Mock SkillUP">778ffad383271210a6b1ffd6feaad3dc</sp_portal>
+        <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 13:59:43</sys_created_on>
+        <sys_id>7b88a7b183b3d210a6b1ffd6feaad336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mock SkillUP.New employee</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>m2m_sp_portal_taxonomy_7b88a7b183b3d210a6b1ffd6feaad336</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:59:43</sys_updated_on>
+        <taxonomy display_value="New employee">438c2925839b1250a6b1ffd6feaad3a4</taxonomy>
+    </m2m_sp_portal_taxonomy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>m2m_sp_portal_taxonomy_7b88a7b183b3d210a6b1ffd6feaad336</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_taxonomy"><m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE"><active>true</active><order>100</order><sp_portal display_value="Mock SkillUP">778ffad383271210a6b1ffd6feaad3dc</sp_portal><sys_class_name>m2m_sp_portal_taxonomy</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-19 13:59:43</sys_created_on><sys_id>7b88a7b183b3d210a6b1ffd6feaad336</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mock SkillUP.New employee</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>m2m_sp_portal_taxonomy_7b88a7b183b3d210a6b1ffd6feaad336</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-19 13:59:43</sys_updated_on><taxonomy display_value="New employee">438c2925839b1250a6b1ffd6feaad3a4</taxonomy></m2m_sp_portal_taxonomy></record_update>]]></payload>
+        <payload_hash>589494643</payload_hash>
+        <record_name>Mock SkillUP.New employee</record_name>
+        <reverted_from/>
+        <source>32f6e78383931210a6b1ffd6feaad395</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 13:59:43</sys_created_on>
+        <sys_id>b388aff183b3d210a6b1ffd6feaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1951e81e1890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 13:59:43</sys_updated_on>
+        <type>Portal Taxonomy</type>
+        <update_guid>b788aff1c6b3d210d98e8cb7035365ce</update_guid>
+        <update_guid_history>b788aff1c6b3d210d98e8cb7035365ce:589494643</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Mock SkillUP.New employee">469f651683ff1610a6b1ffd6feaad3d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 18:28:11</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_taxonomy">m2m_sp_portal_taxonomy</sys_db_object>
+        <sys_id>3992fb312a7f4d2890ce328a5fbfcc91</sys_id>
+        <sys_metadata>7b88a7b183b3d210a6b1ffd6feaad336</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mock SkillUP.New employee</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_taxonomy_7b88a7b183b3d210a6b1ffd6feaad336</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_taxonomy_7b88a7b183b3d210a6b1ffd6feaad336">b388aff183b3d210a6b1ffd6feaad3cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-20 18:28:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
