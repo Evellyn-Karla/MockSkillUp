@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="9bb708db83171210a6b1ffd6feaad3a8" label="Course" max_length="40" name="x_1588110_mock_s_0_course" type="collection">
         <element label="Type" max_length="32" name="type" reference="x_1588110_mock_s_0_course_type" type="reference"/>
+        <element label="Training" mandatory="true" max_length="40" name="training" type="string"/>
         <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
-        <element display="true" label="Name" max_length="40" name="name" type="string"/>
-        <element label="Duration" max_length="255" name="duration" type="glide_duration"/>
+        <element display="true" label="Template" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Duration" mandatory="true" max_length="255" name="duration" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <index name="index">
+        <element label="Order" max_length="255" name="order" type="integer"/>
+        <index name="index" unique="true">
+            <element name="training"/>
+            <element name="name"/>
+        </index>
+        <index name="index2">
             <element name="type"/>
         </index>
     </element>
