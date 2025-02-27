@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6e58a82483002210a6b1ffd6feaad33a" label="Skill" max_length="40" name="x_1588110_mock_s_0_skill" type="collection">
+        <element display="true" label="Skill" mandatory="true" max_length="200" name="skill" type="string"/>
+        <element choice="3" default="Technical" label="Type" max_length="40" name="technical" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Language" value="Language"/>
+                <element inactive_on_update="false" label="Experience" value="Experience"/>
+                <element inactive_on_update="false" label="Technical" value="Technical"/>
+                <element inactive_on_update="false" label="General" value="General"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
+    </element>
+</database>
