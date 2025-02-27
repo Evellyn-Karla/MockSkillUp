@@ -10,7 +10,7 @@
         <create_access_controls>true</create_access_controls>
         <delete_access>false</delete_access>
         <is_extendable>false</is_extendable>
-        <label>Skill</label>
+        <label>Skills</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1588110_mock_s_0_skill</name>
         <number_ref display_value="SKL">514a6ce483002210a6b1ffd6feaad345</number_ref>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-27 13:05:38</sys_created_on>
         <sys_id>6e58a82483002210a6b1ffd6feaad33a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Skill</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Skills</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_db_object_6e58a82483002210a6b1ffd6feaad33a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 13:11:52</sys_updated_on>
+        <sys_updated_on>2025-02-27 18:43:29</sys_updated_on>
         <update_access>false</update_access>
         <user_role display_value="x_1588110_mock_s_0.skill_user" name="x_1588110_mock_s_0.skill_user">9de82ce083002210a6b1ffd6feaad306</user_role>
         <ws_access>true</ws_access>
