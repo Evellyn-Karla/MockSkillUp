@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e368e6b8832b1210a6b1ffd6feaad3d0</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Assign project to intern</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_hub_flow_e368e6b8832b1210a6b1ffd6feaad3d0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-06 19:20:06</sys_updated_on>
+        <sys_updated_on>2025-02-26 19:27:02</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -52,7 +52,7 @@
     <sys_variable_value action="delete_multiple" query="document_key=e368e6b8832b1210a6b1ffd6feaad3d0"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1588110_mock_s_0_certificate">course=56739a8983ab5210a6b1ffd6feaad395<item display_table="x_1588110_mock_s_0_course" display_value="Scripting in ServiceNow" endquery="false" field="course" goto="false" newquery="false" operator="=" or="false" value="56739a8983ab5210a6b1ffd6feaad395"/>
+        <condition table="x_1588110_mock_s_0_certificate">course=56739a8983ab5210a6b1ffd6feaad395<item endquery="false" field="course" goto="false" newquery="false" operator="=" or="false" value="56739a8983ab5210a6b1ffd6feaad395"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -548,7 +548,7 @@
         <sys_created_on>2025-02-03 20:29:55</sys_created_on>
         <sys_id>af68e6b8832b1210a6b1ffd6feaad3dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
@@ -571,7 +571,7 @@
         <sys_created_on>2025-02-03 20:29:56</sys_created_on>
         <sys_id>bb68e6b8832b1210a6b1ffd6feaad3df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
@@ -1087,7 +1087,7 @@
         <sys_created_on>2025-02-04 16:53:57</sys_created_on>
         <sys_id>b190c7c583af5210a6b1ffd6feaad3da</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
@@ -1110,7 +1110,7 @@
         <sys_created_on>2025-02-04 16:53:57</sys_created_on>
         <sys_id>f990c7c583af5210a6b1ffd6feaad3e0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>

@@ -2,8 +2,8 @@
     <element db_object_id="fd598c5f83171210a6b1ffd6feaad30e" extends="task" label="Certificate" max_length="40" name="x_1588110_mock_s_0_certificate" type="collection">
         <element label="Attatchment" max_length="255" name="attatchment" type="file_attachment"/>
         <element label="Course duration" max_length="255" name="qtd_hours" type="glide_duration"/>
-        <element label="Intern" mandatory="true" max_length="32" name="intern" reference="x_1588110_mock_s_0_intern" type="reference"/>
         <element dependent="course_type" dependent_on_field="course_type" label="Course" mandatory="true" max_length="32" name="course" reference="x_1588110_mock_s_0_course" type="reference" use_dependent_field="true"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#13;&#10;})(current);" label="Course type" mandatory="true" max_length="40" name="course_type" reference="x_1588110_mock_s_0_course_type" reference_key="sys_id" type="reference" use_dependent_field="true"/>
+        <element label="Intern" mandatory="true" max_length="32" name="intern" reference="x_1588110_mock_s_0_intern" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#10;})(current);" label="Course type" mandatory="true" max_length="40" name="course_type" reference="x_1588110_mock_s_0_course_type" reference_key="sys_id" type="reference" use_dependent_field="true"/>
     </element>
 </database>
