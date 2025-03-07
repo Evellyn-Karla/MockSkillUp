@@ -6,24 +6,24 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Default access control on x_1588110_mock_s_0_contact</description>
+        <description/>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1588110_mock_s_0_contact.*</name>
-        <operation display_value="read">read</operation>
+        <name>x_1588110_mock_s_0_bug_report.short_description</name>
+        <operation display_value="write">write</operation>
         <script/>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-27 15:02:16</sys_created_on>
-        <sys_id>42938da883802210a6b1ffd6feaad337</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_1588110_mock_s_0_contact.*</sys_name>
+        <sys_created_on>2025-03-07 13:29:58</sys_created_on>
+        <sys_id>7b2b714783402210a6b1ffd6feaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0_bug_report.short_description</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
-        <sys_update_name>sys_security_acl_42938da883802210a6b1ffd6feaad337</sys_update_name>
+        <sys_update_name>sys_security_acl_7b2b714783402210a6b1ffd6feaad3cd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-07 12:54:30</sys_updated_on>
+        <sys_updated_on>2025-03-07 13:29:58</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

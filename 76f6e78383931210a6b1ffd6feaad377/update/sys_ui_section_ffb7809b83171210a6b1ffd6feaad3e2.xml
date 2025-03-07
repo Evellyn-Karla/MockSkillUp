@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:05</sys_created_on>
-            <sys_id>9a14b09883842210a6b1ffd6feaad39b</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>baa60a8783802210a6b1ffd6feaad318</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:05</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:05</sys_created_on>
-            <sys_id>5614b09883842210a6b1ffd6feaad39c</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>3aa60a8783802210a6b1ffd6feaad319</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:05</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,97 +32,69 @@
             <element>training</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:05</sys_created_on>
-            <sys_id>da14b09883842210a6b1ffd6feaad39c</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>32a60a8783802210a6b1ffd6feaad31a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:05</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>sys_created_by</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:06</sys_created_on>
-            <sys_id>5214b09883842210a6b1ffd6feaad39d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:06</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>active</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:06</sys_created_on>
-            <sys_id>d614b09883842210a6b1ffd6feaad39d</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>3aa60a8783802210a6b1ffd6feaad31a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:06</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:06</sys_created_on>
-            <sys_id>5e14b09883842210a6b1ffd6feaad39d</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>32a60a8783802210a6b1ffd6feaad31b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:06</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>duration</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:06</sys_created_on>
-            <sys_id>d214b09883842210a6b1ffd6feaad39e</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>3aa60a8783802210a6b1ffd6feaad31b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:06</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:06</sys_created_on>
-            <sys_id>5a14b09883842210a6b1ffd6feaad39e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:06</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>order</element>
-            <position>8</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-26 19:16:06</sys_created_on>
-            <sys_id>de14b09883842210a6b1ffd6feaad39e</sys_id>
+            <sys_created_on>2025-03-07 14:20:08</sys_created_on>
+            <sys_id>32a60a8783802210a6b1ffd6feaad31c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1588110_mock_s_0_course" sys_domain="global" view="Default view">ffb7809b83171210a6b1ffd6feaad3e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-26 19:16:06</sys_updated_on>
+            <sys_updated_on>2025-03-07 14:20:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
