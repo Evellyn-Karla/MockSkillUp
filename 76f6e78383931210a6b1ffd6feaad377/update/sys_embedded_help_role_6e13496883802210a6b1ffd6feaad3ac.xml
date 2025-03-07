@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_1588110_mock_s_0.shared_service_user" name="x_1588110_mock_s_0.shared_service_user">6213496883802210a6b1ffd6feaad3aa</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-27 15:00:07</sys_created_on>

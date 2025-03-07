@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="fd598c5f83171210a6b1ffd6feaad30e" extends="task" label="Certificate" max_length="40" name="x_1588110_mock_s_0_certificate" type="collection">
-        <element label="Attatchment" max_length="255" name="attatchment" type="file_attachment"/>
-        <element label="Course duration" max_length="255" name="qtd_hours" type="glide_duration"/>
-        <element dependent="course_type" dependent_on_field="course_type" label="Course" mandatory="true" max_length="32" name="course" reference="x_1588110_mock_s_0_course" type="reference" use_dependent_field="true"/>
-        <element label="Intern" mandatory="true" max_length="32" name="intern" reference="x_1588110_mock_s_0_intern" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#10;})(current);" label="Course type" mandatory="true" max_length="40" name="course_type" reference="x_1588110_mock_s_0_course_type" reference_key="sys_id" type="reference" use_dependent_field="true"/>
+    <element db_object_id="83194e0b83802210a6b1ffd6feaad389" label="Certificate" max_length="40" name="x_1588110_mock_s_0_certificate" type="collection">
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Emission date" max_length="40" name="emission_date" type="glide_date" use_dynamic_default="true"/>
+        <element label="Number of hours" max_length="40" name="n_hours" type="float"/>
+        <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
+        <element label="Course" max_length="32" name="course" reference="x_1588110_mock_s_0_course" type="reference"/>
+        <element label="Intern" max_length="32" name="intern" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_intern" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_intern" type="reference"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="intern"/>
+        </index>
     </element>
 </database>

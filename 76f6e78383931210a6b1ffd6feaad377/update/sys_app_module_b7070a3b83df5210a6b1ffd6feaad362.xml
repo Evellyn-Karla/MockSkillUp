@@ -13,7 +13,7 @@
         <mobile_title>Managers</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1588110_mock_s_0_manager</name>
-        <order>200</order>
+        <order>120</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b7070a3b83df5210a6b1ffd6feaad362</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Managers</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_app_module_b7070a3b83df5210a6b1ffd6feaad362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-31 15:31:27</sys_updated_on>
+        <sys_updated_on>2025-03-07 14:54:09</sys_updated_on>
         <timeline_page/>
         <title>Managers</title>
         <uncancelable>false</uncancelable>

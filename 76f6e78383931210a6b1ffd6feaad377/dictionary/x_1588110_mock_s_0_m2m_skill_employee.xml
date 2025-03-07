@@ -16,7 +16,7 @@
                 <element inactive_on_update="false" label="Intermediate" value="Intermediate"/>
             </choice>
         </element>
-        <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="x_1588110_mock_s_0_employee" reference="x_1588110_mock_s_0_employee" type="reference"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2bca6e8383442210a6b1ffd6feaad3da" label="Employee" mandatory="true" max_length="32" name="x_1588110_mock_s_0_employee" reference="x_1588110_mock_s_0_employee" type="reference" use_dynamic_default="true"/>
         <index name="index">
             <element name="x_1588110_mock_s_0_employee"/>
         </index>

@@ -16,7 +16,7 @@
         <mobile_title>Groups</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>sys_user_group</name>
-        <order/>
+        <order>60</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4147197083a31210a6b1ffd6feaad375</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Groups</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -36,7 +36,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_app_module_4147197083a31210a6b1ffd6feaad375</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-28 17:34:01</sys_updated_on>
+        <sys_updated_on>2025-03-07 14:52:40</sys_updated_on>
         <timeline_page/>
         <title>Groups</title>
         <uncancelable>false</uncancelable>
