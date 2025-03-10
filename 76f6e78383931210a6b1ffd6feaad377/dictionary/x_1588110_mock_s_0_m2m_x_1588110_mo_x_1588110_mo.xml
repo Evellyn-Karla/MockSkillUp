@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f0d96c6b83571210a6b1ffd6feaad357" label="Allocation" max_length="40" name="x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="encode_utf8=false" label="Project" max_length="32" name="x_1588110_mock_s_0_project" reference="x_1588110_mock_s_0_project" type="reference"/>
         <element attributes="encode_utf8=false" label="Intern" max_length="32" name="x_1588110_mock_s_0_intern" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_intern^EQ" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_intern^EQ" type="reference"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Assigned" sequence="0" value="Assigned"/>
                 <element inactive_on_update="false" label="Pending" sequence="1" value="Pending"/>
+                <element inactive_on_update="false" label="Discharged" sequence="2" value="Discharged"/>
             </choice>
         </element>
         <element label="Assignment" max_length="32" name="assignment" reference="x_1588110_mock_s_0_assignment" type="reference"/>

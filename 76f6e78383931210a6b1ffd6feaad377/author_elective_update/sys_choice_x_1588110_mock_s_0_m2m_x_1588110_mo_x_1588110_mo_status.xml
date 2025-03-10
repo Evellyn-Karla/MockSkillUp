@@ -53,5 +53,24 @@
             <sys_updated_on>2025-02-05 13:22:15</sys_updated_on>
             <value>Pending</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Discharged</label>
+            <language>en</language>
+            <name>x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-03-10 20:06:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-03-10 20:06:12</sys_updated_on>
+            <value>Discharged</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="83194e0b83802210a6b1ffd6feaad389" label="Certificate" max_length="40" name="x_1588110_mock_s_0_certificate" type="collection">
         <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Emission date" max_length="40" name="emission_date" type="glide_date" use_dynamic_default="true"/>
-        <element label="Number of hours" max_length="40" name="n_hours" type="float"/>
         <element label="Attachment" max_length="40" name="attachment" type="file_attachment"/>
         <element label="Course" max_length="32" name="course" reference="x_1588110_mock_s_0_course" type="reference"/>
+        <element attributes="max_unit=hours" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Duration" max_length="40" name="duration" type="glide_duration"/>
         <element label="Intern" max_length="32" name="intern" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_intern" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_intern" type="reference"/>
         <index name="index">
             <element name="course"/>

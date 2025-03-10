@@ -3,7 +3,7 @@
         <element display="true" label="Training" mandatory="true" max_length="40" name="training" type="string"/>
         <element default="true" label="Active" max_length="255" name="active" type="boolean"/>
         <element label="Template" mandatory="true" max_length="40" name="name" type="string"/>
-        <element label="Duration" mandatory="true" max_length="255" name="duration" type="glide_duration"/>
+        <element attributes="max_unit=hours" label="Duration" mandatory="true" max_length="255" name="duration" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Order" max_length="255" name="order" type="integer"/>
         <index name="index" unique="true">
