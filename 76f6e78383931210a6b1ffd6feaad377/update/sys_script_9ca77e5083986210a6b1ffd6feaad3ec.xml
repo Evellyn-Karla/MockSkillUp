@@ -3,22 +3,22 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_query>false</action_query>
-        <action_update>true</action_update>
+        <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo</collection>
+        <collection>x_1588110_mock_s_0_contact</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Intern removed from assignment</name>
+        <name>Add client to group</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,57 +28,39 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-	if (!current.assignment || !current.x_1588110_mock_s_0_intern) {
-		gs.addErrorMessage('Assignment or intern is null. Skipping script execution.');
-		return;
-	}
-	// Add your code here
-	if (current.status == 'Discharged') {
-		current.active = false;
-		var assign = new GlideRecord('x_1588110_mock_s_0_assignment');
-		assign.addQuery('sys_id', current.assignment);
-		assign.addQuery('assigned_to', current.x_1588110_mock_s_0_intern);
-		assign.query();
-		if (assign.next()) {
-			assign.assigned_to = '';
-			assign.assignment_date = new GlideDateTime();
-			assign.update();
-		} else {
-			gs.addErrorMessage('No assignment record found for the given query.');
-		}
-	} else {
-		current.active = true;
-	}
+	var MS = new MockSkillUp(); // new object from script include that contains functions used in the app
+	var group = '0b2d26bb83939210a6b1ffd6feaad3c5'; // initialize var to save group
 
-
+	// calls the functions created in script includes and add to the expected group
+	MS.addEmployeeGr(group, current.sys_id);
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-10 20:10:42</sys_created_on>
+        <sys_created_on>2025-03-11 15:09:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a5d27e4883942210a6b1ffd6feaad30d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>Intern removed from assignment</sys_name>
+        <sys_id>9ca77e5083986210a6b1ffd6feaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add client to group</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
-        <sys_update_name>sys_script_a5d27e4883942210a6b1ffd6feaad30d</sys_update_name>
+        <sys_update_name>sys_script_9ca77e5083986210a6b1ffd6feaad3ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-11 13:45:27</sys_updated_on>
+        <sys_updated_on>2025-03-11 15:09:51</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=a5d27e4883942210a6b1ffd6feaad30d"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9ca77e5083986210a6b1ffd6feaad3ec"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>a5d27e4883942210a6b1ffd6feaad30d</id>
+        <id>9ca77e5083986210a6b1ffd6feaad3ec</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-10 20:31:28</sys_created_on>
-        <sys_id>d3687ecc83942210a6b1ffd6feaad352</sys_id>
+        <sys_created_on>2025-03-11 15:09:51</sys_created_on>
+        <sys_id>7d68729083986210a6b1ffd6feaad308</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 20:31:28</sys_updated_on>
+        <sys_updated_on>2025-03-11 15:09:51</sys_updated_on>
         <table>sys_script</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
