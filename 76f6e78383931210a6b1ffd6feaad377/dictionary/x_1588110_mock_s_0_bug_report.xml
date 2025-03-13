@@ -2,6 +2,7 @@
     <element db_object_id="b1fc124983eb5210a6b1ffd6feaad321" extends="task" label="Bug report" max_length="40" name="x_1588110_mock_s_0_bug_report" type="collection">
         <element label="Playback steps" max_length="40" name="playback_steps" type="string"/>
         <element dependent="parent" dependent_on_field="parent" label="Assignment" max_length="32" name="assignment" reference="x_1588110_mock_s_0_assignment" type="reference" use_dependent_field="true"/>
+        <element label="Origin" max_length="32" name="origin" read_only="true" reference="x_1588110_mock_s_0_shared_service" type="reference"/>
         <element label="Attachment" max_length="255" name="attachment" type="file_attachment"/>
     </element>
 </database>
