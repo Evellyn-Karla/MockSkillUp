@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=659000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1224000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>26000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>copy_of_flow_bug_in_lot</internal_name>
-        <label_cache>[{"name":"4936e683-e7c4-43a5-bb81-cd799a646b2b.Record","label":"4 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","usedInstances":{"f31c5f21-66e1-434e-9a38-03682b67123d":["attachment_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["record"],"774bf23f-51cd-4c1b-ba4d-3d56d9bebb15":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.attachment","label":"Trigger - Record Created➛Shared Service Record➛Attachment","reference":"","reference_display":"Attachment","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1588110_mock_s_0_shared_service","column_name":"attachment","usedInstances":{"4936e683-e7c4-43a5-bb81-cd799a646b2b":["conditions"]}},{"name":"847e6aa1-96e8-43ec-8080-7d96c61bc7ba.Record","label":"7 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import","type":"reference","base_type":"reference","usedInstances":{"6fbe0db1-a9ad-43e0-a452-47b3c83a7601":["record"],"354230f2-2994-4d33-a007-21257505ed83":["record"],"5894c8fd-cc11-4e56-bdaf-1eaaed220bbf":["record"],"2f8aca14-184d-4720-b64c-8765c71b4ca4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Shared Service Record","reference":"x_1588110_mock_s_0_shared_service","reference_display":"Shared Service","type":"reference","base_type":"reference","usedInstances":{"912ce21e-d035-43de-b603-98d96ef51809":["source_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["attachment_record"],"aef43a68-7e10-47ed-840c-dfee1dc0f04b":["source_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["file_name"]},"attributes":{}},{"name":"da600a9a-ed73-4c77-af47-2ccae833ef7d.Record","label":"1 - Look Up Record➛Data Source Record","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","usedInstances":{"1b0ce318-e8ce-4947-98a8-862884cea50a":["source_record"],"6784b363-5f1b-4d99-b568-01af07021497":["record"],"17e8e918-2661-4146-a463-bc8724ca8eaf":["target_record"],"dc60f30f-d78e-4313-aa0e-d9c9fc50dfdf":["target_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["target_record"],"f466eacc-bdb4-41c5-b482-e59e8025d689":["record"],"f31c5f21-66e1-434e-9a38-03682b67123d":["target_record"],"388a15f0-65c9-4b03-a811-ff1a62fdc61a":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"da600a9a-ed73-4c77-af47-2ccae833ef7d.Record","label":"1 - Look Up Record➛Data Source Record","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","usedInstances":{"1b0ce318-e8ce-4947-98a8-862884cea50a":["source_record"],"6784b363-5f1b-4d99-b568-01af07021497":["record"],"17e8e918-2661-4146-a463-bc8724ca8eaf":["target_record"],"dc60f30f-d78e-4313-aa0e-d9c9fc50dfdf":["target_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["target_record"],"f466eacc-bdb4-41c5-b482-e59e8025d689":["record"],"f31c5f21-66e1-434e-9a38-03682b67123d":["target_record"],"388a15f0-65c9-4b03-a811-ff1a62fdc61a":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Shared Service Record","reference":"x_1588110_mock_s_0_shared_service","reference_display":"Shared Service","type":"reference","base_type":"reference","usedInstances":{"912ce21e-d035-43de-b603-98d96ef51809":["source_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["attachment_record"],"aef43a68-7e10-47ed-840c-dfee1dc0f04b":["source_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["file_name"]},"attributes":{}},{"name":"847e6aa1-96e8-43ec-8080-7d96c61bc7ba.Record","label":"7 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import","type":"reference","base_type":"reference","usedInstances":{"6fbe0db1-a9ad-43e0-a452-47b3c83a7601":["record"],"354230f2-2994-4d33-a007-21257505ed83":["record"],"5894c8fd-cc11-4e56-bdaf-1eaaed220bbf":["record"],"2f8aca14-184d-4720-b64c-8765c71b4ca4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.attachment","label":"Trigger - Record Created➛Shared Service Record➛Attachment","reference":"","reference_display":"Attachment","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1588110_mock_s_0_shared_service","column_name":"attachment","usedInstances":{"4936e683-e7c4-43a5-bb81-cd799a646b2b":["conditions"]}},{"name":"4936e683-e7c4-43a5-bb81-cd799a646b2b.Record","label":"4 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","usedInstances":{"f31c5f21-66e1-434e-9a38-03682b67123d":["attachment_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["record"],"774bf23f-51cd-4c1b-ba4d-3d56d9bebb15":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>8b8879d58350a610a6b1ffd6feaad3d5</master_snapshot>
         <master_snapshot_digest/>
         <name>Copy of Flow Bug in Lot</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8e063dd18350a610a6b1ffd6feaad305</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Copy of Flow Bug in Lot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_hub_flow_8e063dd18350a610a6b1ffd6feaad305</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 13:04:48</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:14:13</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -82,14 +82,14 @@
         <identifier>8e063dd18350a610a6b1ffd6feaad305</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-03-14 13:04:48</sys_created_on>
-        <sys_id>9388b9d58350a610a6b1ffd6feaad33f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2025-03-14 13:14:13</sys_created_on>
+        <sys_id>19ba75d98350a610a6b1ffd6feaad390</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 13:04:48</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:14:13</sys_updated_on>
         <trigger display_value="">d788b9d58350a610a6b1ffd6feaad33e</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8e063dd18350a610a6b1ffd6feaad305^sys_idNOT IN9388b9d58350a610a6b1ffd6feaad33f"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=8e063dd18350a610a6b1ffd6feaad305^sys_idNOT IN19ba75d98350a610a6b1ffd6feaad390"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=8e063dd18350a610a6b1ffd6feaad305"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=8e063dd18350a610a6b1ffd6feaad305^sys_idNOT IN0e063dd18350a610a6b1ffd6feaad306"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -376,10 +376,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-14 12:53:48</sys_created_on>
         <sys_id>92063dd18350a610a6b1ffd6feaad355</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 13:02:52</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:13:59</sys_updated_on>
         <ui_id>2f8aca14-184d-4720-b64c-8765c71b4ca4</ui_id>
         <values>H4sIAAAAAAAA/+1VTW/bOBD9K4ROaWorku06jnMK4E3bQxsgKXqpuwJFjmwuKFLlhxM38H/fISW57leaLQIsFlhfbI5n3rw380R9uE8ET+bJBHiWn+VTNs7H41GWjWaTvJyOy3zExxQgTwaJojVgpgGmDcfzhkofAvf3s8kpTCnNh2dTmA0nY2DDWTbLhqf8bMqmeclOS5pex7rdDiu5sI2k2/cdAEbYWkhuQCXzDx8HSUMN9nJgkvn9N3+5bQOFpCVILFxo5mtQjrxeIMZjdfTV172Qb4WFHnjmHXohQhD/CnzybJDAnQPFAdtVVFoYJDVVnDpttsncGY8BA5RfKbndZ6yFcq3Smt5Z8RnxJ1nIqwClsW4K+2PRTagfjhYMrhontGojjpayn5yWvlZvWwlhtlBRL93BbL1FPGgC5UCiZVjdrPXtdd/vUqiormMrNaNyf6LOGVF6BzasAyTEodS0aYRaFY3RGxGLkUqdriQe0krqW+xpxUqllAXeKQ6IppcYX8Twe2pEEPEGYbB4F8UXn3zo28roCBdRcxRcxEVhqmVGNO4CgTfQ0dwNOiOXLx4yADv7su8DzC9mtmwN3EvghagbbVxhwX3v2Js+iyxQFnkdU3/bxu8CEfK2JfJYEV8V/0RUZ+SvYp2PXzyZj2f/ko87Rv8xI//KvtnowfvrYNPRsfbAujQCLn2WjXlY35/Gq8I6alwbq/iw7Qz8e0f/s+Lf9DnU2NIBaZsOHq24B7gUILn9wQh6o3cNik3XYH9pP5nb82kWP//f3U9yd7eC2lhguHddODyUmpwcL9Xx8QVjYC0J3E4uIlkSyBJvUR9xayAVL2JEl38Bcym5iQCk9tYRA84bRSiJfklJQLwKliHK1yV+CUt0VeErgJRb8jwnQpE/jNGGvELvyNDiBtoRRTIbKmS8y3XctyWdFYhvkFhjkGqoWSbpMiG0wiempxfK4Y6ifWGObAyxa3yj4LgZaZ+/PjHFfa5WYFLmDa7fpTEx7Cvqwq7nAatTtkcJwZOlWqqArfRtj6rglrwMa8f3GLwTNRw9w1RMSCnnqE0rbo/GWQiubCpUpY9C5egUgWn7izwPgOkK3OLgSjl6FmqikrDOfb8fZZ4HYj3jkH2OJrJ0A3z/JOx2u49/A8uWqXGrCgAA</values>
     </sys_hub_action_instance_v2>
@@ -539,7 +539,7 @@
         <description>Flow to add bugs in lot</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>copy_of_flow_bug_in_lot</internal_name>
-        <label_cache>[{"name":"4936e683-e7c4-43a5-bb81-cd799a646b2b.Record","label":"4 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","usedInstances":{"f31c5f21-66e1-434e-9a38-03682b67123d":["attachment_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["record"],"774bf23f-51cd-4c1b-ba4d-3d56d9bebb15":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.attachment","label":"Trigger - Record Created➛Shared Service Record➛Attachment","reference":"","reference_display":"Attachment","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1588110_mock_s_0_shared_service","column_name":"attachment","usedInstances":{"4936e683-e7c4-43a5-bb81-cd799a646b2b":["conditions"]}},{"name":"847e6aa1-96e8-43ec-8080-7d96c61bc7ba.Record","label":"7 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import","type":"reference","base_type":"reference","usedInstances":{"6fbe0db1-a9ad-43e0-a452-47b3c83a7601":["record"],"354230f2-2994-4d33-a007-21257505ed83":["record"],"5894c8fd-cc11-4e56-bdaf-1eaaed220bbf":["record"],"2f8aca14-184d-4720-b64c-8765c71b4ca4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Shared Service Record","reference":"x_1588110_mock_s_0_shared_service","reference_display":"Shared Service","type":"reference","base_type":"reference","usedInstances":{"912ce21e-d035-43de-b603-98d96ef51809":["source_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["attachment_record"],"aef43a68-7e10-47ed-840c-dfee1dc0f04b":["source_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["file_name"]},"attributes":{}},{"name":"da600a9a-ed73-4c77-af47-2ccae833ef7d.Record","label":"1 - Look Up Record➛Data Source Record","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","usedInstances":{"1b0ce318-e8ce-4947-98a8-862884cea50a":["source_record"],"6784b363-5f1b-4d99-b568-01af07021497":["record"],"17e8e918-2661-4146-a463-bc8724ca8eaf":["target_record"],"dc60f30f-d78e-4313-aa0e-d9c9fc50dfdf":["target_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["target_record"],"f466eacc-bdb4-41c5-b482-e59e8025d689":["record"],"f31c5f21-66e1-434e-9a38-03682b67123d":["target_record"],"388a15f0-65c9-4b03-a811-ff1a62fdc61a":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"da600a9a-ed73-4c77-af47-2ccae833ef7d.Record","label":"1 - Look Up Record➛Data Source Record","reference":"sys_data_source","reference_display":"Data Source","type":"reference","base_type":"reference","usedInstances":{"1b0ce318-e8ce-4947-98a8-862884cea50a":["source_record"],"6784b363-5f1b-4d99-b568-01af07021497":["record"],"17e8e918-2661-4146-a463-bc8724ca8eaf":["target_record"],"dc60f30f-d78e-4313-aa0e-d9c9fc50dfdf":["target_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["target_record"],"f466eacc-bdb4-41c5-b482-e59e8025d689":["record"],"f31c5f21-66e1-434e-9a38-03682b67123d":["target_record"],"388a15f0-65c9-4b03-a811-ff1a62fdc61a":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Shared Service Record","reference":"x_1588110_mock_s_0_shared_service","reference_display":"Shared Service","type":"reference","base_type":"reference","usedInstances":{"912ce21e-d035-43de-b603-98d96ef51809":["source_record"],"a1153502-34c9-4c3a-98cf-4460c587c9ab":["attachment_record"],"aef43a68-7e10-47ed-840c-dfee1dc0f04b":["source_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["file_name"]},"attributes":{}},{"name":"847e6aa1-96e8-43ec-8080-7d96c61bc7ba.Record","label":"7 - Look Up Record➛Scheduled Data Import Record","reference":"scheduled_import_set","reference_display":"Scheduled Data Import","type":"reference","base_type":"reference","usedInstances":{"6fbe0db1-a9ad-43e0-a452-47b3c83a7601":["record"],"354230f2-2994-4d33-a007-21257505ed83":["record"],"5894c8fd-cc11-4e56-bdaf-1eaaed220bbf":["record"],"2f8aca14-184d-4720-b64c-8765c71b4ca4":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.attachment","label":"Trigger - Record Created➛Shared Service Record➛Attachment","reference":"","reference_display":"Attachment","type":"file_attachment","base_type":"file_attachment","parent_table_name":"x_1588110_mock_s_0_shared_service","column_name":"attachment","usedInstances":{"4936e683-e7c4-43a5-bb81-cd799a646b2b":["conditions"]}},{"name":"4936e683-e7c4-43a5-bb81-cd799a646b2b.Record","label":"4 - Look Up Record➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","usedInstances":{"f31c5f21-66e1-434e-9a38-03682b67123d":["attachment_record"],"872379d1-ca45-46e8-be51-20ee78e98586":["record"],"774bf23f-51cd-4c1b-ba4d-3d56d9bebb15":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Copy of Flow Bug in Lot</name>
         <natlang/>
@@ -556,7 +556,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b8879d58350a610a6b1ffd6feaad3d5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -564,7 +564,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 13:04:47</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:14:12</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -589,7 +589,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -648,14 +648,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-14 13:04:47</sys_created_on>
         <sys_id>038879d58350a610a6b1ffd6feaad3f3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 13:04:47</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:14:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -673,7 +673,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -732,14 +732,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-14 13:04:47</sys_created_on>
         <sys_id>c78879d58350a610a6b1ffd6feaad3d7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 13:04:47</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:14:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
