@@ -28,7 +28,7 @@
 
 })(import_set_row);]]></partition_script>
         <partition_size/>
-        <post_script/>
+        <post_script><![CDATA[gs.addInfoMessage('rodou');]]></post_script>
         <post_script_bool>false</post_script_bool>
         <pre_script/>
         <pre_script_bool>false</pre_script_bool>
@@ -38,7 +38,7 @@
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
         <run_period/>
-        <run_start>2025-03-12 18:28:45</run_start>
+        <run_start>2025-03-13 18:29:09</run_start>
         <run_time>1970-01-01 08:00:00</run_time>
         <run_type>once</run_type>
         <show_connection_override>false</show_connection_override>
@@ -47,14 +47,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-12 14:36:56</sys_created_on>
         <sys_id>9a6a3b2c8350e210a6b1ffd6feaad3d7</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>Bug in Lot Import</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>scheduled_import_set_9a6a3b2c8350e210a6b1ffd6feaad3d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-12 18:28:15</sys_updated_on>
+        <sys_updated_on>2025-03-14 13:00:51</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
         <use_child_connection>false</use_child_connection>
