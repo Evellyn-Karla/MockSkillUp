@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1588110_mock_s_0.edx_client" name="x_1588110_mock_s_0.edx_client">304a10748314e210a6b1ffd6feaad3d1</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-12 16:56:15</sys_created_on>
+        <sys_id>5a5a1c348314e210a6b1ffd6feaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>304a10748314e210a6b1ffd6feaad3d1</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_embedded_help_role_5a5a1c348314e210a6b1ffd6feaad38e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-12 16:56:15</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

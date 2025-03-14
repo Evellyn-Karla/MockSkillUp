@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -32,16 +32,17 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	var nameAttach = current.file_name;
 
+
+	var extensionName = nameAttach.getValue().split(".")[1]; //Retrieves the extension of file your are uploading
+
 	var shs = new GlideRecord('x_1588110_mock_s_0_shared_service');
 	shs.addQuery('sys_id', current.table_sys_id);
-	shs.query()
+	shs.query();
 
 	if (shs.next()) {
-		var newAttachName =  shs.number.toString + '.xlsx';
+		var newAttachName = shs.number.toString();
+		current.file_name = newAttachName + "." + extensionName; // Renaming the uploaded file along with it's extension
 	}
-
-	current.file_name = newAttachName;
-	current.update();
 	// Add your code here
 
 })(current, previous);]]></script>
@@ -51,7 +52,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>99fd65c9835c2610a6b1ffd6feaad32b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Change filenames</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -59,7 +60,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_script_99fd65c9835c2610a6b1ffd6feaad32b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-13 18:36:14</sys_updated_on>
+        <sys_updated_on>2025-03-14 12:17:02</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
