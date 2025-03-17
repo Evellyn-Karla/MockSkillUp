@@ -33,7 +33,7 @@
         <name>x_1588110_mock_s_0_bug_report</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference display_value="" name="x_1588110_mock_s_0_shared_service">x_1588110_mock_s_0_shared_service</reference>
         <reference_cascade_rule/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_dictionary_x_1588110_mock_s_0_bug_report_origin</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-13 17:11:00</sys_updated_on>
+        <sys_updated_on>2025-03-17 17:30:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

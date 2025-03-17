@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action">
+    <sys_ui_policy_rl_action action="DELETE">
+        <list>x_1588110_mock_s_0_bug_report.origin</list>
+        <sys_class_name>sys_ui_policy_rl_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 18:23:49</sys_created_on>
+        <sys_id>205e1a9e83542210a6b1ffd6feaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0_bug_report.origin</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_policy_rl_action_205e1a9e83542210a6b1ffd6feaad343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:23:49</sys_updated_on>
+        <ui_policy display_value="Show details of leave request">d42f2d9283902210a6b1ffd6feaad3e0</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_rl_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ui_policy_rl_action_205e1a9e83542210a6b1ffd6feaad343</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_rl_action"><sys_ui_policy_rl_action action="INSERT_OR_UPDATE"><list>x_1588110_mock_s_0_bug_report.origin</list><sys_class_name>sys_ui_policy_rl_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-17 18:23:49</sys_created_on><sys_id>205e1a9e83542210a6b1ffd6feaad343</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1588110_mock_s_0_bug_report.origin</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sys_ui_policy_rl_action_205e1a9e83542210a6b1ffd6feaad343</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-17 18:23:49</sys_updated_on><ui_policy display_value="Show details of leave request">d42f2d9283902210a6b1ffd6feaad3e0</ui_policy><visible>false</visible></sys_ui_policy_rl_action></record_update>]]></payload>
+        <payload_hash>-1939586404</payload_hash>
+        <record_name>x_1588110_mock_s_0_bug_report.origin</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 18:23:49</sys_created_on>
+        <sys_id>4e5ed69e83542210a6b1ffd6feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195a55905ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:23:49</sys_updated_on>
+        <type>UI Policy Related List Action</type>
+        <update_guid>425ed69e6f542210fde0157974a7f7f4</update_guid>
+        <update_guid_history>425ed69e6f542210fde0157974a7f7f4:-1939586404</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 18:23:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_rl_action">sys_ui_policy_rl_action</sys_db_object>
+        <sys_id>17815f28095b40e082af906a8fe38ec4</sys_id>
+        <sys_metadata>205e1a9e83542210a6b1ffd6feaad343</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0_bug_report.origin</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_rl_action_205e1a9e83542210a6b1ffd6feaad343</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_rl_action_205e1a9e83542210a6b1ffd6feaad343">4e5ed69e83542210a6b1ffd6feaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:23:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -24,14 +24,14 @@
         <outputs/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <state>published</state>
+        <state>draft</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-14 14:02:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7b58e998390a610a6b1ffd6feaad30b</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Script Update</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d7b58e998390a610a6b1ffd6feaad30b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 14:28:07</sys_updated_on>
+        <sys_updated_on>2025-03-14 14:35:51</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -1124,14 +1124,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-14 14:12:35</sys_created_on>
         <sys_id>d418c69d8390a610a6b1ffd6feaad3a0</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-14 14:28:06</sys_updated_on>
+        <sys_updated_on>2025-03-14 14:35:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

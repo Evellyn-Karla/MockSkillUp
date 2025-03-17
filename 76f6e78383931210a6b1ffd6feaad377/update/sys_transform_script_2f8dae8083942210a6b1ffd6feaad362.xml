@@ -12,10 +12,11 @@
 	var assign = source.u_task;
 
 	var projects = new GlideRecord('x_1588110_mock_s_0_project');
-	projects.addQuery('number', project);
+	projects.addQuery('number', project); // acha o projeto pelo number
 	projects.query();
 
 	if (projects.next()) {
+		// se o projeto existir, associa com o sys_id
 		target.parent = projects.sys_id;
 
 		var assigns = new GlideRecord('x_1588110_mock_s_0_assignment');
@@ -42,14 +43,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-10 19:44:14</sys_created_on>
         <sys_id>2f8dae8083942210a6b1ffd6feaad362</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>onBefore</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_transform_script_2f8dae8083942210a6b1ffd6feaad362</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-13 14:20:45</sys_updated_on>
+        <sys_updated_on>2025-03-14 15:20:47</sys_updated_on>
         <when>onBefore</when>
     </sys_transform_script>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
