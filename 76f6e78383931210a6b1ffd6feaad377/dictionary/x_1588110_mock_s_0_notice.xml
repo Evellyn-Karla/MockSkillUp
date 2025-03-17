@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="74069a8783a3da10a6b1ffd6feaad3c8" label="Notice" max_length="40" name="x_1588110_mock_s_0_notice" type="collection">
-        <element label="Created by" max_length="32" name="created_by" read_only="true" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_manager^ORsys_class_name=x_1588110_mock_s_0_monitor^EQ" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_manager^ORsys_class_name=x_1588110_mock_s_0_monitor^EQ" type="reference"/>
         <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Information" sequence="1" value="Information"/>
                 <element inactive_on_update="false" label="Event" sequence="0" value="Event"/>
+                <element inactive_on_update="false" label="Information" sequence="1" value="Information"/>
             </choice>
         </element>
         <element label="Project" max_length="32" name="project" reference="x_1588110_mock_s_0_project" type="reference"/>
@@ -13,14 +12,11 @@
         <element label="Urgent" max_length="40" name="urgent" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element label="Assignment" max_length="32" name="assignment" reference="x_1588110_mock_s_0_assignment" type="reference"/>
+        <element label="Created by" max_length="32" name="created_by" read_only="true" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_manager^ORsys_class_name=x_1588110_mock_s_0_monitor^EQ" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_manager^ORsys_class_name=x_1588110_mock_s_0_monitor^EQ" type="reference"/>
         <index name="index">
-            <element name="assignment"/>
-        </index>
-        <index name="index2">
             <element name="created_by"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="project"/>
         </index>
     </element>

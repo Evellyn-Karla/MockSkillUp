@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2b52012883802210a6b1ffd6feaad349" extends="task" label="Shared Service" max_length="40" name="x_1588110_mock_s_0_shared_service" type="collection">
+        <element label="End Date" max_length="255" name="end_date" type="glide_date"/>
+        <element label="Start Date" max_length="255" name="start_date" type="glide_date"/>
+        <element label="Attachment" max_length="255" name="attachment" type="file_attachment"/>
+        <element label="Reason" max_length="40" name="reason" type="string"/>
+        <element label="Catalog Item" mandatory="true" max_length="32" name="catalog_item" reference="sc_cat_item" type="reference"/>
+    </element>
+</database>

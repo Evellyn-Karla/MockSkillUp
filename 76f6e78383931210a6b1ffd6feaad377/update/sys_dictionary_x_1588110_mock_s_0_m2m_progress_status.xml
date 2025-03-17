@@ -11,7 +11,7 @@
         <column_label>Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Not started</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_dictionary_x_1588110_mock_s_0_m2m_progress_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-30 14:06:29</sys_updated_on>
+        <sys_updated_on>2025-03-07 18:35:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

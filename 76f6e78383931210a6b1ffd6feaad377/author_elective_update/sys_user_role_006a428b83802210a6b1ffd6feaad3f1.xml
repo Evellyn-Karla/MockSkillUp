@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1588110_mock_s_0.certificate_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>certificate_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 14:36:20</sys_created_on>
+        <sys_id>006a428b83802210a6b1ffd6feaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0.certificate_user</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_user_role_006a428b83802210a6b1ffd6feaad3f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 14:36:20</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_user_role_006a428b83802210a6b1ffd6feaad3f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1588110_mock_s_0.certificate_user</name><scoped_admin>false</scoped_admin><suffix>certificate_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-07 14:36:20</sys_created_on><sys_id>006a428b83802210a6b1ffd6feaad3f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1588110_mock_s_0.certificate_user</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sys_user_role_006a428b83802210a6b1ffd6feaad3f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-07 14:36:20</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1124936918</payload_hash>
+        <record_name>x_1588110_mock_s_0.certificate_user</record_name>
+        <reverted_from/>
+        <source>7132d7f383b71e10a6b1ffd6feaad3a2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 14:36:20</sys_created_on>
+        <sys_id>9c6a020f83802210a6b1ffd6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195710928770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 14:36:20</sys_updated_on>
+        <type>Role</type>
+        <update_guid>906a020f08802210c45ef9e729f14d6c</update_guid>
+        <update_guid_history>906a020f08802210c45ef9e729f14d6c:-1124936918</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1588110_mock_s_0.certificate_user">8d86e28f83042210a6b1ffd6feaad33c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 16:39:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>017c577d6ac64c08805349140891c799</sys_id>
+        <sys_metadata>006a428b83802210a6b1ffd6feaad3f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0.certificate_user</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_user_role_006a428b83802210a6b1ffd6feaad3f1</sys_update_name>
+        <sys_update_version display_value="sys_user_role_006a428b83802210a6b1ffd6feaad3f1">9c6a020f83802210a6b1ffd6feaad36c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 16:39:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

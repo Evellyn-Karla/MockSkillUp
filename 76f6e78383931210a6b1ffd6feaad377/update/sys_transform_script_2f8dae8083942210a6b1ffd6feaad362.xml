@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Transform bugs import">63e2e20483542210a6b1ffd6feaad301</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/) {
+
+	// Add your code here
+	log.info('rodou o scheduled import');
+	gs.addInfoMessage('rodou');
+	var project = source.u_projeto;
+	var assign = source.u_task;
+
+	var projects = new GlideRecord('x_1588110_mock_s_0_project');
+	projects.addQuery('number', project); // acha o projeto pelo number
+	projects.query();
+
+	if (projects.next()) {
+		// se o projeto existir, associa com o sys_id
+		target.parent = projects.sys_id;
+
+		var assigns = new GlideRecord('x_1588110_mock_s_0_assignment');
+		assigns.addQuery('number', assign);
+		assigns.query();
+
+		if (assigns.next()) {
+			target.assignment = assigns.sys_id;
+			ignore = false;
+			return;
+		} else {
+			log.info('Atribuição não encontrada: ' + assign + ' para o Projeto = ' + project);
+			gs.addInfoMessage('Atribuição não encontrada: ' + assign + ' para o Projeto = ' + project);
+			ignore = true;
+			return;
+		}
+	} else {
+		log.info('Projeto não encontrado: ' + project);
+		ignore = true;
+		return;
+	}
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 19:44:14</sys_created_on>
+        <sys_id>2f8dae8083942210a6b1ffd6feaad362</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_transform_script_2f8dae8083942210a6b1ffd6feaad362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:20:47</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2f8dae8083942210a6b1ffd6feaad362</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-10 19:44:14</sys_created_on>
+        <sys_id>679dee0083942210a6b1ffd6feaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-10 19:44:14</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <access_method>btree</access_method>
+        <col_name_string>x_1588110_mock_s_0_intern,x_1588110_mock_s_0_project</col_name_string>
+        <index_col_name>4b86b0dc83842210a6b1ffd6feaad3e1,05d92cab83571210a6b1ffd6feaad396</index_col_name>
+        <logical_table_name>x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-03-11 12:46:19</sys_created_on>
+        <sys_id>538796d483d46210a6b1ffd6feaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_index_x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo_x_1588110_mock_s_0_intern_x_1588110_mock_s_0_project</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-11 12:46:19</sys_updated_on>
+        <table display_value="Allocation" name="x_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo">f0d96c6b83571210a6b1ffd6feaad357</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

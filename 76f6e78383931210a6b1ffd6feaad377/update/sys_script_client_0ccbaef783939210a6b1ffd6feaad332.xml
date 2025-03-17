@@ -4,23 +4,34 @@
         <applies_extended>true</applies_extended>
         <condition/>
         <description/>
-        <field>last_name</field>
+        <field>email</field>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
         <name>Set employee id</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
-   if (isLoading || newValue === '') {
-      return;
-   }
+	if (isLoading) {
+		return;
+	}
+	// if new email is empty, clear the user_name value
+	if(newValue === ''){
+		g_form.clearValue('user_name');
+		return;
+	}
 
-	var first = g_form.getValue('first_name');
-	var last = g_form.getValue('last_name');
-	var username = first +'.'+ last;
-	g_form.setValue('user_name', username.toLowerCase());
-   //Type appropriate comment here, and begin script below
-   
+	var email = g_form.getValue('email'); // access the current form and get the value of 'email'
+	if (email.indexOf('@extreme.digital') == -1) { // indexOf verify the email, if not contains return '-1' 
+		// clear invalid email
+		g_form.clearValue('email');
+		// alert to enter right format
+		g_form.addErrorMessage('Add email containing @extreme.digital');
+		g_form.clearValue('user_name'); // acess the current form and clean the user_name value
+	} else {
+		var id = email.split('@', 1); // split the email getting the part before the '@' \ save in var id
+		g_form.setValue('user_name', id); // acess the current form and set the value of 'user_name' to id
+	}
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -28,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0ccbaef783939210a6b1ffd6feaad332</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Set employee id</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -36,7 +47,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_script_client_0ccbaef783939210a6b1ffd6feaad332</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-21 16:59:16</sys_updated_on>
+        <sys_updated_on>2025-02-27 15:31:28</sys_updated_on>
         <table>x_1588110_mock_s_0_employee</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="29fc60a883002210a6b1ffd6feaad3b8" label="Employees Skills" max_length="40" name="x_1588110_mock_s_0_m2m_skill_employee" type="collection">
+        <element attributes="encode_utf8=false" label="Skill" mandatory="true" max_length="32" name="x_1588110_mock_s_0_skill" reference="x_1588110_mock_s_0_skill" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;var sys = current.getValue('x_1588110_mock_s_0_skill');&#13;&#10;&#13;&#10;&#9;var gr = new GlideRecord('x_1588110_mock_s_0_skill');&#13;&#10;&#9;gr.addQuery('sys_id', sys);&#13;&#10;&#9;gr.query();&#13;&#10;&#13;&#10;&#9;if(gr.next()){&#13;&#10;&#9;&#9;return gr.technical;&#13;&#10;&#9;}&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Technical" sequence="3" value="Technical"/>
+                <element inactive_on_update="false" label="General" sequence="1" value="General"/>
+                <element inactive_on_update="false" label="Language" sequence="2" value="Language"/>
+                <element inactive_on_update="false" label="Experience" sequence="0" value="Experience"/>
+            </choice>
+        </element>
+        <element choice="1" label="Level" mandatory="true" max_length="40" name="level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Basic" value="Basic"/>
+                <element inactive_on_update="false" label="Advanced" value="Advanced"/>
+                <element inactive_on_update="false" label="Intermediate" value="Intermediate"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2bca6e8383442210a6b1ffd6feaad3da" label="Employee" mandatory="true" max_length="32" name="x_1588110_mock_s_0_employee" reference="x_1588110_mock_s_0_employee" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="x_1588110_mock_s_0_employee"/>
+        </index>
+        <index name="index2">
+            <element name="x_1588110_mock_s_0_skill"/>
+        </index>
+    </element>
+</database>

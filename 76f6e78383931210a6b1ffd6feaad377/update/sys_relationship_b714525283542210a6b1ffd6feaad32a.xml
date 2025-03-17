@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1588110_mock_s_0_employee</basic_apply_to>
+        <basic_query_from>x_1588110_mock_s_0_shared_service</basic_query_from>
+        <insert_callback/>
+        <name>Leave requests</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+	current.addQuery('opened_by', parent);
+	// Add your code here, such as current.addQuery(field, value);
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 17:47:37</sys_created_on>
+        <sys_id>b714525283542210a6b1ffd6feaad32a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Leave requests</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_relationship_b714525283542210a6b1ffd6feaad32a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:27:58</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=b714525283542210a6b1ffd6feaad32a"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b714525283542210a6b1ffd6feaad32a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 17:47:37</sys_created_on>
+        <sys_id>e306125283542210a6b1ffd6feaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 17:47:37</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

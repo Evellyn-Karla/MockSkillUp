@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <map display_value="Transform bugs import">63e2e20483542210a6b1ffd6feaad301</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(map, log, target, source) {
+    // Obter o sys_id do Import Set
+    var importSet = source.import_set;
+
+    // Procurar o anexo associado ao Import Set
+    var attachmentGR = new GlideRecord('sys_attachment');
+    attachmentGR.addQuery('table_name', 'sys_import_set');
+    attachmentGR.addQuery('table_sys_id', importSet.sys_id);
+    attachmentGR.query();
+
+    if (attachmentGR.next()) {
+        // Nome do arquivo associado
+        var fileName = attachmentGR.getValue('file_name');
+        log.info('Nome do arquivo importado: ' + fileName);
+
+        // Extrair o número do arquivo (removendo a extensão)
+        var noEx = fileName.substring(0, fileName.lastIndexOf('.'));
+        log.info('Número extraído do arquivo: ' + noEx);
+
+        // Buscar o registro na tabela x_1588110_mock_s_0_shared_service
+        var shs = new GlideRecord('x_1588110_mock_s_0_shared_service');
+        shs.addQuery('number', noEx);
+        shs.query();
+
+        if (shs.next()) {
+            // Preencher o campo origin com o sys_id do registro encontrado
+            target.origin = shs.sys_id;
+            log.info('Campo origin preenchido com o sys_id: ' + shs.sys_id);
+        } else {
+            log.info('Nenhum registro encontrado na tabela x_1588110_mock_s_0_shared_service com o número: ' + noEx);
+        }
+    } else {
+        log.info('Nenhum anexo encontrado para o Import Set: ' + importSet.sys_id);
+    }
+})(map, log, target, source);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:14:59</sys_created_on>
+        <sys_id>ece51a1d8314a610a6b1ffd6feaad38a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_transform_script_ece51a1d8314a610a6b1ffd6feaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 16:26:07</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ece51a1d8314a610a6b1ffd6feaad38a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-14 15:14:58</sys_created_on>
+        <sys_id>9e561ad98314a610a6b1ffd6feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-14 15:14:58</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

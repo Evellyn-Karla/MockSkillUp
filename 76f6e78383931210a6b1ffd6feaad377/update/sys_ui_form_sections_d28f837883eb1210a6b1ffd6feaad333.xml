@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d28f837883eb1210a6b1ffd6feaad333" sys_domain="global" table="x_1588110_mock_s_0_project_bug" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da8f837883eb1210a6b1ffd6feaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">568f837883eb1210a6b1ffd6feaad346</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>668f837883eb1210a6b1ffd6feaad364</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">aa8f837883eb1210a6b1ffd6feaad35f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>128f837883eb1210a6b1ffd6feaad33b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">1e8f837883eb1210a6b1ffd6feaad335</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae8f837883eb1210a6b1ffd6feaad368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">6a8f837883eb1210a6b1ffd6feaad364</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da8f837883eb1210a6b1ffd6feaad358</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">de8f837883eb1210a6b1ffd6feaad350</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a68f837883eb1210a6b1ffd6feaad35f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">de8f837883eb1210a6b1ffd6feaad358</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>528f837883eb1210a6b1ffd6feaad346</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1588110_mock_s_0_project_bug" name="x_1588110_mock_s_0_project_bug" sys_domain="global" view="f5c0a49877413010dc2c885d9f5a999e">d28f837883eb1210a6b1ffd6feaad333</sys_ui_form>
+            <sys_ui_section display_value="">168f837883eb1210a6b1ffd6feaad33b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1588110_mock_s_0_project_bug</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 23:20:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d28f837883eb1210a6b1ffd6feaad333</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1588110_mock_s_0_project_bug</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d28f837883eb1210a6b1ffd6feaad333</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 23:20:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Service Operations Workspace" name="sow">f5c0a49877413010dc2c885d9f5a999e</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

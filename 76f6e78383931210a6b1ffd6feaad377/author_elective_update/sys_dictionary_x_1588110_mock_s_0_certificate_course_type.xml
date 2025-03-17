@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="course_type" table="x_1588110_mock_s_0_certificate">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+	
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Course type</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>course_type</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_1588110_mock_s_0_certificate</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1588110_mock_s_0_course_type">x_1588110_mock_s_0_course_type</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key>sys_id</reference_key>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 13:11:55</sys_created_on>
+        <sys_name>Course type</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_dictionary_x_1588110_mock_s_0_certificate_course_type</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-04 14:14:03</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_dictionary_x_1588110_mock_s_0_certificate_course_type</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;
+    &lt;sys_dictionary action="INSERT_OR_UPDATE" element="course_type" table="x_1588110_mock_s_0_certificate"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;attributes/&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+	
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label&gt;Course type&lt;/column_label&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;course_type&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;
+        &lt;mandatory&gt;true&lt;/mandatory&gt;
+        &lt;max_length&gt;40&lt;/max_length&gt;
+        &lt;name&gt;x_1588110_mock_s_0_certificate&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference display_value="" name="x_1588110_mock_s_0_course_type"&gt;x_1588110_mock_s_0_course_type&lt;/reference&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key&gt;sys_id&lt;/reference_key&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2025-02-03 13:11:55&lt;/sys_created_on&gt;
+        &lt;sys_name&gt;Course type&lt;/sys_name&gt;
+        &lt;sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Mock SkillUp"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_dictionary_x_1588110_mock_s_0_certificate_course_type&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2025-02-04 14:14:03&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_dictionary&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>2128432384</payload_hash>
+        <record_name>Certificate.Course type</record_name>
+        <reverted_from/>
+        <source>e8dc3f00838c6e10a6b1ffd6feaad3fc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 15:15:30</sys_created_on>
+        <sys_id>120d7780838c6e10a6b1ffd6feaad30c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19542d3c8d80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 15:15:30</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>da0d7780aa8c6e106ae27f18963ce60b</update_guid>
+        <update_guid_history>da0d7780aa8c6e106ae27f18963ce60b:0,9ffb9ac502eb52102476d755f3ba9c48:-1662415340,2a40bfb43aaf121015ff411c1fc12dd9:1426471442,ada4a274652b121099587b45b2389acb:-2020353143,1684ee34a92b1210ce4d8f222505a020:-2061501188,3c542234cc2b121039802ae217450bab:-2106080570,edf581f8112312109dedbf9233bcf68e:-733426503,d3e48d78d32312108dabd330e3a08e5c:-996592766,c2a4c5788123121096f2846b8c8fadf3:500437060,403449386f23121055fe2955b185f9fe:-1989010925,f724493860231210f2d99aec66f8b6ae:380054320</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-07 14:30:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>23bb17257b8240929f671dafb3666d31</sys_id>
+        <sys_metadata>eb24493883231210a6b1ffd6feaad344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course type</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent display_value="">fd598c5f83171210a6b1ffd6feaad30e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1588110_mock_s_0_certificate_course_type</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1588110_mock_s_0_certificate_course_type">120d7780838c6e10a6b1ffd6feaad30c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-07 14:30:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

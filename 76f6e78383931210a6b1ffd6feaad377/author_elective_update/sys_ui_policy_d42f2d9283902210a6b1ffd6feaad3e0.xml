@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="DELETE">
+        <active>true</active>
+        <conditions table="x_1588110_mock_s_0_shared_service">catalog_item=8d04e5d283502210a6b1ffd6feaad3c7^EQ<item display_table="sc_cat_item" display_value="Leave request" endquery="false" field="catalog_item" goto="false" newquery="false" operator="=" or="false" value="8d04e5d283502210a6b1ffd6feaad3c7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false/>
+        <script_true><![CDATA[function onCondition() {
+var form = g_form.getSections();
+form[1].style.display = 'block';
+form[2].style.display = 'none';
+}]]></script_true>
+        <set_values/>
+        <short_description>Show details of leave request</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 14:57:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d42f2d9283902210a6b1ffd6feaad3e0</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Show details of leave request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_policy_d42f2d9283902210a6b1ffd6feaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:12:12</sys_updated_on>
+        <table>x_1588110_mock_s_0_shared_service</table>
+        <ui_type>0</ui_type>
+        <view display_value="Work_view" name="work_view">work_view</view>
+    </sys_ui_policy>
+    <sys_es_latest_script action="DELETE">
+        <id>d42f2d9283902210a6b1ffd6feaad3e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 16:49:39</sys_created_on>
+        <sys_id>2ec84e5e83d02210a6b1ffd6feaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 16:49:39</sys_updated_on>
+        <table>sys_ui_policy</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ui_policy_d42f2d9283902210a6b1ffd6feaad3e0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_policy"&gt;&lt;sys_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;conditions table="x_1588110_mock_s_0_shared_service"&gt;catalog_item=8d04e5d283502210a6b1ffd6feaad3c7^EQ&lt;item display_table="sc_cat_item" display_value="Leave request" endquery="false" field="catalog_item" goto="false" newquery="false" operator="=" or="false" value="8d04e5d283502210a6b1ffd6feaad3c7"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/conditions&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;true&lt;/run_scripts&gt;&lt;script_false/&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+var form = g_form.getSections();
+form[1].style.display = 'block';
+form[2].style.display = 'none';
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;Show details of leave request&lt;/short_description&gt;&lt;sys_class_name&gt;sys_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-17 14:57:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d42f2d9283902210a6b1ffd6feaad3e0&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show details of leave request&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mock SkillUp"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_policy_d42f2d9283902210a6b1ffd6feaad3e0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-17 18:12:12&lt;/sys_updated_on&gt;&lt;table&gt;x_1588110_mock_s_0_shared_service&lt;/table&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view display_value="Work_view" name="work_view"&gt;work_view&lt;/view&gt;&lt;/sys_ui_policy&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;d42f2d9283902210a6b1ffd6feaad3e0&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-17 16:49:39&lt;/sys_created_on&gt;&lt;sys_id&gt;2ec84e5e83d02210a6b1ffd6feaad3d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-17 16:49:39&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_policy&lt;/table&gt;&lt;use_es_latest&gt;false&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>804316271</payload_hash>
+        <record_name>Show details of leave request</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 18:12:12</sys_created_on>
+        <sys_id>2fab9e9a83542210a6b1ffd6feaad32f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195a54e60e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:12:12</sys_updated_on>
+        <type>UI Policy</type>
+        <update_guid>e3ab9e9ae6542210cdc3b7e0d3a7802f</update_guid>
+        <update_guid_history>e3ab9e9ae6542210cdc3b7e0d3a7802f:804316271,b4da1a5a88542210d4bf32a1e7c370e7:998275795,d6c916d68654221037d698fe2c16796f:-751574867,8779dad62d542210df3671df529da8a8:1815421209,05695ad6e5542210073c8a6674ec5848:-417148916,1dcac21651142210ef61f58400726c26:-866058032,299a8ed240142210b909bd029ee9825d:-1508959491,ca3a8292dc1422107520912688c42cfb:-2090606855,3579069216142210de4bed42100914ef:436664850,5169c6527814221009ef267d18af15e4:-459802412,672946528a142210f9cbf43a703afa48:1485897449,d6e8c6de80d022106bc317dd90d41b62:-1259149495,a6a4cedad1d02210489e7a7d70da8f10:1712257375,dc2f2d92c3902210d3c86c779d90abe3:-1068038137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-17 18:24:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy">sys_ui_policy</sys_db_object>
+        <sys_id>00e6e495d9134a56a2545716597e7131</sys_id>
+        <sys_metadata>d42f2d9283902210a6b1ffd6feaad3e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show details of leave request</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent display_value="Shared Service">2b52012883802210a6b1ffd6feaad349</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_d42f2d9283902210a6b1ffd6feaad3e0</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_d42f2d9283902210a6b1ffd6feaad3e0">2fab9e9a83542210a6b1ffd6feaad32f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-17 18:24:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

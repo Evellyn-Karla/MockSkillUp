@@ -18,11 +18,11 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual display_value="This type">c8c729b483e31210a6b1ffd6feaad3d9</dynamic_ref_qual>
-        <dynamic_value_dot_walk_path>type</dynamic_value_dot_walk_path>
-        <dynamic_value_field display_value="What is the course?">75b6257483e31210a6b1ffd6feaad3cd</dynamic_value_field>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>course_type</field>
+        <field>intern</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -33,7 +33,7 @@
         <list_table/>
         <lookup_label>name</lookup_label>
         <lookup_price/>
-        <lookup_table>x_1588110_mock_s_0_course_type</lookup_table>
+        <lookup_table>x_1588110_mock_s_0_employee</lookup_table>
         <lookup_unique>false</lookup_unique>
         <lookup_value>sys_id</lookup_value>
         <macro/>
@@ -42,14 +42,14 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>ctype</name>
+        <name>intern</name>
         <not_available_conversation>false</not_available_conversation>
         <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What is the course type?</question_text>
+        <question_text>What is your name?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -57,7 +57,7 @@
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table>x_1588110_mock_s_0_certificate</record_producer_table>
-        <reference>x_1588110_mock_s_0_course_type</reference>
+        <reference>x_1588110_mock_s_0_employee</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <rich_text/>
@@ -79,18 +79,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-03 20:20:00</sys_created_on>
         <sys_id>a0b56eb4832b1210a6b1ffd6feaad329</sys_id>
-        <sys_mod_count>42</sys_mod_count>
-        <sys_name>What is the course type?</sys_name>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>intern</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>item_option_new_a0b56eb4832b1210a6b1ffd6feaad329</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-04 14:12:37</sys_updated_on>
+        <sys_updated_on>2025-03-10 14:38:40</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>18</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
