@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>false</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.canWrite();</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>true</list_action>
+        <list_banner_button>true</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>true</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Assign path</name>
+        <onclick>openChildList()</onclick>
+        <order>100</order>
+        <script><![CDATA[function openChildList() {
+	var usersOnTrail = [];
+
+	// Preencher usuários na trilha com `sys_id` como string
+	var trailingGR = new GlideRecord('x_1588110_mock_s_0_m2m_on_trail');
+	trailingGR.addQuery('name', current.name);
+	trailingGR.query();
+	while (trailingGR.next()) {
+		usersOnTrail.push(trailingGR.getValue('sys_id')); // Armazenar `sys_id` como string
+	}
+
+
+	var w = new GlideDialogWindow('show_list');
+
+	w.setTitle(getMessage('Employees'));
+
+	w.setPreference('table', 'x_1588110_mock_s_0_employee');
+
+	w.setPreference('sysparm_view', 'default');
+
+	// w.setPreference('sysparm_query', "sys_id!=" + g_form.getUniqueValue() + "^parent_incidentISEMPTY!");
+
+	w.setPreference('focusTrap', true);
+
+	w.render();
+
+}
+
+//   var dialog = new GlideModal('selectMultipleUsers');
+//   dialog.setTitle('Select employees');
+
+//   // Preencher lista de usuários
+//   var users = [];
+//   var employeeGr = new GlideRecord('x_1588110_mock_s_0_employee');
+//   employeeGr.addActiveQuery(); // Apenas registros ativos
+//   employeeGr.query();
+//   while (employeeGr.next()) {
+//     // Verificar se o usuário está na trilha usando includes
+//     if (usersOnTrail.includes(employeeGr.getValue('sys_id'))) {
+//       users.push({
+//         sys_id: employeeGr.getValue('sys_id'),
+//         name: employeeGr.getValue('name'),
+//       });
+//     }
+//   }
+
+//   // Gerar opções de usuários
+//   var userOptions = users
+//     .map(function (user) {
+//       return '<option value="' + user.sys_id + '">' + user.name + '</option>';
+//     })
+//     .join('');
+
+//   var modalContent = `
+//     <div style="padding:15px">
+//       <p>Selecione um ou mais usuários da lista abaixo:</p>
+//       <p>
+//         <select name="userSelection" id="userSelection" class="form-control" multiple style="height: 200px;">
+//           ${userOptions}
+//         </select>
+//       </p>
+//       <div style="padding:5px; float:right">
+//         <button style="padding:5px; margin-right:10px" 
+//           onclick="window.submitMultipleUserSelection(event)" 
+//           class="btn btn-primary">
+//           Selecionar Usuários
+//         </button>
+//         <button style="padding:5px" class="btn btn-default" onclick="dialog.destroy()">Cancelar</button>
+//       </div>
+//     </div>
+//   `;
+
+//   // Renderizar o modal com o conteúdo gerado
+//   dialog.renderWithContent(modalContent);
+
+//   // Função para tratar a seleção dos usuários
+//   window.submitMultipleUserSelection = function (event) {
+//     event.preventDefault(); // Evitar comportamento padrão
+//     dialog.destroy(); // Fecha o modal
+
+//     // Obter os valores selecionados do <select>
+//     var selectedUsers = Array.from(document.getElementById('userSelection').selectedOptions).map(
+//       (option) => option.value
+//     );
+
+//     if (selectedUsers.length > 0) {
+//       // Exemplo: adicionar os usuários selecionados à watchlist
+//       g_form.setValue('watch_list', selectedUsers.join(','));
+//       alert('Usuários selecionados: ' + selectedUsers.join(', '));
+//     } else {
+//       alert('Nenhum usuário foi selecionado.');
+//     }
+//   };
+
+//   return false; // Impedir envio do formulário ao carregar o modal
+// }
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-19 16:52:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>de1a5cc78314e210a6b1ffd6feaad3e3</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Assign path</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_action_de1a5cc78314e210a6b1ffd6feaad3e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 15:28:42</sys_updated_on>
+        <table>x_1588110_mock_s_0_path</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>de1a5cc78314e210a6b1ffd6feaad3e3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-19 16:52:40</sys_created_on>
+        <sys_id>9aac188b8314e210a6b1ffd6feaad307</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-19 18:38:02</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

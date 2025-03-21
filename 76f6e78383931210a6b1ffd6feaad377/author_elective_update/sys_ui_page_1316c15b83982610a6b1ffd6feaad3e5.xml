@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[// Função para mover itens entre as listas
+function moveItems(sourceId, targetId) {
+  var source = gel(sourceId);
+  var target = gel(targetId);
+  for (var i = 0; i < source.options.length; i++) {
+    if (source.options[i].selected) {
+      var option = source.options[i];
+      target.appendChild(option);
+      i--; // Ajusta o índice após remover um item
+    }
+  }
+}
+
+// Funções para mover itens para a direita ou esquerda
+function moveSelectedToRight() {
+  moveItems('availableUsers', 'selectedUsers');
+}
+
+function moveSelectedToLeft() {
+  moveItems('selectedUsers', 'availableUsers');
+}
+
+// Função para salvar os usuários selecionados
+function saveSelectedUsers() {
+  var selectedUsers = gel('selectedUsers');
+  var userIds = [];
+  for (var i = 0; i < selectedUsers.options.length; i++) {
+    userIds.push(selectedUsers.options[i].value);
+  }
+
+  // Enviar os IDs dos usuários selecionados para o servidor
+  g_form.setValue('selected_users', userIds.join(',')); // Armazena os IDs em um campo oculto
+  g_form.save(); // Salva o formulário para acionar o Processing Script
+}
+
+// Carregar os usuários disponíveis ao iniciar a página
+function loadAvailableUsers() {
+  var ga = new GlideAjax('UserLoader');
+  ga.addParam('sysparm_name', 'getAvailableUsers');
+  ga.getXMLAnswer(function(response) {
+    var users = JSON.parse(response);
+    var availableUsers = gel('availableUsers');
+    users.forEach(function(user) {
+      var option = document.createElement('option');
+      option.value = user.sys_id;
+      option.text = user.name;
+      availableUsers.appendChild(option);
+    });
+  });
+}
+
+// Carregar os usuários ao carregar a página
+loadAvailableUsers();]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1588110_mock_s_0_Dual list employee.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<div>
+		<label>Available Users</label>
+		<select id="availableUsers" multiple="20" size="10">
+			<!-- Os usuários disponíveis serão carregados aqui via Client Script -->
+		</select>
+	</div>
+	<div>
+		<button onclick="moveSelectedToRight()">Add</button>
+		<button onclick="moveSelectedToLeft()">Remove</button>
+	</div>
+	<div>
+		<label>Selected Users</label>
+		<select id="selectedUsers" multiple="50" size="10">
+			<!-- Os usuários selecionados serão exibidos aqui -->
+		</select>
+	</div>
+	<button onclick="saveSelectedUsers()">Save</button>
+</j:jelly>]]></html>
+        <name>Dual list employee</name>
+        <processing_script><![CDATA[// Obter os IDs dos usuários selecionados
+var selectedUsers = current.getValue('selected_users'); // Campo oculto que armazena os IDs
+if (selectedUsers) {
+	var userIdArray = selectedUsers.split(',');
+	userIdArray.forEach(function (userId) {
+		var gr = new GlideRecord('x_1588110_mock_s_0_m2m_on_trail');
+		gr.initialize();
+		gr.setValue('source_table', current.getTableName()); // Tabela de origem
+		gr.setValue('source_sys_id', current.getUniqueValue()); // Sys_id do registro atual
+		gr.setValue('user_sys_id', userId); // Sys_id do usuário selecionado
+		gr.insert(); // Criar o registro na tabela M2M
+	});
+}]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 14:42:38</sys_created_on>
+        <sys_id>1316c15b83982610a6b1ffd6feaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dual list employee</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_ui_page_1316c15b83982610a6b1ffd6feaad3e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 14:42:38</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="DELETE">
+        <id>1316c15b83982610a6b1ffd6feaad3e5</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 14:40:41</sys_created_on>
+        <sys_id>ea0881d783982610a6b1ffd6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 14:40:41</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ui_page_1316c15b83982610a6b1ffd6feaad3e5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[// Função para mover itens entre as listas
+function moveItems(sourceId, targetId) {
+  var source = gel(sourceId);
+  var target = gel(targetId);
+  for (var i = 0; i &lt; source.options.length; i++) {
+    if (source.options[i].selected) {
+      var option = source.options[i];
+      target.appendChild(option);
+      i--; // Ajusta o índice após remover um item
+    }
+  }
+}
+
+// Funções para mover itens para a direita ou esquerda
+function moveSelectedToRight() {
+  moveItems('availableUsers', 'selectedUsers');
+}
+
+function moveSelectedToLeft() {
+  moveItems('selectedUsers', 'availableUsers');
+}
+
+// Função para salvar os usuários selecionados
+function saveSelectedUsers() {
+  var selectedUsers = gel('selectedUsers');
+  var userIds = [];
+  for (var i = 0; i &lt; selectedUsers.options.length; i++) {
+    userIds.push(selectedUsers.options[i].value);
+  }
+
+  // Enviar os IDs dos usuários selecionados para o servidor
+  g_form.setValue('selected_users', userIds.join(',')); // Armazena os IDs em um campo oculto
+  g_form.save(); // Salva o formulário para acionar o Processing Script
+}
+
+// Carregar os usuários disponíveis ao iniciar a página
+function loadAvailableUsers() {
+  var ga = new GlideAjax('UserLoader');
+  ga.addParam('sysparm_name', 'getAvailableUsers');
+  ga.getXMLAnswer(function(response) {
+    var users = JSON.parse(response);
+    var availableUsers = gel('availableUsers');
+    users.forEach(function(user) {
+      var option = document.createElement('option');
+      option.value = user.sys_id;
+      option.text = user.name;
+      availableUsers.appendChild(option);
+    });
+  });
+}
+
+// Carregar os usuários ao carregar a página
+loadAvailableUsers();]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1588110_mock_s_0_Dual list employee.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;div&gt;
+		&lt;label&gt;Available Users&lt;/label&gt;
+		&lt;select id="availableUsers" multiple="20" size="10"&gt;
+			&lt;!-- Os usuários disponíveis serão carregados aqui via Client Script --&gt;
+		&lt;/select&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;button onclick="moveSelectedToRight()"&gt;Add&lt;/button&gt;
+		&lt;button onclick="moveSelectedToLeft()"&gt;Remove&lt;/button&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+		&lt;label&gt;Selected Users&lt;/label&gt;
+		&lt;select id="selectedUsers" multiple="50" size="10"&gt;
+			&lt;!-- Os usuários selecionados serão exibidos aqui --&gt;
+		&lt;/select&gt;
+	&lt;/div&gt;
+	&lt;button onclick="saveSelectedUsers()"&gt;Save&lt;/button&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;Dual list employee&lt;/name&gt;&lt;processing_script&gt;&lt;![CDATA[// Obter os IDs dos usuários selecionados
+var selectedUsers = current.getValue('selected_users'); // Campo oculto que armazena os IDs
+if (selectedUsers) {
+	var userIdArray = selectedUsers.split(',');
+	userIdArray.forEach(function (userId) {
+		var gr = new GlideRecord('x_1588110_mock_s_0_m2m_on_trail');
+		gr.initialize();
+		gr.setValue('source_table', current.getTableName()); // Tabela de origem
+		gr.setValue('source_sys_id', current.getUniqueValue()); // Sys_id do registro atual
+		gr.setValue('user_sys_id', userId); // Sys_id do usuário selecionado
+		gr.insert(); // Criar o registro na tabela M2M
+	});
+}]]&gt;&lt;/processing_script&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-20 14:42:38&lt;/sys_created_on&gt;&lt;sys_id&gt;1316c15b83982610a6b1ffd6feaad3e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Dual list employee&lt;/sys_name&gt;&lt;sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mock SkillUp"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_1316c15b83982610a6b1ffd6feaad3e5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-20 14:42:38&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;1316c15b83982610a6b1ffd6feaad3e5&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-20 14:40:41&lt;/sys_created_on&gt;&lt;sys_id&gt;ea0881d783982610a6b1ffd6feaad36c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-20 14:40:41&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_page&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1033880957</payload_hash>
+        <record_name>Dual list employee</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 14:42:39</sys_created_on>
+        <sys_id>df78411f83982610a6b1ffd6feaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b4019c220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 14:42:39</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>d378411fa89826106bb916ca279e0ebc</update_guid>
+        <update_guid_history>d378411fa89826106bb916ca279e0ebc:1033880957</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-20 14:47:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>3f173c1dd738466896fc30ec4496f040</sys_id>
+        <sys_metadata>1316c15b83982610a6b1ffd6feaad3e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dual list employee</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ui_page_1316c15b83982610a6b1ffd6feaad3e5</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_1316c15b83982610a6b1ffd6feaad3e5">df78411f83982610a6b1ffd6feaad3bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-20 14:47:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

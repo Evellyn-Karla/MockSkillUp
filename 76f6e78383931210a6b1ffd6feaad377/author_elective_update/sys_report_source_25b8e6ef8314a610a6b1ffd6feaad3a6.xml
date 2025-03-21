@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source">
+    <sys_report_source action="DELETE">
+        <description>All interns assigned to projects</description>
+        <display>Interns on project (Project)</display>
+        <filter table="x_1588110_mock_s_0_project">active=true^RLQUERYx_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo.x_1588110_mock_s_0_project,&gt;=1,m2m^ENDRLQUERY<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </filter>
+        <name>Interns on project</name>
+        <sys_class_name>sys_report_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 16:24:30</sys_created_on>
+        <sys_id>25b8e6ef8314a610a6b1ffd6feaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interns on project (Project)</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sys_report_source_25b8e6ef8314a610a6b1ffd6feaad3a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 16:24:30</sys_updated_on>
+        <table>x_1588110_mock_s_0_project</table>
+    </sys_report_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_report_source_25b8e6ef8314a610a6b1ffd6feaad3a6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_source"><sys_report_source action="INSERT_OR_UPDATE"><description>All interns assigned to projects</description><display>Interns on project (Project)</display><filter table="x_1588110_mock_s_0_project">active=true^RLQUERYx_1588110_mock_s_0_m2m_x_1588110_mo_x_1588110_mo.x_1588110_mock_s_0_project,&gt;=1,m2m^ENDRLQUERY<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/></filter><name>Interns on project</name><sys_class_name>sys_report_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-21 16:24:30</sys_created_on><sys_id>25b8e6ef8314a610a6b1ffd6feaad3a6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Interns on project (Project)</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sys_report_source_25b8e6ef8314a610a6b1ffd6feaad3a6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 16:24:30</sys_updated_on><table>x_1588110_mock_s_0_project</table></sys_report_source></record_update>]]></payload>
+        <payload_hash>2042098393</payload_hash>
+        <record_name>Interns on project (Project)</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 16:24:30</sys_created_on>
+        <sys_id>c5696eef8314a610a6b1ffd6feaad31c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b98538200000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 16:24:30</sys_updated_on>
+        <type>Report Source</type>
+        <update_guid>c9696eef5c14a610a5bd0ba5ef71ee1b</update_guid>
+        <update_guid_history>c9696eef5c14a610a5bd0ba5ef71ee1b:2042098393</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 16:35:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_source">sys_report_source</sys_db_object>
+        <sys_id>08fea74c86cf422a8206e4dac0b0f379</sys_id>
+        <sys_metadata>25b8e6ef8314a610a6b1ffd6feaad3a6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interns on project (Project)</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_report_source_25b8e6ef8314a610a6b1ffd6feaad3a6</sys_update_name>
+        <sys_update_version display_value="sys_report_source_25b8e6ef8314a610a6b1ffd6feaad3a6">c5696eef8314a610a6b1ffd6feaad31c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 16:35:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

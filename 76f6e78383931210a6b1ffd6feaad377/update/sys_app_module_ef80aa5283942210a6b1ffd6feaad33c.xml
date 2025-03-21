@@ -15,7 +15,7 @@
         <mobile_title>Shared Services</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1588110_mock_s_0_shared_service</name>
-        <order/>
+        <order>11</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef80aa5283942210a6b1ffd6feaad33c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>SHS Leave Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_app_module_ef80aa5283942210a6b1ffd6feaad33c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-17 18:33:30</sys_updated_on>
+        <sys_updated_on>2025-03-21 17:00:57</sys_updated_on>
         <timeline_page/>
         <title>SHS Leave Requests</title>
         <uncancelable>false</uncancelable>

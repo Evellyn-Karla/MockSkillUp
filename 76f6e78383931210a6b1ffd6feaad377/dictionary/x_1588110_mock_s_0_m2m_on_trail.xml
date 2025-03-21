@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="948b9cc78314e210a6b1ffd6feaad333" label="On Trail" max_length="40" name="x_1588110_mock_s_0_m2m_on_trail" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;var tCoursesGr = new GlideRecord('x_1588110_mock_s_0_m2m_progress');&#13;&#10;&#9;tCoursesGr.addQuery('x_1588110_mock_s_0_intern', current.x_1588110_mock_s_0_employee);&#13;&#10;&#9;tCoursesGr.addQuery('x_1588110_mock_s_0_course.path', current.x_1588110_mock_s_0_path);&#13;&#10;&#9;tCoursesGr.query();&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="0" label="Completion" max_length="38" name="completion" read_only="true" type="percent_complete"/>
+        <element attributes="encode_utf8=false" label="Path" mandatory="true" max_length="32" name="x_1588110_mock_s_0_path" reference="x_1588110_mock_s_0_path" type="reference"/>
+        <element default="true" function_definition="true" label="Active" max_length="255" name="active" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="x_1588110_mock_s_0_employee" reference="x_1588110_mock_s_0_employee" type="reference"/>
+        <index name="index" unique="true">
+            <element name="x_1588110_mock_s_0_employee"/>
+            <element name="x_1588110_mock_s_0_path"/>
+        </index>
+        <index name="index2">
+            <element name="x_1588110_mock_s_0_path"/>
+        </index>
+    </element>
+</database>

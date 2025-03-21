@@ -3,92 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">0a073a3483cc6210a6b1ffd6feaad32a</list_id>
+            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">3314eb2e835c6210a6b1ffd6feaad3b4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
-            <sys_id>46073a3483cc6210a6b1ffd6feaad32b</sys_id>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
+            <sys_id>bb14eb2e835c6210a6b1ffd6feaad3b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">0a073a3483cc6210a6b1ffd6feaad32a</list_id>
+            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">3314eb2e835c6210a6b1ffd6feaad3b4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
-            <sys_id>4a073a3483cc6210a6b1ffd6feaad32b</sys_id>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
+            <sys_id>bf14eb2e835c6210a6b1ffd6feaad3b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>parent</element>
-            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">0a073a3483cc6210a6b1ffd6feaad32a</list_id>
+            <element>assigned_to</element>
+            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">3314eb2e835c6210a6b1ffd6feaad3b4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
-            <sys_id>4e073a3483cc6210a6b1ffd6feaad32b</sys_id>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
+            <sys_id>b314eb2e835c6210a6b1ffd6feaad3b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>expected_start</element>
-            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">0a073a3483cc6210a6b1ffd6feaad32a</list_id>
+            <element>parent</element>
+            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">3314eb2e835c6210a6b1ffd6feaad3b4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
-            <sys_id>42073a3483cc6210a6b1ffd6feaad32c</sys_id>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
+            <sys_id>b714eb2e835c6210a6b1ffd6feaad3b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>estimated_time</element>
-            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">0a073a3483cc6210a6b1ffd6feaad32a</list_id>
+            <element>work_start</element>
+            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">3314eb2e835c6210a6b1ffd6feaad3b4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
-            <sys_id>46073a3483cc6210a6b1ffd6feaad32c</sys_id>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
+            <sys_id>bb14eb2e835c6210a6b1ffd6feaad3b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>u_priority</element>
-            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">0a073a3483cc6210a6b1ffd6feaad32a</list_id>
+            <list_id display_value="x_1588110_mock_s_0_assignment" element="NULL" name="x_1588110_mock_s_0_assignment" parent="NULL" relationship="NULL" sys_domain="global" view="1f601b28dc1212104f34465061b06a58">3314eb2e835c6210a6b1ffd6feaad3b4</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
-            <sys_id>4a073a3483cc6210a6b1ffd6feaad32c</sys_id>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
+            <sys_id>bf14eb2e835c6210a6b1ffd6feaad3b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-28 18:05:06</sys_created_on>
+            <sys_created_on>2025-03-18 18:07:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0a073a3483cc6210a6b1ffd6feaad32a</sys_id>
+            <sys_id>3314eb2e835c6210a6b1ffd6feaad3b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1588110_mock_s_0_assignment</sys_name>
             <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -113,7 +113,7 @@
             <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
             <sys_update_name>sys_ui_list_x_1588110_mock_s_0_assignment_default</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-28 18:05:06</sys_updated_on>
+            <sys_updated_on>2025-03-18 18:07:11</sys_updated_on>
             <sys_user/>
             <view display_value="Default" name="default">1f601b28dc1212104f34465061b06a58</view>
             <view_name/>

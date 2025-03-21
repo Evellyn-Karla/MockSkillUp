@@ -3,6 +3,7 @@
         <element label="Dependencies" max_length="40" name="dependence" type="string"/>
         <element label="Worked time" max_length="255" name="worked_time" type="glide_time"/>
         <element default="3" label="Priority" max_length="255" name="u_priority" type="integer"/>
+        <element label="Project" mandatory="true" max_length="32" name="project" reference="x_1588110_mock_s_0_project" type="reference"/>
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Estimated time" max_length="255" name="estimated_time" type="glide_time"/>
     </element>

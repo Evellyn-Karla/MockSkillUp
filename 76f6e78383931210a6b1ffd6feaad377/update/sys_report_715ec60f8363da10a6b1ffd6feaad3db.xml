@@ -27,10 +27,10 @@
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
-        <color/>
+        <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column/>
+        <column>x_1588110_mock_s_0_course</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
@@ -47,8 +47,9 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>x_1588110_mock_s_0_intern</field>
-        <field_list>sys_created_on,x_1588110_mock_s_0_course,x_1588110_mock_s_0_intern,status</field_list>
-        <filter/>
+        <field_list>status,x_1588110_mock_s_0_course</field_list>
+        <filter table="x_1588110_mock_s_0_m2m_progress">status!=Not started<item display_value="Not started" endquery="false" field="status" goto="false" newquery="false" operator="!=" or="false" value="Not started"/>
+        </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -81,7 +82,7 @@
         <report_drilldown/>
         <report_source/>
         <roles/>
-        <row/>
+        <row>x_1588110_mock_s_0_course</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
@@ -108,16 +109,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-10 18:22:16</sys_created_on>
         <sys_id>715ec60f8363da10a6b1ffd6feaad3db</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Courses by intern</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Courses completed by intern</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_report_715ec60f8363da10a6b1ffd6feaad3db</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-21 12:48:08</sys_updated_on>
+        <sys_updated_on>2025-03-21 16:48:34</sys_updated_on>
         <table>x_1588110_mock_s_0_m2m_progress</table>
-        <title>Courses by intern</title>
+        <title>Courses completed by intern</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

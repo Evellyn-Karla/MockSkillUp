@@ -15,7 +15,7 @@
         <mobile_title>Shared Services</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1588110_mock_s_0_shared_service</name>
-        <order/>
+        <order>260</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3613c1a883802210a6b1ffd6feaad364</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>SHS Bug in Lot</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_app_module_3613c1a883802210a6b1ffd6feaad364</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-17 18:32:59</sys_updated_on>
+        <sys_updated_on>2025-03-21 17:00:29</sys_updated_on>
         <timeline_page/>
         <title>SHS Bug in Lot</title>
         <uncancelable>false</uncancelable>
