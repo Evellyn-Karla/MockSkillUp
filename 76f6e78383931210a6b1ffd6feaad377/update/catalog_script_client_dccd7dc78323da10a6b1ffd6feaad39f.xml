@@ -22,9 +22,11 @@
 	if (isLoading) {
 		return;
 	}
-	g_form.setValue('intern', g_user.userID);
+	if (g_user.hasRole('x_1588110_mock_s_0.intern_mock')) {
+		g_form.setValue('intern', g_user.userID);
+	}
 
-	
+
 	//Type appropriate comment here, and begin script below
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -33,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dccd7dc78323da10a6b1ffd6feaad39f</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Set user name</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -41,7 +43,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>catalog_script_client_dccd7dc78323da10a6b1ffd6feaad39f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-10 15:01:51</sys_updated_on>
+        <sys_updated_on>2025-03-27 16:36:17</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

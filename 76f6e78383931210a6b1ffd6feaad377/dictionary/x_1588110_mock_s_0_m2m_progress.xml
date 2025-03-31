@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="ab69286b83571210a6b1ffd6feaad3c4" label="Progress" max_length="40" name="x_1588110_mock_s_0_m2m_progress" type="collection">
         <element attributes="encode_utf8=false" label="Course" max_length="32" name="x_1588110_mock_s_0_course" reference="x_1588110_mock_s_0_course" type="reference"/>
-        <element attributes="encode_utf8=false" label="Intern" max_length="32" name="x_1588110_mock_s_0_intern" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_intern^EQ" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_intern^EQ" type="reference"/>
+        <element attributes="encode_utf8=false" label="Employee" max_length="32" name="x_1588110_mock_s_0_intern" reference="x_1588110_mock_s_0_employee" reference_qual="sys_class_name=x_1588110_mock_s_0_intern^EQ" reference_qual_condition="sys_class_name=x_1588110_mock_s_0_intern^EQ" type="reference"/>
         <element choice="1" default="Not started" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="In progress" sequence="1" value="In progress"/>

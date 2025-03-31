@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <css_variables>$brand-primary:#5603ad;
+$body-bg:#ffffff;
+$state-success-text:#5cb85c;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#5347c5;
+$text-color:#717171;
+$sp-logo-margin-y:.6rem;
+$navbar-inverse-link-hover-color:#e7e9eb;
+$panel-bg:#fff;
+$brand-success:#82dd91;
+$navbar-inverse-bg:#7367e6;
+$brand-warning:#f0ad4e;
+$brand-danger:#d9534f;
+$sp-tagline-color:#717171;
+$navbar-inverse-link-color:#ffffff;
+$brand-info:#8c52ff;
+$link-color:#428bca;
+$sp-logo-margin-x:1rem;
+$btn-default-bg:#fff;
+$text-muted:#cdcce9;
+</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="edx_index">51ec326b8394a610a6b1ffd6feaad36f</homepage>
+        <icon>10354d9983e4e210a6b1ffd6feaad33e</icon>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo>8492fc9183a4e210a6b1ffd6feaad3d7</logo>
+        <notfound_page/>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="Main menu of edx portal">7553a92c83202210a6b1ffd6feaad335</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 17:49:31</sys_created_on>
+        <sys_id>e05cf22b8394a610a6b1ffd6feaad35a</sys_id>
+        <sys_mod_count>103</sys_mod_count>
+        <sys_name>EDX - Client Portal</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_portal_e05cf22b8394a610a6b1ffd6feaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-28 18:17:52</sys_updated_on>
+        <theme display_value="EDX Client Theme">92921be38318a610a6b1ffd6feaad3d2</theme>
+        <title>EDX - Client Portal</title>
+        <ts_index_group/>
+        <url_suffix>edx</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=e05cf22b8394a610a6b1ffd6feaad35a"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>icon</file_name>
+        <hash>57f146158d554c061b0a10bde919038b2f91162498335b81b85d817ddf338145</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1714</size_bytes>
+        <size_compressed>825</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 19:36:06</sys_created_on>
+        <sys_id>10354d9983e4e210a6b1ffd6feaad33e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-26 19:36:06</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>e05cf22b8394a610a6b1ffd6feaad35a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="10354d9983e4e210a6b1ffd6feaad33e">10354d9983e4e210a6b1ffd6feaad33e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 19:36:06</sys_created_on>
+        <sys_id>50354d9983e4e210a6b1ffd6feaad33e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>jVXLjhs3ELz7K4jxxT6EYr/4CCwfIiDRYQPnpEMui4VXKwmQVwutYvnzUz2vtRMfFgI0rCG7Wd1V5Hx4/roL18P9Zb/sqKYu7LeH3f6y7Kx04ethe/3t9G3ZpZACZoO/fDgcj8vu8fS47cK3L8fH52W3v1yefl0srtdrvEo8nXcLTiktkLr7+ObDLhzul93Npz8+hURd+Hw8PP3ydOcb/nM+vnvrON0WbbfC9t4DfLKP2Ww/X07nLmD4J6lFtcA1SimyImuRlQLnWJpKoNxiqyWQxZQTzTjFapK4rD0Az9X4DJRiqpYRQNEIuMScmAMpRy51wiuSHIXyy7ykWAzzGqW2FohLLNkC6LAWviGqQ7zGQqIrYo65gDh7mtLHq3FAmGhFvIBP7uvKVrHcIvs06AtZIOTRWoMSshSZsVmsLdHa16sOcXgGzTFbAV3h2KwFZCdNrS+LWpnwihS003fzxrHm5vugKwqcPZe0km8oGwYa1CtnxGZ0VXIQRaz4WkFt4pwlodRBqjxptR7w35N13v5O+HG3+L/UtzyIXWs0dfFyK5R4g0E1vFmXHE1MN4R2MNsaC4nagI101dBVdG+EEFn7qghVZhdvxGCmKdlqwgJxBV3tw0sJIEyKbo3pJ7zxZ6l5pmEZ89bTKOiE49QqTJMkFnQIKpUscCNsWRndlahFecY9jww3j5jQSKnOW1BfRgMaV04W/tOQV/VShl6CAzeoA7W4ZFo5J4fwo0JowMa5ht6W9IJdvKbZlzcBFYKfnDpKkCpORQW0eyO3DBdML2BFcEXR84o0B6c5bfJEFU31OXOno3eifhKQT3TAVr3lnPzAVxwAnBeXoD93FMlS6aXzYzzCKf+EXXlxBRDecu8Mq9Rm1iNeiVv8Bfs5KInh5RyVW192Y1w3EnHSdD2S3IxNXTsrIn6NLDrIgvsJ14B3abS2QWJcRrO1xwWz91+luf2YvPcrtzm3+xUGnXOP8z9Nvdjh73778IyH39F/TVv9cGH7fX3G3j//hgxemrJf94cLPhqX893j88Pp/GXZ9cPj3WX7Ls12eT/sPm3p45GFf1A+vvkXecgnL7IGAAA=</data>
+        <length>1088</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="10354d9983e4e210a6b1ffd6feaad33e">10354d9983e4e210a6b1ffd6feaad33e</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 19:36:06</sys_created_on>
+        <sys_id>d0354d9983e4e210a6b1ffd6feaad33e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <file_name>logo</file_name>
+        <hash>57f146158d554c061b0a10bde919038b2f91162498335b81b85d817ddf338145</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1714</size_bytes>
+        <size_compressed>825</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 18:14:42</sys_created_on>
+        <sys_id>8492fc9183a4e210a6b1ffd6feaad3d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-26 18:14:42</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>e05cf22b8394a610a6b1ffd6feaad35a</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="8492fc9183a4e210a6b1ffd6feaad3d7">8492fc9183a4e210a6b1ffd6feaad3d7</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 18:14:42</sys_created_on>
+        <sys_id>c492fc9183a4e210a6b1ffd6feaad3d7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>jVXLjhs3ELz7K4jxxT6EYr/4CCwfIiDRYQPnpEMui4VXKwmQVwutYvnzUz2vtRMfFgI0rCG7Wd1V5Hx4/roL18P9Zb/sqKYu7LeH3f6y7Kx04ethe/3t9G3ZpZACZoO/fDgcj8vu8fS47cK3L8fH52W3v1yefl0srtdrvEo8nXcLTiktkLr7+ObDLhzul93Npz8+hURd+Hw8PP3ydOcb/nM+vnvrON0WbbfC9t4DfLKP2Ww/X07nLmD4J6lFtcA1SimyImuRlQLnWJpKoNxiqyWQxZQTzTjFapK4rD0Az9X4DJRiqpYRQNEIuMScmAMpRy51wiuSHIXyy7ykWAzzGqW2FohLLNkC6LAWviGqQ7zGQqIrYo65gDh7mtLHq3FAmGhFvIBP7uvKVrHcIvs06AtZIOTRWoMSshSZsVmsLdHa16sOcXgGzTFbAV3h2KwFZCdNrS+LWpnwihS003fzxrHm5vugKwqcPZe0km8oGwYa1CtnxGZ0VXIQRaz4WkFt4pwlodRBqjxptR7w35N13v5O+HG3+L/UtzyIXWs0dfFyK5R4g0E1vFmXHE1MN4R2MNsaC4nagI101dBVdG+EEFn7qghVZhdvxGCmKdlqwgJxBV3tw0sJIEyKbo3pJ7zxZ6l5pmEZ89bTKOiE49QqTJMkFnQIKpUscCNsWRndlahFecY9jww3j5jQSKnOW1BfRgMaV04W/tOQV/VShl6CAzeoA7W4ZFo5J4fwo0JowMa5ht6W9IJdvKbZlzcBFYKfnDpKkCpORQW0eyO3DBdML2BFcEXR84o0B6c5bfJEFU31OXOno3eifhKQT3TAVr3lnPzAVxwAnBeXoD93FMlS6aXzYzzCKf+EXXlxBRDecu8Mq9Rm1iNeiVv8Bfs5KInh5RyVW192Y1w3EnHSdD2S3IxNXTsrIn6NLDrIgvsJ14B3abS2QWJcRrO1xwWz91+luf2YvPcrtzm3+xUGnXOP8z9Nvdjh73778IyH39F/TVv9cGH7fX3G3j//hgxemrJf94cLPhqX893j88Pp/GXZ9cPj3WX7Ls12eT/sPm3p45GFf1A+vvkXecgnL7IGAAA=</data>
+        <length>1088</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="8492fc9183a4e210a6b1ffd6feaad3d7">8492fc9183a4e210a6b1ffd6feaad3d7</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 18:14:42</sys_created_on>
+        <sys_id>4892fc9183a4e210a6b1ffd6feaad3d7</sys_id>
+    </sys_attachment_doc>
+</record_update>

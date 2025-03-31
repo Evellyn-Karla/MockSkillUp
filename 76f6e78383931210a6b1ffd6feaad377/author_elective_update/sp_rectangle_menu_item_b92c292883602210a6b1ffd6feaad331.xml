@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>empty</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Teste</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="edx_index">51ec326b8394a610a6b1ffd6feaad36f</sp_page>
+        <sp_rectangle_menu display_value="Main menu of edx portal">7553a92c83202210a6b1ffd6feaad335</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 14:31:49</sys_created_on>
+        <sys_id>b92c292883602210a6b1ffd6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teste</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_b92c292883602210a6b1ffd6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 14:31:49</sys_updated_on>
+        <table/>
+        <type>sc_cat_item</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="DELETE" query="documentkey=b92c292883602210a6b1ffd6feaad331"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sp_rectangle_menu_item_b92c292883602210a6b1ffd6feaad331</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition/><display_1/><display_2/><display_date/><filter/><glyph>empty</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>Teste</label><order>100</order><record_script/><sc_cat_item display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sc_cat_item><sc_category/><short_description/><sp_page display_value="edx_index">51ec326b8394a610a6b1ffd6feaad36f</sp_page><sp_rectangle_menu display_value="Main menu of edx portal">7553a92c83202210a6b1ffd6feaad335</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-24 14:31:49</sys_created_on><sys_id>b92c292883602210a6b1ffd6feaad331</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Teste</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sp_rectangle_menu_item_b92c292883602210a6b1ffd6feaad331</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-24 14:31:49</sys_updated_on><table/><type>sc_cat_item</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=b92c292883602210a6b1ffd6feaad331"/></record_update>]]></payload>
+        <payload_hash>1214705487</payload_hash>
+        <record_name>Teste</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 14:31:50</sys_created_on>
+        <sys_id>ff5c2d2883602210a6b1ffd6feaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195c891246f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 14:31:50</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>f35c2d284c602210ff2b61005aaa0c6a</update_guid>
+        <update_guid_history>f35c2d284c602210ff2b61005aaa0c6a:1214705487</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Teste">dbe3eef483286210a6b1ffd6feaad373</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 13:13:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>3c26f7aca4a545348d9d6317120b3d90</sys_id>
+        <sys_metadata>b92c292883602210a6b1ffd6feaad331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teste</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_b92c292883602210a6b1ffd6feaad331</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_b92c292883602210a6b1ffd6feaad331">ff5c2d2883602210a6b1ffd6feaad36a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 13:13:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

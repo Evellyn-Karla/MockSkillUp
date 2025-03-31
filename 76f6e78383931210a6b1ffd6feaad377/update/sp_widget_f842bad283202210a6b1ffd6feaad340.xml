@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope) {
+	var c = this;
+
+	c.showForm = false;
+	c.selectedSkill = null;
+	c.selectedLevel = null;
+
+	c.toggleForm = function() {
+		c.showForm = !c.showForm;
+		if (!c.showForm) {
+			c.selectedSkill = null;
+			c.selectedLevel = null;
+		}
+	};
+
+	c.submitSkill = function() {
+		if (!c.selectedSkill || !c.selectedLevel) {
+			gs.addErrorMessage("Selecione uma skill e um nível");
+			return;
+		}
+
+		c.server.get({
+			action: 'addSkill',
+			skill: c.selectedSkill,
+			level: c.selectedLevel
+		}).then(function(response) {
+			c.toggleForm();
+			if (response.success) {
+				c.data.userSkills = response.userSkills;
+				c.data.skills = response.skills;
+			} else {
+			}
+		});
+	};
+
+	c.deleteSkill = function(sys_id) {
+		c.server.get({
+			action: 'delSkill',
+			sys_id: sys_id
+		}).then(function(response) {
+			if (response.success) {
+				c.data.userSkills = response.userSkills;
+				c.data.skills = response.skills;
+			} else {
+			}
+		});
+	};
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+  width: 100%;
+  border-radius: .4rem;
+  padding-inline: 0px;
+  border: .1rem solid $text-muted;
+  // display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-bottom: 2rem;
+}
+
+.list-header{
+  display:flex;
+  width: 100%;
+  background-color: $brand-primary;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+  color: $sp-tagline-color;
+  font-weight: 500;
+  line-height: 1.1;
+  align-items: center;
+
+  &amp; h3{
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    margin: 0px;
+    margin-right: auto;
+  }
+
+  &amp; .btn-add{
+    align-items: center;
+    margin-inline: 2rem;
+
+    &amp; i{
+      color: $page-bg;
+    }
+  }
+
+}
+
+.new-skill{
+
+  padding-bottom: 1rem;
+  border: .1rem solid $text-muted;
+  padding-left: 2rem;
+
+  &amp; .form{
+    display:flex;
+    width: 100%;
+    gap: 2rem;
+    align-items: end;
+  }
+
+  &amp; input, select{
+    display: block;
+    width: 100%;
+    height: 3.4rem;
+    padding: .6rem 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    color: #555555;
+    background-color: #fff;
+    border: .1rem solid #939393;
+    border-radius: .4rem;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+
+  &amp; input:focus, select:focus {
+
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.submit-btn{
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.submit-btn &gt; button{
+  padding-inline: 2rem;
+  height: 4rem;
+  border-radius: .6rem;
+  color: $sp-tagline-color;
+  border: .1rem solid lighten($brand-primary, 30%);
+  background-color: $brand-primary;
+}
+
+
+.btn-delete{
+  display: flex;
+  align-items: center;
+  //height: 100%;
+ 
+}
+.btn-delete &gt; button{
+   padding: 1rem;
+  border-radius: .6rem;
+  color: $sp-tagline-color;
+  border: .1rem solid lighten($brand-primary, 30%);
+  background-color: $brand-danger;
+}
+
+button[disabled]{
+  background-color: lighten($brand-primary, 40%);
+  color: $text-muted;
+}
+
+.empty-skill p{
+  padding: 2rem;
+}
+
+
+.skill-list{
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.skill-item{
+  border-bottom: .1rem solid $text-muted;
+  padding-left: 2rem;
+  display:flex;
+  width: 100%;
+}
+.skill-info{
+  display: flex;
+	width: 100%;
+  &amp; h3{
+    font-size: 2rem;
+  }
+
+  &amp; h2{
+    font-size: 2.4rem;
+  }
+
+  &amp; .skill-name{
+    width: 50%;
+  }
+
+  &amp; .skill-type, .skill-level{
+    width: 25%;
+  }
+
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>skills</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Skills</name>
+        <option_schema>[{"name":"title","section":"other","default_value":"User Skills","label":"Title","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	data.userSkills = [];
+	data.skills = [];
+	data.title = options.title;
+	data.success = false;
+	data.error = null;
+
+	// Função para carregar skills do usuário
+	function loadUserSkills() {
+		var userSkills = [];
+		var hasSkillGr = new GlideRecordSecure("x_1588110_mock_s_0_m2m_skill_employee");
+		hasSkillGr.addQuery("x_1588110_mock_s_0_employee", gs.getUserID());
+		hasSkillGr.orderBy('x_1588110_mock_s_0_skill');
+		hasSkillGr.query();
+
+		while (hasSkillGr.next()) {
+			userSkills.push({
+				"sys_id":  hasSkillGr.getUniqueValue(),
+				"name": hasSkillGr.getDisplayValue("x_1588110_mock_s_0_skill"),
+				"type": hasSkillGr.getValue("type"),
+				"level": hasSkillGr.getValue("level")
+			});
+		}
+		return userSkills;
+	}
+
+	// Função para carregar lista de skills disponíveis
+	function loadAvailableSkills() {
+		var skills = [];
+		var skillListGr = new GlideRecordSecure("x_1588110_mock_s_0_skill");
+		skillListGr.addQuery("active", true);
+		skillListGr.orderBy('name');
+		skillListGr.query();
+
+		while (skillListGr.next()) {
+			skills.push({
+				value: skillListGr.getUniqueValue(),
+				label: skillListGr.getValue("skill") || skillListGr.getDisplayValue(),
+				type: skillListGr.getValue("type")
+			});
+		}
+		return skills;
+	}
+
+	// Carrega os dados iniciais
+	data.userSkills = loadUserSkills();
+	data.skills = loadAvailableSkills();
+
+
+
+	if (input && input.action == "addSkill") {
+		try {
+			var newSkillGr = new GlideRecord("x_1588110_mock_s_0_m2m_skill_employee");
+			newSkillGr.initialize();
+
+			gs.info('Inserindo skill - SysID: ' + input.skill + ', Nível: ' + input.level);
+			newSkillGr.x_1588110_mock_s_0_employee = gs.getUserID();
+			newSkillGr.x_1588110_mock_s_0_skill = input.skill.toString(); 
+			newSkillGr.level = input.level;
+
+			var sysId = newSkillGr.insert();
+
+			if (sysId) {
+				data.success = true;
+				// Recarrega as listas após inserção bem-sucedida
+				data.userSkills = loadUserSkills();
+				data.skills = loadAvailableSkills();
+			} else {
+				data.success = false;
+				data.error = "Falha ao inserir a skill";
+			}
+		} catch (e) {
+			gs.error('Erro ao inserir skill: ' + e.message);
+			data.success = false;
+			data.error = e.message;
+		}
+	}
+
+	if(input && input.action == "delSkill"){
+		try {
+			var delSkillGr = new GlideRecord("x_1588110_mock_s_0_m2m_skill_employee");
+			delSkillGr.get("sys_id", input.sys_id);
+			var sysIdDel = delSkillGr.deleteRecord();
+
+
+			if (sysIdDel) {
+				data.success = true;
+				// Recarrega as listas após inserção bem-sucedida
+				data.userSkills = loadUserSkills();
+				data.skills = loadAvailableSkills();
+			} else {
+				data.success = false;
+				data.error = "Falha ao inserir a skill";
+			}
+			
+		} catch (e) {
+			//gs.error('Erro ao inserir skill: ' + e.message);
+			data.success = false;
+			data.error = e.message;
+		}
+
+	}
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 06:06:33</sys_created_on>
+        <sys_id>f842bad283202210a6b1ffd6feaad340</sys_id>
+        <sys_mod_count>213</sys_mod_count>
+        <sys_name>Skills</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_f842bad283202210a6b1ffd6feaad340</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 13:29:29</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="container">
+    <div class="list-header">
+      <h3 >
+        {{data.title}}
+      </h3>
+
+      <div class="btn-add" ng-click="c.toggleForm()">
+        <i class="fa" ng-class="c.showForm ? 'fa-minus' : 'fa-plus'"></i>
+      </div>
+
+    </div>
+    <div class="new-skill" ng-if="c.showForm">
+      <div class="new-header">
+        <h3>
+          Add a new skill
+        </h3>
+      </div>
+
+      <div class="form">
+
+        <div class="select">
+          <label for="skillSelect">Select a skill:</label>
+          <select id="skillSelect" 
+                  ng-model="c.selectedSkill" 
+                  ng-options="option.value as option.label for option in data.skills">
+            <option value="">-- Selecione --</option>
+          </select>
+        </div>
+
+        <div class="select" ng-if="c.selectedSkill">
+          <label for="levelSelect">Skill level:</label> 
+          <select id = "levelSelect" ng-model="c.selectedLevel">
+            <option value="Basic">Basic</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+          </select>
+        </div>
+
+        <div class="submit-btn" ng-if="c.selectedSkill">
+          <button ng-click="c.submitSkill()" 
+                  ng-disabled="!c.selectedSkill || !c.selectedLevel">
+            Add Skill
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+
+    <span class="empty-skill" ng-if="data.userSkills.length <= 0">
+      <p>
+        No skills added. Add some to show here.
+      </p>
+    </span>
+    <ul class="skill-list"
+        ng-if="data.userSkills">
+      <li class="skill-item"
+          ng-repeat= "item in data.userSkills">
+        <div class="skill-info">
+          <div class="skill-name">
+            <h2>
+              {{item.name}}
+            </h2>
+          </div>  
+          <div class="skill-type">
+            <h3>
+              {{item.type}}
+            </h3>
+          </div>  
+          <div class="skill-level">
+            <h3>
+              {{item.level}}
+            </h3>
+          </div> 
+        </div>
+        <div class="btn-delete" >
+          <button ng-click="c.deleteSkill(item.sys_id)">
+            Delete
+          </button>
+        </div>
+      </li>
+    </ul>
+
+
+  </div>
+</div>
+<!-- your widget template -->
+]]></template>
+    </sp_widget>
+</record_update>

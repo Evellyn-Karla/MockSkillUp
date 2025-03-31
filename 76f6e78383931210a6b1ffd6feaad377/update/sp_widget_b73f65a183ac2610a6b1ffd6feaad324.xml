@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+  width: 100%;
+  height: 60vh;
+  //opacity: 0.2;
+  margin: 1rem;
+  color: $brand-primary;
+  padding: 0px;
+  overflow-y: auto;
+  border: 1px solid $text-muted;
+  padding-inline: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  background-color: white;
+}
+
+li.notice-item{
+  list-style-type: none;
+  width: 100%;
+  border: 1px solid $text-muted;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.content{
+  padding-bottom: 2rem;
+  // border-bottom: 1px solid lighten($navbar-inverse-bg, 10%);
+}
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.header{
+  padding-top:1rem;
+  display: flex;
+  justify-content: left;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $text-muted;
+  margin-bottom: 2rem;
+  border-bottom-radius: 1rem;
+  padding-inline: 2rem;
+
+  &amp; p{
+    padding-left: 2rem;
+  }
+
+  &amp; .title{
+    margin-right: auto;
+
+
+    &amp; h3{
+      margin: 0px;
+      padding: 0px;
+
+    }
+  }
+}
+
+
+.body{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-inline: 2rem;
+
+  &amp; .notice{
+    margin-right: auto;
+  }
+  &amp; p{
+    margin: 0px;
+  }
+}
+
+.container-header{
+  color: darken($navbar-inverse-bg); 
+  background-color: $text-muted;
+  border: 1px solid $text-muted;
+
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>edx_notices_list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Notices List</name>
+        <option_schema>[{"name":"title","section":"Presentation","default_value":"Notices","label":"Title","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.notices = [];
+	data.title = options.title;
+	
+	var noticesGr = new GlideRecordSecure("x_1588110_mock_s_0_notice");
+	noticesGr.addQuery('active', true);
+	noticesGr.orderByDesc('urgent');
+	noticesGr.query();
+	
+	while(noticesGr.next()){
+		var notice = {
+			"title": noticesGr.getValue('title'),
+			//options.producers ? options.producers.split(',') : [];
+			"is_urgent": noticesGr.getValue('urgent'),
+			"urgent_text": noticesGr.getValue('urgent') == true ? 'Urgent' : 'Not Urgent',
+			"body": noticesGr.getValue('description'),
+			"project": noticesGr.getDisplayValue('project') || '',
+			"created": noticesGr.getValue('sys_created_on')
+		}
+		data.notices.push(notice);
+	}
+	
+	
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-27 17:18:19</sys_created_on>
+        <sys_id>b73f65a183ac2610a6b1ffd6feaad324</sys_id>
+        <sys_mod_count>130</sys_mod_count>
+        <sys_name>Notices List</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_widget_b73f65a183ac2610a6b1ffd6feaad324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 14:00:22</sys_updated_on>
+        <template><![CDATA[<div>
+  <ul class="container">
+    <div class="container-header">
+      <h3>
+        {{data.title}}
+      </h3>
+      
+    </div>
+    
+    <span class="empty-list" ng-if= "!data.notices.length">
+    <h3>
+       There isn't notices to show
+      </h3>
+    </span>
+    
+    <li class="notice-item"
+        ng-if="data.notices.length > 0"
+        ng-repeat="item in data.notices">
+
+      <div class="content">        
+        <div class="header">
+          <div class="title">
+            <h3>{{item.title}}</h3>  
+          </div>
+          <p ng-if="item.project"> 
+            {{item.project}}  </p>
+
+          <div class="urgency">
+            <p ng-class="{'red': item.is_urgent == '1', 'green': item.is_urgent !== 'true'}">
+              {{item.urgent_text}}
+            </p>
+          </div>
+        </div>
+
+        <div class="body">
+          <p class="notice" >{{item.body}}</p>
+          <p>
+            {{item.created}}
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css_include">
+    <sp_css_include action="INSERT_OR_UPDATE">
+        <lazy_load>false</lazy_load>
+        <name>Spectral</name>
+        <rtl_css_file_url/>
+        <source>url</source>
+        <sp_css/>
+        <sys_class_name>sp_css_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 16:31:12</sys_created_on>
+        <sys_id>419706e483e02210a6b1ffd6feaad333</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Spectral</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_css_include_419706e483e02210a6b1ffd6feaad333</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 16:31:30</sys_updated_on>
+        <url>https://fonts.google.com/share?selection.family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800</url>
+    </sp_css_include>
+</record_update>

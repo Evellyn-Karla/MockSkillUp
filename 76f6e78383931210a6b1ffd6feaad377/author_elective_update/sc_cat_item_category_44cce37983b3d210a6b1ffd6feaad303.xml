@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sc_cat_item>
+        <sc_category display_value="Quick Links">91a9e0510a0a3c7401d20d86782fc9a0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 14:18:02</sys_created_on>
+        <sys_id>44cce37983b3d210a6b1ffd6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links.Report bug</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sc_cat_item_category_44cce37983b3d210a6b1ffd6feaad303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 14:18:02</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sc_cat_item_category_44cce37983b3d210a6b1ffd6feaad303</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sc_cat_item>
+        <sc_category display_value="Quick Links">91a9e0510a0a3c7401d20d86782fc9a0</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-19 14:18:02</sys_created_on>
+        <sys_id>44cce37983b3d210a6b1ffd6feaad303</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links.Report bug</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sc_cat_item_category_44cce37983b3d210a6b1ffd6feaad303</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-19 14:18:02</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>289083019</payload_hash>
+        <record_name>Quick Links.Report bug</record_name>
+        <reverted_from/>
+        <source>e8dc3f00838c6e10a6b1ffd6feaad3fc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 15:15:36</sys_created_on>
+        <sys_id>7f0d7b80838c6e10a6b1ffd6feaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19542d3e1900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 15:15:36</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>7b0d7b80998c6e10827e18c854aaa31b</update_guid>
+        <update_guid_history>7b0d7b80998c6e10827e18c854aaa31b:0,00cce379e2b3d210890979d2c451e907:857604765</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Quick Links.Report bug">1809252483602210a6b1ffd6feaad3fc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 14:17:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>22b8b7e17c9e474689bbe3f9286b3cc4</sys_id>
+        <sys_metadata>44cce37983b3d210a6b1ffd6feaad303</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links.Report bug</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_44cce37983b3d210a6b1ffd6feaad303</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_44cce37983b3d210a6b1ffd6feaad303">7f0d7b80838c6e10a6b1ffd6feaad31b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 14:17:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

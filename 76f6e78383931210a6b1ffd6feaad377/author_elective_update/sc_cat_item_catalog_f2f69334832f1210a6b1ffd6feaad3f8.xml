@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 23:53:18</sys_created_on>
+        <sys_id>f2f69334832f1210a6b1ffd6feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report bug</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f2f69334832f1210a6b1ffd6feaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 23:53:18</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sc_cat_item_catalog_f2f69334832f1210a6b1ffd6feaad3f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-03 23:53:18</sys_created_on>
+        <sys_id>f2f69334832f1210a6b1ffd6feaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report bug</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_f2f69334832f1210a6b1ffd6feaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-03 23:53:18</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>599535498</payload_hash>
+        <record_name>Service Catalog.Report bug</record_name>
+        <reverted_from/>
+        <source>e8dc3f00838c6e10a6b1ffd6feaad3fc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 15:15:36</sys_created_on>
+        <sys_id>b70d7b80838c6e10a6b1ffd6feaad318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19542d3e16f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 15:15:36</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>730d7b800a8c6e10942888d980f77f18</update_guid>
+        <update_guid_history>730d7b800a8c6e10942888d980f77f18:0,76f693346e2f1210675ddb515f60f2fb:-965400530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Report bug">d009252483602210a6b1ffd6feaad3e3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 14:17:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0f75359cb40549c090a27cb412221900</sys_id>
+        <sys_metadata>f2f69334832f1210a6b1ffd6feaad3f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report bug</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent display_value="Report bug">f149437083eb1210a6b1ffd6feaad3e5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_f2f69334832f1210a6b1ffd6feaad3f8</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_f2f69334832f1210a6b1ffd6feaad3f8">b70d7b80838c6e10a6b1ffd6feaad318</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 14:17:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

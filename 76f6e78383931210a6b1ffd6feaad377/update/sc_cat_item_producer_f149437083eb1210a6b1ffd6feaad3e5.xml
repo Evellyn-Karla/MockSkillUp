@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category display_value="Quick Links">91a9e0510a0a3c7401d20d86782fc9a0</category>
+        <category display_value="Technical">0f272d6083602210a6b1ffd6feaad347</category>
         <checked_out/>
         <cost>0</cost>
         <custom_cart/>
@@ -70,7 +70,7 @@
 * To access the variables, use `producer.var1` where var1 is the name of the variable
 * To access the Record Producer use `cat_item`
 */]]></save_script>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>1607656083602210a6b1ffd6feaad372</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template display_value="AES Record Producer">211f71ca73202010ae42d31ee2f6a785</sc_template>
@@ -89,22 +89,22 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-03 22:53:25</sys_created_on>
         <sys_id>f149437083eb1210a6b1ffd6feaad3e5</sys_id>
-        <sys_mod_count>40</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Report bug</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sc_cat_item_producer_f149437083eb1210a6b1ffd6feaad3e5</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-03-10 17:18:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 14:02:31</sys_updated_on>
         <table_name>x_1588110_mock_s_0_bug_report</table_name>
-        <taxonomy_topic/>
+        <taxonomy_topic display_value="Technical">34daa9a483602210a6b1ffd6feaad383</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>40</version>
+        <version>50</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

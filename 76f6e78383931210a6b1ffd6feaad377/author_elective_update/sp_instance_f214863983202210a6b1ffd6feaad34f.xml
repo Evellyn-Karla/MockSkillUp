@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7ae3023983202210a6b1ffd6feaad3d6</sp_column>
+        <sp_widget display_value="EDX  Banner">bbbeb6eb8394a610a6b1ffd6feaad33c</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-28 13:27:56</sys_created_on>
+        <sys_id>f214863983202210a6b1ffd6feaad34f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_instance_f214863983202210a6b1ffd6feaad34f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-28 13:36:16</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image": {
+		"value": "baa5d116837f1610a6b1ffd6feaad324",
+		"displayValue": "x_1588110_mock_s_0.banner-background-1.png"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f214863983202210a6b1ffd6feaad34f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sp_instance_f214863983202210a6b1ffd6feaad34f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;7ae3023983202210a6b1ffd6feaad3d6&lt;/sp_column&gt;&lt;sp_widget display_value="EDX  Banner"&gt;bbbeb6eb8394a610a6b1ffd6feaad33c&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-03-28 13:27:56&lt;/sys_created_on&gt;&lt;sys_id&gt;f214863983202210a6b1ffd6feaad34f&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Mock SkillUp"&gt;76f6e78383931210a6b1ffd6feaad377&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_f214863983202210a6b1ffd6feaad34f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-03-28 13:36:16&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image": {
+		"value": "baa5d116837f1610a6b1ffd6feaad324",
+		"displayValue": "x_1588110_mock_s_0.banner-background-1.png"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f214863983202210a6b1ffd6feaad34f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1200284601</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-28 13:36:16</sys_created_on>
+        <sys_id>74068ab983202210a6b1ffd6feaad39a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195dcf7b5460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-28 13:36:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3c068ab9d3202210fbab93f799c83e99</update_guid>
+        <update_guid_history>3c068ab9d3202210fbab93f799c83e99:1200284601,efe50eb987202210e3c7d2304b31aa5a:-1437518304,b975ce79ef202210c32a65c1ed667b62:1563138778,956506b920202210e5c8c7e3f2e03ca8:2098790247,fa148639d82022104026ef05de82f250:-182424333</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">b6878e3d83202210a6b1ffd6feaad32d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-28 13:42:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>ae782f714f77412093490ea0294a1010</sys_id>
+        <sys_metadata>f214863983202210a6b1ffd6feaad34f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sp_instance_f214863983202210a6b1ffd6feaad34f</sys_update_name>
+        <sys_update_version display_value="sp_instance_f214863983202210a6b1ffd6feaad34f">74068ab983202210a6b1ffd6feaad39a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-28 13:42:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

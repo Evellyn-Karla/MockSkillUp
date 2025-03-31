@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_portal_extensible_navigation_item">
+    <sn_ex_sp_portal_extensible_navigation_item action="DELETE">
+        <active>true</active>
+        <browse_button>true</browse_button>
+        <browse_button_text/>
+        <menu/>
+        <menu_title>Commercial</menu_title>
+        <navigation_item_type>topic</navigation_item_type>
+        <order>10</order>
+        <parent_item/>
+        <portal_extensible_navigation display_value="">da0ca2f083686210a6b1ffd6feaad36d</portal_extensible_navigation>
+        <position>left</position>
+        <render_as>menu</render_as>
+        <submenu_type>standard</submenu_type>
+        <sys_class_name>sn_ex_sp_portal_extensible_navigation_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 13:49:04</sys_created_on>
+        <sys_id>c32c62b083686210a6b1ffd6feaad3f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Commercial</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sn_ex_sp_portal_extensible_navigation_item_c32c62b083686210a6b1ffd6feaad3f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 13:49:04</sys_updated_on>
+        <topic display_value="Commercial">060b69a483602210a6b1ffd6feaad3a4</topic>
+        <widget/>
+        <widget_parameters/>
+    </sn_ex_sp_portal_extensible_navigation_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sn_ex_sp_portal_extensible_navigation_item_c32c62b083686210a6b1ffd6feaad3f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_ex_sp_portal_extensible_navigation_item"><sn_ex_sp_portal_extensible_navigation_item action="INSERT_OR_UPDATE"><active>true</active><browse_button>true</browse_button><browse_button_text/><menu/><menu_title>Commercial</menu_title><navigation_item_type>topic</navigation_item_type><order>10</order><parent_item/><portal_extensible_navigation display_value="">da0ca2f083686210a6b1ffd6feaad36d</portal_extensible_navigation><position>left</position><render_as>menu</render_as><submenu_type>standard</submenu_type><sys_class_name>sn_ex_sp_portal_extensible_navigation_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-25 13:49:04</sys_created_on><sys_id>c32c62b083686210a6b1ffd6feaad3f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Commercial</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sn_ex_sp_portal_extensible_navigation_item_c32c62b083686210a6b1ffd6feaad3f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-25 13:49:04</sys_updated_on><topic display_value="Commercial">060b69a483602210a6b1ffd6feaad3a4</topic><widget/><widget_parameters/></sn_ex_sp_portal_extensible_navigation_item></record_update>]]></payload>
+        <payload_hash>829341163</payload_hash>
+        <record_name>Commercial</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 13:49:04</sys_created_on>
+        <sys_id>1f2c66f083686210a6b1ffd6feaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195cd90597e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 13:49:04</sys_updated_on>
+        <type>Navigation menu item</type>
+        <update_guid>132c66f08f686210d083972150fcee5d</update_guid>
+        <update_guid_history>132c66f08f686210d083972150fcee5d:829341163</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Commercial">8540f6f483686210a6b1ffd6feaad3db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-25 14:06:57</sys_created_on>
+        <sys_db_object display_value="" name="sn_ex_sp_portal_extensible_navigation_item">sn_ex_sp_portal_extensible_navigation_item</sys_db_object>
+        <sys_id>1867895cb89c4c2491d174e3bff01d39</sys_id>
+        <sys_metadata>c32c62b083686210a6b1ffd6feaad3f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Commercial</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sn_ex_sp_portal_extensible_navigation_item_c32c62b083686210a6b1ffd6feaad3f9</sys_update_name>
+        <sys_update_version display_value="sn_ex_sp_portal_extensible_navigation_item_c32c62b083686210a6b1ffd6feaad3f9">1f2c66f083686210a6b1ffd6feaad35d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-25 14:06:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

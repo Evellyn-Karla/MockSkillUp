@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+  background-color: $navbar-inverse-bg;
+  width: 100vw;
+  height: 6rem;
+  display: flex;
+  justify-content: flex-start;
+  color: $navbar-inverse-link-color;
+  border-radius: 0 0 0.5rem 0.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 0px;
+  gap: 2rem;
+}
+
+
+.container-logo{
+  height: 100%;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  padding-inline: $sp-logo-margin-y;
+  padding-block: $sp-logo-margin-x;
+  height: 5rem;
+}
+
+.small-container{
+  display: flex;
+  justify-content: right;
+  height: 2rem;
+  font-family: 'Spectral';
+
+
+}
+.user-icon{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+
+  &amp; p {
+    padding-left: 0.5rem;
+    margin-bottom: 0px;
+  }
+
+  // ****************** COPIADO DE ESC HEADER **************
+
+  // DROPDOWN STYLE
+
+  .open &gt; a, .nav .open &gt; a:hover{
+    background-color: darken($navbar-inverse-bg, 2%);
+    border: 0px;
+  }
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>edx_header</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>EDX Header</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	/* populate the 'data' object */
+	/* e.g., data.table = $sp.getValue('table'); */
+
+
+	data.username = gs.getUserDisplayName();
+
+	data.link = '?id=hri_user_profile&sys_id=' + gs.getUserID();
+
+	data.avatarDropDown = $sp.getWidget('profile-with-drop-down', {
+		"profile_url": data.link,
+		"show_xs_avatar": false
+	});
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 19:23:24</sys_created_on>
+        <sys_id>a2325fa38318a610a6b1ffd6feaad306</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>EDX Header</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_header_footer_a2325fa38318a610a6b1ffd6feaad306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-27 14:00:21</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- your widget template -->
+  <div class="container">
+
+    <div class="container-logo">
+      <a class="logo"
+         href="?id={{::portal.homepage_dv}}"
+         ng-if= "::portal.logo">
+        <img class="image" ng-src="{{::portal.logo}}" alt="{{::portal.title}} - ${Home Page}"/>
+      </a>
+    </div>
+
+    <div class="user-icon">
+      <p>
+      {{data.username}}
+      </p>
+      <sp-widget widget="data.avatarDropDown"></sp-widget>
+
+
+    </div>
+
+  </div>
+
+
+
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>edx_user_profile</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 16:41:27</sys_created_on>
+        <sys_id>b60a06e883e02210a6b1ffd6feaad3d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edx_user_profile</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_page_b60a06e883e02210a6b1ffd6feaad3d7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 16:41:27</sys_updated_on>
+        <title>User Profile</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=b60a06e883e02210a6b1ffd6feaad3d7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sp_page_b60a06e883e02210a6b1ffd6feaad3d7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><human_readable_url_structure/><id>edx_user_profile</id><internal>false</internal><omit_watcher>false</omit_watcher><public>false</public><roles/><seo_script/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-24 16:41:27</sys_created_on><sys_id>b60a06e883e02210a6b1ffd6feaad3d7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>edx_user_profile</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>sp_page_b60a06e883e02210a6b1ffd6feaad3d7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-24 16:41:27</sys_updated_on><title>User Profile</title><use_seo_script>false</use_seo_script></sp_page><sys_translated_text action="delete_multiple" query="documentkey=b60a06e883e02210a6b1ffd6feaad3d7"/></record_update>]]></payload>
+        <payload_hash>-701013780</payload_hash>
+        <record_name>edx_user_profile</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 16:41:27</sys_created_on>
+        <sys_id>320a022c83e02210a6b1ffd6feaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195c907d2350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 16:41:27</sys_updated_on>
+        <type>Page</type>
+        <update_guid>360a022c9ce02210e0b7f178da236ee6</update_guid>
+        <update_guid_history>360a022c9ce02210e0b7f178da236ee6:-701013780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="edx_user_profile">898f9d6e832c2210a6b1ffd6feaad30f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-30 18:43:31</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>432a61efaf7e422499885f102085bf90</sys_id>
+        <sys_metadata>b60a06e883e02210a6b1ffd6feaad3d7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edx_user_profile</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sp_page_b60a06e883e02210a6b1ffd6feaad3d7</sys_update_name>
+        <sys_update_version display_value="sp_page_b60a06e883e02210a6b1ffd6feaad3d7">320a022c83e02210a6b1ffd6feaad3e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-30 18:43:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

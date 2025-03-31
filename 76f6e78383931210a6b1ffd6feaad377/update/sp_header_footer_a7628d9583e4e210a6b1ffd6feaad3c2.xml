@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.container{
+  width: 100%;
+  height: 200px;
+  background-color: darken($navbar-inverse-bg, 5%);
+  color: $navbar-inverse-link-color;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.social-title{
+  font-size: 3rem;
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  //font-family: 'Spectral';
+}
+
+.logo{
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: auto;
+}
+
+.topics{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  //font-family: 'Spectral';
+  font-size: 2.5rem;
+}
+a{
+  text-decoration: none;
+  color: $navbar-inverse-link-color;
+}
+
+.container &gt; a:hover, .container &gt; li:hover{
+  background-color: darken($navbar-inverse-bg);
+  transform: scale(1.2);
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>edx_footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>EDX Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	data.logo = '/sys_attachment.do?sys_id=10354d9983e4e210a6b1ffd6feaad33e'
+	data.about = 'https://goedx.com.br/'
+	data.careers = 'https://extremegroup.inhire.app/edx/vagas'
+	data.egroup = 'https://www2.extremedigital.com.br/'
+	
+	data.linkedin = 'https://www.linkedin.com/company/edx-digital-experience/posts/?feedView=all'
+	data.instagram = 'https://www.instagram.com/go_edx/'
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 19:24:16</sys_created_on>
+        <sys_id>a7628d9583e4e210a6b1ffd6feaad3c2</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>EDX Footer</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_header_footer_a7628d9583e4e210a6b1ffd6feaad3c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 20:44:43</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- your widget template -->
+  <div class="container">
+    
+    
+    
+    
+    <div class="logo">
+      <img ng-src='{{::portal.logo}}' alt='{{::portal.title}}' />
+      
+      <a href='{{data.egroup}}' target='_blank'>
+      <img ng-src="x_1588110_mock_s_0.Logo-extreme-group.svg"/>
+      </a> 
+    </div>
+    
+     <div class="topics">
+      <ul class="footer-info">
+        <li>
+        <a  class="info-about"
+           href= '{{data.about}}'
+           target='_blank'>
+          About us
+          </a>
+        </li>
+        <li>
+        <a  class="info-careers"
+           href= '{{data.careers}}'
+           target='_blank'>
+          Careers
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <div class="socials">
+      <p class="social-title">
+      Connect with us! 
+      </p>
+      <ul class= "social-icons">
+        <li class="linkedin">
+        <a href="{{data.linkedin}}" target= _blank>
+          <i class="fa fa-linkedin-square fa-2x"></i>
+          </a>
+        </li>
+        
+         <li class="instagram">
+        <a href="{{data.instagram}}" target= _blank>
+          <i class="fa fa-instagram fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+   
+
+  </div>
+</div>]]></template>
+    </sp_header_footer>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>a7628d9583e4e210a6b1ffd6feaad3c2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-26 19:24:15</sys_created_on>
+        <sys_id>327209d583e4e210a6b1ffd6feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-26 19:24:15</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

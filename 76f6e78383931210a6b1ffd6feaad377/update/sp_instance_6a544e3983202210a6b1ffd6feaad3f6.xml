@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6844023983202210a6b1ffd6feaad3ae</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-28 13:29:00</sys_created_on>
+        <sys_id>6a544e3983202210a6b1ffd6feaad3f6</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_instance_6a544e3983202210a6b1ffd6feaad3f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 17:10:26</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": "-- None --"
+	},
+	"background_hexcode": {
+		"value": "#e8e7ef",
+		"displayValue": "#e8e7ef"
+	},
+	"icon_background_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_color_hexcode": {
+		"value": "#5603ad",
+		"displayValue": "#5603ad"
+	},
+	"quick_links": {
+		"value": "3cf393fc83eb1210a6b1ffd6feaad397,2159f21483986210a6b1ffd6feaad312,e1a31ffc83eb1210a6b1ffd6feaad330",
+		"displayValue": [
+			"Report bug found",
+			"Report Bug in Lot",
+			"Certificate delivery"
+		]
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a544e3983202210a6b1ffd6feaad3f6"/>
+</record_update>

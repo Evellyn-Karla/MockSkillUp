@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_ais">
+    <sp_instance_ais action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ai_search_source_filter display_value="All Knowledge Articles">64ce118dc30101103f4fcd7b7940dd10</ai_search_source_filter>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <disable_all_suggestions>false</disable_all_suggestions>
+        <glyph>empty</glyph>
+        <id/>
+        <order>1</order>
+        <placeholder/>
+        <roles/>
+        <search_application/>
+        <search_results_configuration/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7ae3023983202210a6b1ffd6feaad3d6</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <spell_check_font_size>xl</spell_check_font_size>
+        <sys_class_name>sp_instance_ais</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-28 13:45:59</sys_created_on>
+        <sys_id>5b380abd83202210a6b1ffd6feaad31f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Welcome to our collaborator portal!</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>sp_instance_ais_5b380abd83202210a6b1ffd6feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 16:34:04</sys_updated_on>
+        <title>Welcome to our collaborator portal!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_ais>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b380abd83202210a6b1ffd6feaad31f"/>
+</record_update>

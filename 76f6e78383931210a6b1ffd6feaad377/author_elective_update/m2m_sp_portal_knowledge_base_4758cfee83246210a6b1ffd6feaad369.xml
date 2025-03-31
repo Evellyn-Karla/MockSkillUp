@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="DELETE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Enablement">20b34ba683246210a6b1ffd6feaad31a</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="EDX - Client Portal">e05cf22b8394a610a6b1ffd6feaad35a</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-31 02:21:35</sys_created_on>
+        <sys_id>4758cfee83246210a6b1ffd6feaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enablement.EDX - Client Portal</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_4758cfee83246210a6b1ffd6feaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 02:21:35</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>m2m_sp_portal_knowledge_base_4758cfee83246210a6b1ffd6feaad369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base"><m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE"><active>true</active><kb_knowledge_base display_value="Enablement">20b34ba683246210a6b1ffd6feaad31a</kb_knowledge_base><order>100</order><sp_portal display_value="EDX - Client Portal">e05cf22b8394a610a6b1ffd6feaad35a</sp_portal><sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-03-31 02:21:35</sys_created_on><sys_id>4758cfee83246210a6b1ffd6feaad369</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Enablement.EDX - Client Portal</sys_name><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>m2m_sp_portal_knowledge_base_4758cfee83246210a6b1ffd6feaad369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-31 02:21:35</sys_updated_on></m2m_sp_portal_knowledge_base></record_update>]]></payload>
+        <payload_hash>1581571504</payload_hash>
+        <record_name>Enablement.EDX - Client Portal</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-31 02:21:35</sys_created_on>
+        <sys_id>cb58cfee83246210a6b1ffd6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195ea0118350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 02:21:35</sys_updated_on>
+        <type>Portal Knowledge Base</type>
+        <update_guid>cf58cfee6e24621007c9337e54ed4e6a</update_guid>
+        <update_guid_history>cf58cfee6e24621007c9337e54ed4e6a:1581571504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Enablement.EDX - Client Portal">e04d0abe83e0a210a6b1ffd6feaad3bf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-31 16:41:51</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_knowledge_base">m2m_sp_portal_knowledge_base</sys_db_object>
+        <sys_id>51a4531d1602433f81aa5564414c4b19</sys_id>
+        <sys_metadata>4758cfee83246210a6b1ffd6feaad369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enablement.EDX - Client Portal</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_knowledge_base_4758cfee83246210a6b1ffd6feaad369</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_knowledge_base_4758cfee83246210a6b1ffd6feaad369">cb58cfee83246210a6b1ffd6feaad36b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-31 16:41:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

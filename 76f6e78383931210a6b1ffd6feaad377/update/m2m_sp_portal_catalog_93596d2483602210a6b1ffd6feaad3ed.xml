@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="EDX Service Catalog">1607656083602210a6b1ffd6feaad372</sc_catalog>
+        <sp_portal display_value="EDX - Client Portal">e05cf22b8394a610a6b1ffd6feaad35a</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-24 14:18:41</sys_created_on>
+        <sys_id>93596d2483602210a6b1ffd6feaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EDX Service Catalog.EDX - Collaborator Portal</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_93596d2483602210a6b1ffd6feaad3ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-24 14:18:41</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>
