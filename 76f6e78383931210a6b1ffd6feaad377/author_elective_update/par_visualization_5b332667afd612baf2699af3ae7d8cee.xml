@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="DELETE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="List - Simple">2b1c080881e05dc63b917044290b233f</macroponent>
+        <name>Courses by intern</name>
+        <properties>{"columns":"x_1588110_mock_s_0_course,status","fixedQuery":"status!=Not started","groupByField":"x_1588110_mock_s_0_intern","hideColumnFiltering":false,"hideColumnGrouping":false,"hideColumnReorder":false,"hideColumnResizing":false,"hideColumnSorting":false,"hideDotwalk":false,"hideEmptyStateImage":false,"hideHeader":false,"hideHighlightContent":false,"hideHighlightedValues":false,"hideInlineEditing":false,"hideLastRefreshedText":true,"hideLinks":false,"hidePersonalization":true,"hideRefreshButton":false,"hideRowSelector":false,"hideTitle":false,"hideTitleRowCount":false,"hideViewAll":false,"highlightContent":{"color":"","patterns":[]},"highlightedValueConfigId":"","limit":20,"listTitle":"Courses by intern","maxCharLimit":4000,"maxColumns":4,"overrideWordWrapUserPref":false,"refreshRequested":"","table":"x_1588110_mock_s_0_m2m_progress","wordWrap":false,"id":"columns","value":"x_1588110_mock_s_0_course,status","propLabel":"Columns"}</properties>
+        <requested_by/>
+        <scheduled_count/>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 18:22:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b332667afd612baf2699af3ae7d8cee</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Courses by intern</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_update_name>par_visualization_5b332667afd612baf2699af3ae7d8cee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 16:53:20</sys_updated_on>
+        <type>List - Simple</type>
+    </par_visualization>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>par_visualization_5b332667afd612baf2699af3ae7d8cee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization"><par_visualization action="INSERT_OR_UPDATE"><active>true</active><certified>false</certified><description/><macroponent display_value="List - Simple">2b1c080881e05dc63b917044290b233f</macroponent><name>Courses by intern</name><properties>{"columns":"x_1588110_mock_s_0_course,status","fixedQuery":"status!=Not started","groupByField":"x_1588110_mock_s_0_intern","hideColumnFiltering":false,"hideColumnGrouping":false,"hideColumnReorder":false,"hideColumnResizing":false,"hideColumnSorting":false,"hideDotwalk":false,"hideEmptyStateImage":false,"hideHeader":false,"hideHighlightContent":false,"hideHighlightedValues":false,"hideInlineEditing":false,"hideLastRefreshedText":true,"hideLinks":false,"hidePersonalization":true,"hideRefreshButton":false,"hideRowSelector":false,"hideTitle":false,"hideTitleRowCount":false,"hideViewAll":false,"highlightContent":{"color":"","patterns":[]},"highlightedValueConfigId":"","limit":20,"listTitle":"Courses by intern","maxCharLimit":4000,"maxColumns":4,"overrideWordWrapUserPref":false,"refreshRequested":"","table":"x_1588110_mock_s_0_m2m_progress","wordWrap":false,"id":"columns","value":"x_1588110_mock_s_0_course,status","propLabel":"Columns"}</properties><requested_by/><scheduled_count/><sys_class_name>par_visualization</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-10 18:22:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b332667afd612baf2699af3ae7d8cee</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Courses by intern</sys_name><sys_overrides/><sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package><sys_policy/><sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope><sys_update_name>par_visualization_5b332667afd612baf2699af3ae7d8cee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-03-21 16:53:20</sys_updated_on><type>List - Simple</type></par_visualization></record_update>]]></payload>
+        <payload_hash>-147243810</payload_hash>
+        <record_name>Courses by intern</record_name>
+        <reverted_from/>
+        <source>51c831198350a610a6b1ffd6feaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-03-21 16:53:20</sys_created_on>
+        <sys_id>23ff6e2b8354a610a6b1ffd6feaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195b99f9d970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-03-21 16:53:20</sys_updated_on>
+        <type>PAR Visualization</type>
+        <update_guid>e7ff6e2bac54a61006f6fb4e9e1e929d</update_guid>
+        <update_guid_history>e7ff6e2bac54a61006f6fb4e9e1e929d:-147243810,d8efea2b4154a610c3368bb8a3c7f05d:2087825502,230d3b80388c6e1024c78d26c3d72afa:0,3a5b652e9b739610f176bf3e2aa58445:1480861664,365b652e8973961058d8f08e3b337d43:718496711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Courses by intern">a980c9f383a8a610a6b1ffd6feaad332</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-03 13:40:31</sys_created_on>
+        <sys_db_object display_value="" name="par_visualization">par_visualization</sys_db_object>
+        <sys_id>669af7e98f3548f0963fba126613e044</sys_id>
+        <sys_metadata>5b332667afd612baf2699af3ae7d8cee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Courses by intern</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>par_visualization_5b332667afd612baf2699af3ae7d8cee</sys_update_name>
+        <sys_update_version display_value="par_visualization_5b332667afd612baf2699af3ae7d8cee">23ff6e2b8354a610a6b1ffd6feaad39e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-03 13:40:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

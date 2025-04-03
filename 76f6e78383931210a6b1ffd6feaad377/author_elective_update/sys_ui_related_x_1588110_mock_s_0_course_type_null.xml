@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_1588110_mock_s_0_course_type" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Course type - Default view" name="x_1588110_mock_s_0_course_type" related_list="NULL" sys_domain="global" view="Default view">0b88cefc83671210a6b1ffd6feaad3e2</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1588110_mock_s_0_course.type</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 18:10:37</sys_created_on>
+            <sys_id>4388c63083a71210a6b1ffd6feaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 18:10:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Course type - Default view</calculated_name>
+            <filter/>
+            <name>x_1588110_mock_s_0_course_type</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 18:10:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b88cefc83671210a6b1ffd6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Course type - Default view</sys_name>
+            <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+            <sys_update_name>sys_ui_related_x_1588110_mock_s_0_course_type_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 18:10:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</application>
+        <file_path/>
+        <instance_id>919960871b9e7154168f4089bd4bcbbd</instance_id>
+        <instance_name>dev208559</instance_name>
+        <name>sys_ui_related_x_1588110_mock_s_0_course_type_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1588110_mock_s_0_course_type" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Course type - Default view" name="x_1588110_mock_s_0_course_type" related_list="NULL" sys_domain="global" view="Default view">0b88cefc83671210a6b1ffd6feaad3e2</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1588110_mock_s_0_course.type</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 18:10:37</sys_created_on>
+            <sys_id>4388c63083a71210a6b1ffd6feaad308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 18:10:37</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Course type - Default view</calculated_name>
+            <filter/>
+            <name>x_1588110_mock_s_0_course_type</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-03 18:10:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b88cefc83671210a6b1ffd6feaad3e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Course type - Default view</sys_name>
+            <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+            <sys_update_name>sys_ui_related_x_1588110_mock_s_0_course_type_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-03 18:10:37</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>]]></payload>
+        <payload_hash>55321346</payload_hash>
+        <record_name>Course type</record_name>
+        <reverted_from/>
+        <source>e8dc3f00838c6e10a6b1ffd6feaad3fc</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-26 15:15:54</sys_created_on>
+        <sys_id>482d73c0838c6e10a6b1ffd6feaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19542d426430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 15:15:54</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>042d73c0788c6e10320076559acf7e8b</update_guid>
+        <update_guid_history>042d73c0788c6e10320076559acf7e8b:0,4b88c630e0a712101d6fd145f557ef09:-1378363100</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-02 17:30:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>01ef70c77ec642b081429b589c7ba100</sys_id>
+        <sys_metadata>0b88cefc83671210a6b1ffd6feaad3e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course type - Default view</sys_name>
+        <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
+        <sys_parent display_value="">bf11197883631210a6b1ffd6feaad3a6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
+        <sys_scope_delete display_value="">505f6b204fcc4ade909db399280a36e9</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_1588110_mock_s_0_course_type_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_1588110_mock_s_0_course_type_null">482d73c0838c6e10a6b1ffd6feaad38b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-02 17:30:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -29,9 +29,14 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-	var email = current.getDisplayValue('email').toString();
-    current.setValue('user_name', email); // acess the current form and set the value of 'user_name' to id
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if (current.email) {
+		var email = current.getDisplayValue('email').toString();
+		current.setValue('user_name', email); // acess the current form and set the value of 'user_name' to id
+	}else{
+		current.setValue("user_name", current.first_name + '.' + current.last_name);
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -40,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c69ac52483c02210a6b1ffd6feaad307</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Set employee id</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -48,7 +53,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_script_c69ac52483c02210a6b1ffd6feaad307</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-27 15:40:31</sys_updated_on>
+        <sys_updated_on>2025-04-03 17:24:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

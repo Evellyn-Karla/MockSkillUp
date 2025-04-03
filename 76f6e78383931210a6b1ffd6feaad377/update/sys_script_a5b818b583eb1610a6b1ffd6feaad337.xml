@@ -31,31 +31,30 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var EBcurrency = current.estimated_budget.getCurrencyCode(); // get currency of estimated budget
+	var RBcurrency = current.real_budget.getCurrencyCode(); // currency of real budget
 
-	// Add your code here
-	var EBcurrency = current.estimated_budget.getCurrencyCode();
-	var RBcurrency = current.real_budget.getCurrencyCode();
-	gs.info(RBcurrency);
-	if (RBcurrency != EBcurrency) {
+	if (RBcurrency != EBcurrency) { // if currencies are different, send error
 		current.setAbortAction(true);
-
 		gs.addErrorMessage(
 			gs.getMessage(
 				'Cannot save project "{0}" because currency of estimated budget and real budget are not the same!', [
 				current.getValue('name')
-			]
-			)
-		);
+			]));
 	}
+})(current, previous);
 
-})(current, previous);]]></script>
+
+
+
+]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-06 12:37:49</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a5b818b583eb1610a6b1ffd6feaad337</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Currencies must be same</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -63,7 +62,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_script_a5b818b583eb1610a6b1ffd6feaad337</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-10 17:20:55</sys_updated_on>
+        <sys_updated_on>2025-04-03 16:45:36</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

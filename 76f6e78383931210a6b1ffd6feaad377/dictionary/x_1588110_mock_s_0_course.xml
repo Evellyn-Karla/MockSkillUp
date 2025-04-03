@@ -9,8 +9,9 @@
         <index name="index">
             <element name="path"/>
         </index>
-        <index name="index2">
+        <index name="index2" unique="true">
             <element name="training"/>
+            <element name="path"/>
         </index>
     </element>
 </database>

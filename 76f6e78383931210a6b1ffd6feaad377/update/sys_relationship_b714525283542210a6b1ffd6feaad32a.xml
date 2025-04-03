@@ -8,7 +8,7 @@
         <name>Leave requests</name>
         <query_from/>
         <query_with><![CDATA[(function refineQuery(current, parent) {
-	current.addQuery('opened_by', parent);
+	current.addQuery('opened_by', parent.getValue("sys_id"));
 	// Add your code here, such as current.addQuery(field, value);
 
 })(current, parent);]]></query_with>
@@ -19,14 +19,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-03-17 17:47:37</sys_created_on>
         <sys_id>b714525283542210a6b1ffd6feaad32a</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Leave requests</sys_name>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_relationship_b714525283542210a6b1ffd6feaad32a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-03-17 18:27:58</sys_updated_on>
+        <sys_updated_on>2025-04-02 17:54:45</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=b714525283542210a6b1ffd6feaad32a"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
