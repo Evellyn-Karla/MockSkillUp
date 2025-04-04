@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1588110_mock_s_0_project">budget_difference=javascript:global.getCurrencyFilter('x_1588110_mock_s_0_project','budget_difference', 'USD;')^EQ<item endquery="false" field="budget_difference" goto="false" newquery="false" operator="=" or="false" value="javascript:global.getCurrencyFilter('x_1588110_mock_s_0_project','budget_difference', 'USD;')"/>
+        <conditions table="x_1588110_mock_s_0_project">budget_differenceISEMPTYjavascript:global.getCurrencyFilter('x_1588110_mock_s_0_project','budget_difference', 'USD;USD')^EQ<item endquery="false" field="budget_difference" goto="false" newquery="false" operator="ISEMPTY" or="false" value="javascript:global.getCurrencyFilter('x_1588110_mock_s_0_project','budget_difference', 'USD;USD')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73e74daf83d71210a6b1ffd6feaad317</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Don't show empty budget difference</sys_name>
         <sys_overrides/>
         <sys_package display_value="Mock SkillUp" source="x_1588110_mock_s_0">76f6e78383931210a6b1ffd6feaad377</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Mock SkillUp">76f6e78383931210a6b1ffd6feaad377</sys_scope>
         <sys_update_name>sys_ui_policy_73e74daf83d71210a6b1ffd6feaad317</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-05 16:28:05</sys_updated_on>
+        <sys_updated_on>2025-04-04 17:32:18</sys_updated_on>
         <table>x_1588110_mock_s_0_project</table>
         <ui_type>0</ui_type>
         <view/>
